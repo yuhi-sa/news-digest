@@ -950,5 +950,481 @@
   "//projectzero.google/2025/12/android-itw-dng.html": {
     "title": "A look at an Android ITW DNG exploit",
     "seen_at": "2026-02-15T04:58:49.614379+00:00"
+  },
+  "//developers.googleblog.com/conductor-update-introducing-automated-reviews": {
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "seen_at": "2026-02-15T05:36:49.441525+00:00"
+  },
+  "//developers.googleblog.com/making-gemini-cli-extensions-easier-to-use": {
+    "title": "Making Gemini CLI extensions easier to use",
+    "seen_at": "2026-02-15T05:36:49.468588+00:00"
+  },
+  "//developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud": {
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "seen_at": "2026-02-15T05:36:49.512760+00:00"
+  },
+  "//developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server": {
+    "title": "Introducing the Developer Knowledge API and MCP Server",
+    "seen_at": "2026-02-15T05:36:49.544283+00:00"
+  },
+  "//developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus": {
+    "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+    "seen_at": "2026-02-15T05:36:49.575462+00:00"
+  },
+  "//developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai": {
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "seen_at": "2026-02-15T05:36:49.604400+00:00"
+  },
+  "//developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks": {
+    "title": "Tailor Gemini CLI to your workflow with hooks",
+    "seen_at": "2026-02-15T05:36:49.631975+00:00"
+  },
+  "//developers.googleblog.com/litert-the-universal-framework-for-on-device-ai": {
+    "title": "LiteRT: The Universal Framework for On-Device AI",
+    "seen_at": "2026-02-15T05:36:49.660332+00:00"
+  },
+  "//developers.googleblog.com/a-guide-to-fine-tuning-functiongemma": {
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "seen_at": "2026-02-15T05:36:49.683461+00:00"
+  },
+  "//developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp": {
+    "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+    "seen_at": "2026-02-15T05:36:49.712023+00:00"
+  },
+  "//devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta": {
+    "title": "Announcing TypeScript 6.0 Beta",
+    "seen_at": "2026-02-15T05:36:49.731902+00:00"
+  },
+  "//devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025": {
+    "title": "Progress on TypeScript 7 – December 2025",
+    "seen_at": "2026-02-15T05:36:49.757200+00:00"
+  },
+  "//devblogs.microsoft.com/typescript/announcing-typescript-5-9": {
+    "title": "Announcing TypeScript 5.9",
+    "seen_at": "2026-02-15T05:36:49.773480+00:00"
+  },
+  "//devblogs.microsoft.com/typescript/announcing-typescript-native-previews": {
+    "title": "Announcing TypeScript Native Previews",
+    "seen_at": "2026-02-15T05:36:49.835111+00:00"
+  },
+  "//devblogs.microsoft.com/typescript/typescript-native-port": {
+    "title": "A 10x Faster TypeScript",
+    "seen_at": "2026-02-15T05:36:49.851633+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiakFVX3lxTE9EMFhsbHNObGM5QTYxZVVTbzJpWFlvMEZYVGljdzRiVlVNT2pxdmRvMUpid3loZDBvTTc1QU40LXJ0YzBiUk5CdmVheW9DMTJrVEFYdmhNdXR3VzQwcWExV2Vydzh3XzEyVVE?oc=5": {
+    "title": "Databricks workspaces 101: Simplified guide to workspaces (2026) - Flexera",
+    "seen_at": "2026-02-15T05:36:49.946564+00:00"
+  },
+  "//news.google.com/rss/articles/CBMirAFBVV95cUxNbkxTYmpmWk8yX01fTTdONmNydGhHc2txdnFmYmJTR2VYVDcwS3Uxa2dnN2JSdXlQZW1WQ2dBX1FlQlR5aXJPc1FhcXQ3YS1FVjN6b2ViQm1BZTdLenFXc0Q5ejU2Z2R6U00yZUwyUXh4OXlYWVd1X0ptdkM4dWhBUWllUjBjWm93R011SGpKc3BhQnBpTzlMQThRblE3OGg1RVJSTlhQaHJ1M2c2?oc=5": {
+    "title": "Apache Software Foundation Announces New Top-Level Project - HPCwire",
+    "seen_at": "2026-02-15T05:36:49.986717+00:00"
+  },
+  "//news.google.com/rss/articles/CBMijwFBVV95cUxQQlRNRTNiUTB5SzdvVTdjRHhCQlRkblNFYzRSMjlMbERINkp5MHlZNld4NHJ1eU83T1RSZGdkbXY1YmdLSV81c3Y4cEl3ZUpaWUpMWTNmandvUUFNNGd5YkVvVUJqX3MtQTByQzVkbHJxZUxSS0xNSnhYbmk3WC15aV82TDdiTnl3N19jYl9Kbw?oc=5": {
+    "title": "The Apache Software Foundation Announces New Top-Level Project - Yahoo Finance",
+    "seen_at": "2026-02-15T05:36:50.032276+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiowFBVV95cUxOamJybXVDNmF0X2ZsSDdhOFU1enpZcnlQR3FMQTFhWWJDMmpRejY0eHB3VGZzWXphNUpNUzZZeEVzQmhVeE1ISlVlNm90T3pmWm9DQzNRQmd6SzNacGZYcWt6TEU2R0o2bU1kc0J4a2ZkX1RDTzM5YlZpaGRzRlZ2czVRRjdLUGtRdXptTzBPTnVrMjh4SHhHUnZJV1pFaDZqdjhv?oc=5": {
+    "title": "Migrate relational-style data from NoSQL to Amazon Aurora DSQL - Amazon Web Services",
+    "seen_at": "2026-02-15T05:36:50.080895+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi0wFBVV95cUxNQVpIZUgwT2ZiZGV1TjlYSWtGUWQ1aDZVd0hKRUozMkVVcGxlRU9Zd1M1aHdQRVZiWTlHaTcxUzg2QVpGUUxyakNlU1R4TjROR1Q1Y3RQQkZkZ3BzTGlULTN3cFZVanVkXzQtRkRhSUNPLTB0TXl0QjJ5aU9jeEd6S3N6NFp5T25wRVZ5LTQzRkk2MVVTeTdybU9RQ0VOYmF4U3dmdVJzeGNDVk5FVzJIMklaV0NSTmo2dmI2VlRucU45dGthYkxWUlotdzlNaUNmRkZn?oc=5": {
+    "title": "UK leader Starmer fights for his job as Mandelson-Epstein revelations spark a leadership crisis - yourvalley.net",
+    "seen_at": "2026-02-15T05:36:50.144224+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiggFBVV95cUxNLTVzS09Nc2xZQl92dXROVVpyNDFmendfdzlOdzlnU050elpSRWh1QVh5WFdlcUNEZnJ3cFFiS182VHlOMUNZV3V2UkFmaEJ6bG10eklXTDNFZ2F1aVhiSFV4d2xGZ2ZKVWlILU5IbGpyVVM2WFA5el84OEhEa3g2QUlR?oc=5": {
+    "title": "Run OpenClaw For Free On GeForce RTX and NVIDIA RTX GPUs & DGX Spark - NVIDIA",
+    "seen_at": "2026-02-15T05:36:50.190910+00:00"
+  },
+  "//news.google.com/rss/articles/CBMihwFBVV95cUxNVUNNN3o4MmVoYmNlM3FqUnZuLTl2ZURLdnFESjJ0R003QlBkU3J3V05hUUNrb05pR3d1emtvR1hzeGFUcFZJdDlCSE1WRWlIUlI2eldoRFl3M3BSQ1dCZHBxVlBHYjVQbWNMUkVxSG9KQlNYSlpsNkQwMHJ2eGtDbjBOTnMzLUE?oc=5": {
+    "title": "The 13 Best Vibe Analytics Tools to Consider for 2026 - solutionsreview.com",
+    "seen_at": "2026-02-15T05:36:50.236258+00:00"
+  },
+  "//news.google.com/rss/articles/CBMilgFBVV95cUxQVlBnN3pseDJodGhDU2ZpMUxMQnFkc2xfeEttRTJtUmwxMGtXS09Gbzg0T3BaVFZQa2NOcXVWTklRX0hMaUZYN3cxdHlHWkdCQjhET3Y2RjB1QXBSbUE4aDJzajY4RFR5RHBKX1RmdmlnLXdFZ1dLV3AzUklQZU9zNlNkd0lGall6QnZzb2Z5a2hrZTVPWXc?oc=5": {
+    "title": "Death of the warehouse: Blue Crystal Solutions unveils BlueStack for the AI era - CRN Australia",
+    "seen_at": "2026-02-15T05:36:50.293807+00:00"
+  },
+  "//news.google.com/rss/articles/CBMioAFBVV95cUxOd3ZHai1BeWIyQ2NsRmFuR2NCRW9wTEtzaWo1NXBxT2tLaEtQSXJtdVZoVXoxUngxaExkSDRKbTk0aXdRSlpfYi1laG5SMlBBY0ZmSUhSWUpBMGdOdVAxS3JsRFRyTFFjc2lVaTVoQ0ZhOE91SmoySWxNMUZicXZEQ0lmenlpNWs4emUxQTE1NDBzdjJSdUxhRk1JYXByenpN?oc=5": {
+    "title": "Before Buying TVS Apache RTX 300: 5 Issues Every Rider Should Know - DriveSpark",
+    "seen_at": "2026-02-15T05:36:50.341845+00:00"
+  },
+  "//news.google.com/rss/articles/CBMijAFBVV95cUxOLVpfekhMMXVjeUQzaXJMeDc1Q0t1bDlWT1NKZTk0eTRnVGg3eHBCVEljamRjSGQ5azdWd3pvT1RISFpBTFhidVNYMV9WWG1hTERWOUt2WWd3RXJPOENJeGlCNGhWcjZ2TWFZLXIyVVd5UGtCVW1xQ0k4Mjd3UkhsN0NiVzY4azF4clBfUA?oc=5": {
+    "title": "Top Data Scientist Skills for 2026: Full Guide + Examples - Simplilearn.com",
+    "seen_at": "2026-02-15T05:36:50.386202+00:00"
+  },
+  "//news.google.com/rss/articles/CBMijAFBVV95cUxPcTlDQ0c2T3ExdXZoU0lSbmQ1NkZtVGFuTUJqWHNrNnhneDRXVl9MVFJQME4wR2dUbnZORUxmcGJGZENMOGNIbFZuejdCYkxpb0xXZzkwaHlPYUhlRTdzbnNIX19hMEo1YTk4bVBkbm5uU2JPaDdTYkthTlBiQXZaTVV4RUdLMjZCOGpuQQ?oc=5": {
+    "title": "How Python Devs Can Build AI Agents Using MCP, Kafka, and Flink - HackerNoon",
+    "seen_at": "2026-02-15T05:36:50.433072+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi4AFBVV95cUxPQmM0cllKYml2NHpHY1RZa3Z0bUVwbW4tYzlRZjJOcWpnS2Z0UG1xVlVVUk5ubUFTSHcxSjAyRnBKWGZGOEhCNURVMkRUOVpBajlfcE50eFloVnA3YlZmVU5LQVYtNWQ5cUxQb1Z5Sng0RmdOVzM1NGVXT2NFbTNoTjR5WlQ0b0M2VDN2SnFtQnVINDBwcFRpc2wwQ3pPbDFReDdyTXZCTk5tT082VnRPcVdNWDYtcmN5QmpvRXlYQzJPLXRNcmw1OTg3VGM3Um5TMjM3NjYtN1RKVElyQlo4Vg?oc=5": {
+    "title": "Confluent (NASDAQ:CFLT) Exceeds Q4 CY2025 Expectations But Large Customer Wins Slow Down - TradingView",
+    "seen_at": "2026-02-15T05:36:50.490753+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiZkFVX3lxTFBjS0RyMThCLUJJdDVkRGZMbVo1cWNzZkJyd1k4NFNUcnJXZGZDQldwbW0tanlabGwwNnBabnRkSVZVamk3MjdUVDNMRmtLYlNvcmxlbHRfVUVfU2RJYWRvYUJUMzIwdw?oc=5": {
+    "title": "Evaluating The Performance Cost To AMD SEV-SNP On EPYC 9005 VMs Review - Phoronix",
+    "seen_at": "2026-02-15T05:36:50.540093+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi0gFBVV95cUxPcGJFb2wyMEVjck1QTTZ1SXJyNWYxYmhxZG5xb0YtWVRzZG5RNXpPTXZjbi1Zdll2Q1lyWm9HM1h3T013ejRwQTVVa2dKM0tBZVgwQkM3Zkx5NzkzcWduUnY1ZU9BYjk1UVZtdzBCUklfUVdCUTA1R2lPcnhRRzVxbURRT3hsbVQ4U25YSmVfZ21kVnJvS0FWTFp1Xy1ZSkZmSk5kQW5uemtnR0hzYmxSYXNReF9jdFpfTjkxRHFERGFkUy1adXY3R01DZ1hVTV90V3fSAdcBQVVfeXFMTTJlZ1BOSlpacEYweTlpNVYySXZpVmE2R0pSNml5UmJWOU1Qc1k2LS0wb1NaTFNweEJjWkNtLUU0b3AtMFhuUkt0VEN0UmFFYTJodlNXZTNWeE9LTi1QSXVWNFIzbzNIekxrMlB5UTNvN01kdUpRc3FuN1B3LXV6MTIzMlpKQ3pCbnZIR3d0RHp2aW9JcC1UMWMxWVRlSkd0bUN6b2lhN2dCVDNuUHNEWFllOV9SOFdVYjdSQy1na0tCR2VXMFMxRXZvR2w1RmFVZ1dVcnVxQkU?oc=5": {
+    "title": "The Apache Software Foundation Announces New Top-Level Project - The Manila Times",
+    "seen_at": "2026-02-15T05:36:50.589500+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi8gFBVV95cUxNYmN0eS0xYllpb3U0UmFMcjRQZXNUVy1VOXpRa0ZTblVTQzBJY0xQS3E2VkJBc0dBMVlzbk5LT3dpLVRyNVdUMTVwWEpjVUJCRFNkWDlicmhXbExXcEVZTVBjbHR2NDRtX3ZwYm9PS0xPNnlmZmxieloxdHAzbWRweWtRRzVaUmVCLUZ3enh2eWh4VWdLTDFtLW9VYzk5cF9fdTlqWnRzMUV5OXJSZGRqVldsSlRiTllFdEFnQ3R3T0JrNUpGUkxwWWFsMnhSYkxubW42cmJkaTMtbko3MHV5ZEtBS0NBOEFBRzRuZFp5Nm9Bdw?oc=5": {
+    "title": "Globe Business and Confluent form partnership to accelerate Enterprise AI and transform digital experiences in the Philippines - Mindanao Times",
+    "seen_at": "2026-02-15T05:36:50.672296+00:00"
+  },
+  "//news.google.com/rss/articles/CBMixwFBVV95cUxNVmlsSWR0RzY1bGUtdHgzNnN1UmtLb2VhT1R3aHdjRDY5cXlJRlFnNVBUWmxQVV9fVnZVYmhHSlVqaWNpT1BQbUQ0MGRJZlRzMDdMZERraTNVNVhiRkNMYlpZWXhFMTJCZzNqT1diTU1kV2ZGYTJzVHpNM2l1MkYzNWt2ZlFwdjJwX0g4bWZnUGV0bGJKXy1aeGoyRWF2aU9UTU9NeGtDOFpiLVBjaTUzcXJ6ZUQzc3VlZnc2QnRLdk9nU2lvLU9n?oc=5": {
+    "title": "IBM Faces Pressure as Confluent Acquisition Clears Hurdle and Kyndryl Audit Casts Shadow - AD HOC NEWS",
+    "seen_at": "2026-02-15T05:36:50.733845+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiwAFBVV95cUxPMzlpMW9hR1k1OHFqOGtsb1BPRFNPN2RWaWVURUpwYzhXWnk0cUtHQzFqT3dyZTZTeVlmbHFSNWFDNmVFVzVIR3dSdEFOUU1HR2w3TnhGSE0xMTdrcXhGZUZBX2VhenhnbGFZZXhvakNSeUI1cjVuZFhqMDI0N0FKcG95SkVvc09ialN5Z05GV2l2QWxHMndnZ0VqZW40bGlOc19SeFlia3I0RUFyVjRsTnp3VXR5ZzZYdG9RdDhaTlg?oc=5": {
+    "title": "IBM’s Strategic Acquisition: A $11 Billion Bet on Real-Time Data for AI - AD HOC NEWS",
+    "seen_at": "2026-02-15T05:36:50.787251+00:00"
+  },
+  "//cncf.io/blog/2026/02/13/kubecon-cloudnativecon-europe-2026-co-located-event-deep-dive-telco-day": {
+    "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Telco Day",
+    "seen_at": "2026-02-15T05:36:50.832517+00:00"
+  },
+  "//cncf.io/blog/2026/02/11/security-slam-returns-for-2026-now-open-to-all-open-source-projects": {
+    "title": "Security Slam Returns for 2026 — Now Open to All Open Source Projects",
+    "seen_at": "2026-02-15T05:36:50.877461+00:00"
+  },
+  "//cncf.io/blog/2026/02/09/what-cncf-project-velocity-in-2025-reveals-about-cloud-natives-future": {
+    "title": "What CNCF Project Velocity in 2025 Reveals About Cloud Native’s Future",
+    "seen_at": "2026-02-15T05:36:50.923023+00:00"
+  },
+  "//cncf.io/blog/2026/02/09/cluster-api-v1-12-introducing-in-place-updates-and-chained-upgrades": {
+    "title": "Cluster API v1.12: Introducing in-place updates and chained upgrades",
+    "seen_at": "2026-02-15T05:36:50.966025+00:00"
+  },
+  "//cncf.io/blog/2026/02/05/dragonfly-v2-4-0-is-released": {
+    "title": "Dragonfly v2.4.0 is released",
+    "seen_at": "2026-02-15T05:36:50.985374+00:00"
+  },
+  "//cncf.io/blog/2026/02/04/conversing-with-large-language-models-using-dapr": {
+    "title": "Conversing with Large Language Models using Dapr",
+    "seen_at": "2026-02-15T05:36:51.017354+00:00"
+  },
+  "//cncf.io/blog/2026/02/04/cncf-celebrates-successful-mentees-from-lfx-mentorship-2025-term-3": {
+    "title": "CNCF celebrates successful mentees from LFX Mentorship 2025 Term 3",
+    "seen_at": "2026-02-15T05:36:51.059720+00:00"
+  },
+  "//cncf.io/blog/2026/02/03/the-best-of-kubecon-cloudnativecon-watch-the-video": {
+    "title": "The Best of KubeCon + CloudNativeCon: Watch the video!",
+    "seen_at": "2026-02-15T05:36:51.095921+00:00"
+  },
+  "//cncf.io/blog/2026/02/02/opentelemetry-collector-vs-agent-how-to-choose-the-right-telemetry-approach": {
+    "title": "OpenTelemetry Collector vs agent: How to choose the right telemetry approach",
+    "seen_at": "2026-02-15T05:36:51.144099+00:00"
+  },
+  "//cncf.io/blog/2026/01/29/from-global-stages-to-a-local-landmark-organizing-kcd-sri-lanka-2025": {
+    "title": "From global stages to a local landmark: Organizing KCD Sri Lanka 2025",
+    "seen_at": "2026-02-15T05:36:51.189076+00:00"
+  },
+  "//blogs.oracle.com/mysql/new-era-of-mysql-community-engagement": {
+    "title": "New Era of MySQL Community Engagement",
+    "seen_at": "2026-02-15T05:36:51.215800+00:00"
+  },
+  "//databaseblog.myname.nl/2026/02/wireshark-now-can-decode-mysql-x.html": {
+    "title": "Wireshark now can decode MySQL X Protocol",
+    "seen_at": "2026-02-15T05:36:51.245945+00:00"
+  },
+  "//blogs.oracle.com/mysql/extending-mysql-8-0-support-in-mysql-heatwave": {
+    "title": "Extending MySQL 8.0 support in MySQL HeatWave",
+    "seen_at": "2026-02-15T05:36:51.276826+00:00"
+  },
+  "//blogs.oracle.com/mysql/no-more-hidden-changes-how-mysql-9-6-transforms-foreign-key-management": {
+    "title": "No More Hidden Changes: How MySQL 9.6 Transforms Foreign Key Management",
+    "seen_at": "2026-02-15T05:36:51.324450+00:00"
+  },
+  "//percona.com/blog/rebuilding-a-replica-with-mydumper": {
+    "title": "Rebuilding a Replica with MyDumper",
+    "seen_at": "2026-02-15T05:36:51.349451+00:00"
+  },
+  "//askdba.net/2026/01/27/scoped-vector-search-with-the-myvector-plugin-for-mysql-part-iii": {
+    "title": "Scoped Vector Search with the MyVector Plugin for MySQL — Part III",
+    "seen_at": "2026-02-15T05:36:51.393888+00:00"
+  },
+  "//percona.com/blog/separating-fud-and-reality-has-mysql-really-been-abandoned": {
+    "title": "Separating FUD and Reality: Has MySQL Really Been Abandoned?",
+    "seen_at": "2026-02-15T05:36:51.434529+00:00"
+  },
+  "//lefred.be/content/native-password-legacy-for-9-6": {
+    "title": "Native Password Legacy for 9.6",
+    "seen_at": "2026-02-15T05:36:51.456731+00:00"
+  },
+  "//blogs.oracle.com/mysql/where-can-you-find-mysql-during-january-to-april-2026": {
+    "title": "Where can you find MySQL during January to April 2026",
+    "seen_at": "2026-02-15T05:36:51.493422+00:00"
+  },
+  "//percona.com/blog/what-oracle-missed-we-fixed-more-performant-query-processing-in-percona-server-for-mysql-part-2": {
+    "title": "What Oracle Missed, We Fixed: More Performant Query Processing in Percona Server for MySQL, Part 2",
+    "seen_at": "2026-02-15T05:36:51.557202+00:00"
+  },
+  "//blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html": {
+    "title": "Generative AI to quantify uncertainty in weather forecasting",
+    "seen_at": "2026-02-15T05:36:51.598918+00:00"
+  },
+  "//blog.research.google/2024/03/autobnn-probabilistic-time-series.html": {
+    "title": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
+    "seen_at": "2026-02-15T05:36:51.657720+00:00"
+  },
+  "//blog.research.google/2024/03/computer-aided-diagnosis-for-lung.html": {
+    "title": "Computer-aided diagnosis for lung cancer screening",
+    "seen_at": "2026-02-15T05:36:51.693040+00:00"
+  },
+  "//blog.research.google/2024/03/using-ai-to-expand-global-access-to.html": {
+    "title": "Using AI to expand global access to reliable flood forecasts",
+    "seen_at": "2026-02-15T05:36:51.735957+00:00"
+  },
+  "//blog.research.google/2024/03/screenai-visual-language-model-for-ui.html": {
+    "title": "ScreenAI: A visual language model for UI and visually-situated language understanding",
+    "seen_at": "2026-02-15T05:36:51.792513+00:00"
+  },
+  "//blog.research.google/2024/03/scin-new-resource-for-representative.html": {
+    "title": "SCIN: A new resource for representative dermatology images",
+    "seen_at": "2026-02-15T05:36:51.835886+00:00"
+  },
+  "//blog.research.google/2024/03/melon-reconstructing-3d-objects-from.html": {
+    "title": "MELON: Reconstructing 3D objects from images with unknown poses",
+    "seen_at": "2026-02-15T05:36:51.880923+00:00"
+  },
+  "//blog.research.google/2024/03/heal-framework-for-health-equity.html": {
+    "title": "HEAL: A framework for health equity assessment of machine learning performance",
+    "seen_at": "2026-02-15T05:36:51.934609+00:00"
+  },
+  "//blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html": {
+    "title": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
+    "seen_at": "2026-02-15T05:36:51.992294+00:00"
+  },
+  "//blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html": {
+    "title": "Talk like a graph: Encoding graphs for large language models",
+    "seen_at": "2026-02-15T05:36:52.035900+00:00"
+  },
+  "//pythoninsider.blogspot.com/2026/02/python-3150-alpha-6.html": {
+    "title": "Python 3.15.0 alpha 6",
+    "seen_at": "2026-02-15T05:36:52.051802+00:00"
+  },
+  "//pythoninsider.blogspot.com/2026/02/python-3143-and-31312-are-now-available.html": {
+    "title": "Python 3.14.3 and 3.13.12 are now available!",
+    "seen_at": "2026-02-15T05:36:52.081308+00:00"
+  },
+  "//pythoninsider.blogspot.com/2026/01/python-3150-alpha-5-yes-another-alpha.html": {
+    "title": "Python 3.15.0 alpha 5 (yes, another alpha!)",
+    "seen_at": "2026-02-15T05:36:52.110368+00:00"
+  },
+  "//pythoninsider.blogspot.com/2025/12/python-31310-is-now-available-too-you.html": {
+    "title": "Python 3.13.10 is now available, too, you know!",
+    "seen_at": "2026-02-15T05:36:52.204792+00:00"
+  },
+  "//pythoninsider.blogspot.com/2025/12/python-3141-is-now-available.html": {
+    "title": "Python 3.14.1 is now available!",
+    "seen_at": "2026-02-15T05:36:52.228034+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi1AFBVV95cUxPN2JIaGhMcGhVcEZrekJpN1BaVmtDR2RybFFodkFsMlU1T1owUktYeWdxd3hSSDJIbzZxcUZZX3RtOGJWUkRTUWhxOGdrYU1zTDBUTExyX1RoMmVkV3FtRVpGQlFsc3dDc19YTHBLSnVIVjNmbk80dV9OdFNjVlhfX25JVW0xRHA1Q2VVUURmaUd0NXV4aVdFQjBSVHluUjBKWlBralNhYVRRUXYxTnRlWUV0bkM3TFh0Z25tRl9CUlh2a0Q0ZUczQlB3dW5VTkZtclhwQw?oc=5": {
+    "title": "The Apache Software Foundation Announces New Top-Level Project - GlobeNewswire",
+    "seen_at": "2026-02-15T05:36:52.313941+00:00"
+  },
+  "//redis.io/blog/what-is-idempotency-in-redis": {
+    "title": "Idempotency patterns for LLM apps with Redis",
+    "seen_at": "2026-02-15T05:36:52.348692+00:00"
+  },
+  "//redis.io/blog/model-distillation-llm-guide": {
+    "title": "Model distillation for LLMs: A practical guide to smaller, faster AI",
+    "seen_at": "2026-02-15T05:36:52.398369+00:00"
+  },
+  "//redis.io/blog/build-smarter-ai-agents-manage-short-term-and-long-term-memory-with-redis": {
+    "title": "How to build AI agents with Redis memory management",
+    "seen_at": "2026-02-15T05:36:52.438187+00:00"
+  },
+  "//redis.io/blog/what-is-data-matchmaking-fast-pairing": {
+    "title": "What is data matchmaking? Fast pairing at scale",
+    "seen_at": "2026-02-15T05:36:52.474466+00:00"
+  },
+  "//redis.io/blog/redis-achieves-aws-ai-competency": {
+    "title": "Redis achieves AWS AI competency: Powering the next generation of AI applications",
+    "seen_at": "2026-02-15T05:36:52.532814+00:00"
+  },
+  "//redis.io/blog/announcing-redis-86-performance-improvements-streams": {
+    "title": "Announcing Redis 8.6: Performance improvements, streams enhancements, new eviction policies, & more",
+    "seen_at": "2026-02-15T05:36:52.600878+00:00"
+  },
+  "//redis.io/blog/ai-risk-analysis-continuous-monitoring-infrastructure": {
+    "title": "AI risk analysis: Continuous monitoring as critical infrastructure",
+    "seen_at": "2026-02-15T05:36:52.649125+00:00"
+  },
+  "//redis.io/blog/saas-semantic-search-intent-beyond-keywords": {
+    "title": "Semantic search for SaaS: When keywords aren't enough",
+    "seen_at": "2026-02-15T05:36:52.689073+00:00"
+  },
+  "//redis.io/blog/best-open-source-vector-databases-comparison": {
+    "title": "Comparing the best open source vector databases",
+    "seen_at": "2026-02-15T05:36:52.725494+00:00"
+  },
+  "//redis.io/blog/data-isolation-multi-tenant-saas": {
+    "title": "Data isolation in multi-tenant SaaS environments",
+    "seen_at": "2026-02-15T05:36:52.763812+00:00"
+  },
+  "//kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight": {
+    "title": "Spotlight on SIG Architecture: API Governance",
+    "seen_at": "2026-02-15T05:36:52.800797+00:00"
+  },
+  "//kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller": {
+    "title": "Introducing Node Readiness Controller",
+    "seen_at": "2026-02-15T05:36:52.831583+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula": {
+    "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
+    "seen_at": "2026-02-15T05:36:52.874642+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/29/ingress-nginx-statement": {
+    "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+    "seen_at": "2026-02-15T05:36:52.938642+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind": {
+    "title": "Experimenting with Gateway API using kind",
+    "seen_at": "2026-02-15T05:36:52.971385+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights": {
+    "title": "Headlamp in 2025: Project Highlights",
+    "seen_at": "2026-02-15T05:36:53.043397+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg": {
+    "title": "Announcing the Checkpoint/Restore Working Group",
+    "seen_at": "2026-02-15T05:36:53.079003+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access": {
+    "title": "Uniform API server access using clientcmd",
+    "seen_at": "2026-02-15T05:36:53.112264+00:00"
+  },
+  "//kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist": {
+    "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+    "seen_at": "2026-02-15T05:36:53.183890+00:00"
+  },
+  "//go.dev/blog/go1.26": {
+    "title": "Go 1.26 is released",
+    "seen_at": "2026-02-15T05:36:53.264658+00:00"
+  },
+  "//go.dev/blog/survey2025": {
+    "title": "Results from the 2025 Go Developer Survey",
+    "seen_at": "2026-02-15T05:36:53.297559+00:00"
+  },
+  "//go.dev/blog/16years": {
+    "title": "Go’s Sweet 16",
+    "seen_at": "2026-02-15T05:36:53.311498+00:00"
+  },
+  "//go.dev/blog/greenteagc": {
+    "title": "The Green Tea Garbage Collector",
+    "seen_at": "2026-02-15T05:36:53.339545+00:00"
+  },
+  "//go.dev/blog/flight-recorder": {
+    "title": "Flight Recorder in Go 1.25",
+    "seen_at": "2026-02-15T05:36:53.362050+00:00"
+  },
+  "//go.dev/blog/survey2025-announce": {
+    "title": "It's survey time! How has Go has been working out for you?",
+    "seen_at": "2026-02-15T05:36:53.406872+00:00"
+  },
+  "//go.dev/blog/jsonv2-exp": {
+    "title": "A new experimental Go API for JSON",
+    "seen_at": "2026-02-15T05:36:53.437714+00:00"
+  },
+  "//go.dev/blog/testing-time": {
+    "title": "Testing Time (and other asynchronicities)",
+    "seen_at": "2026-02-15T05:36:53.472006+00:00"
+  },
+  "//go.dev/blog/container-aware-gomaxprocs": {
+    "title": "Container-aware GOMAXPROCS",
+    "seen_at": "2026-02-15T05:36:53.494500+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus": {
+    "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+    "seen_at": "2026-02-15T05:36:53.639695+00:00"
+  },
+  "//seekingalpha.com/article/4870366-short-term-energy-outlook-february-2026": {
+    "title": "Short-Term Energy Outlook: February 2026",
+    "seen_at": "2026-02-15T05:36:53.672225+00:00"
+  },
+  "//seekingalpha.com/article/4867576-politics-and-the-markets-021526": {
+    "title": "Politics And The Markets 02/15/26",
+    "seen_at": "2026-02-15T05:36:53.698867+00:00"
+  },
+  "//wsj.com/business/tech-media-telecom-roundup-market-talk-3a8de879?siteid=yhoof2&yptr=yahoo": {
+    "title": "Tech, Media & Telecom Roundup: Market Talk",
+    "seen_at": "2026-02-15T05:36:53.735636+00:00"
+  },
+  "//investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-draftkings-dkng?src=A00220&yptr=yahoo": {
+    "title": "Stock Market Today: Dow Ends Choppy Session Higher, Nasdaq Slips; Travel Name Falls Again (Live Coverage)",
+    "seen_at": "2026-02-15T05:36:53.811806+00:00"
+  },
+  "//finance.yahoo.com/news/experian-launches-savings-account-members-215324706.html": {
+    "title": "Experian launches savings account for its members",
+    "seen_at": "2026-02-15T05:36:53.854000+00:00"
+  },
+  "//investors.com/research/swing-trading/costco-stock-became-a-swing-trade?src=A00220&yptr=yahoo": {
+    "title": "How A Value Play Like Costco Stock Became A Swing Trade",
+    "seen_at": "2026-02-15T05:36:53.899655+00:00"
+  },
+  "//finance.yahoo.com/news/tl-carrier-pamt-corp-posts-221105658.html": {
+    "title": "TL carrier Pamt posts Q4 loss",
+    "seen_at": "2026-02-15T05:36:53.926802+00:00"
+  },
+  "//wsj.com/business/basic-materials-roundup-market-talk-598ce964?siteid=yhoof2&yptr=yahoo": {
+    "title": "Basic Materials Roundup: Market Talk",
+    "seen_at": "2026-02-15T05:36:53.958777+00:00"
+  },
+  "//finance.yahoo.com/news/paramount-taps-ex-trump-official-221159445.html": {
+    "title": "Paramount taps ex-Trump official as public policy VP amid Warner Bros bid",
+    "seen_at": "2026-02-15T05:36:54.016575+00:00"
+  },
+  "//investors.com/news/draftkings-stock-q4-2025-earnings-cathie-wood-ark-prediction-markets?src=A00220&yptr=yahoo": {
+    "title": "DraftKings Tanks On Q4 Results; Cathie Wood Unloads More Shares",
+    "seen_at": "2026-02-15T05:36:54.068956+00:00"
+  },
+  "//investors.com/news/coinbase-earnings-q4-2025-coin-stock-bitcoin-clarity-act-stablecoin-prediction-markets?src=A00220&yptr=yahoo": {
+    "title": "Coinbase Scores Q4 Miss. Here's Why Shares Are Rebounding.",
+    "seen_at": "2026-02-15T05:36:54.114687+00:00"
+  },
+  "//news.google.com/rss/articles/CBMia0FVX3lxTE5qRFctV1otMk4wd3ZFQnFNd1JyNFp1LVRiMS1ZQ19NSXN2cnlkaU8xdDlFUFJUdmhyc0laelRWendnQXk0eEFsWmJKbUJJbS01bG4zTmJLVnpSN0M0RFptTGhvQUFLaTRPZGYw?oc=5": {
+    "title": "Is SOLV on track to beat earnings - Weekly Trade Analysis & Weekly Setup with High ROI Potential - mfd.ru",
+    "seen_at": "2026-02-15T05:36:54.198161+00:00"
+  },
+  "//vercel.com/changelog/stale-if-error-cache-control-header-is-now-supported": {
+    "title": "Stale-if-error cache-control directive now supported for all responses",
+    "seen_at": "2026-02-15T05:36:54.252816+00:00"
+  },
+  "//vercel.com/changelog/browserbase-joins-the-vercel-agent-marketplace": {
+    "title": "Browserbase joins the Vercel Agent Marketplace",
+    "seen_at": "2026-02-15T05:36:54.292738+00:00"
+  },
+  "//vercel.com/changelog/use-minimax-m2-5-on-ai-gateway": {
+    "title": "Use MiniMax M2.5 on AI Gateway",
+    "seen_at": "2026-02-15T05:36:54.320850+00:00"
+  },
+  "//vercel.com/changelog/new-deployments-with-vulnerable-versions-of-next-mdx-remote-are-now-blocked-by-default": {
+    "title": "New deployments with vulnerable versions of the third-party package next-mdx-remote are now blocked by default",
+    "seen_at": "2026-02-15T05:36:54.400934+00:00"
+  },
+  "//vercel.com/changelog/glm-5-is-live-on-ai-gateway": {
+    "title": "GLM-5 is live on AI Gateway",
+    "seen_at": "2026-02-15T05:36:54.427074+00:00"
+  },
+  "//vercel.com/changelog/advanced-egress-firewall-filtering-for-vercel-sandbox": {
+    "title": "Advanced egress firewall filtering for Vercel Sandbox",
+    "seen_at": "2026-02-15T05:36:54.470879+00:00"
+  },
+  "//vercel.com/changelog/vercel-flags-is-now-in-public-beta": {
+    "title": "Vercel Flags is now in public beta",
+    "seen_at": "2026-02-15T05:36:54.501991+00:00"
+  },
+  "//vercel.com/changelog/sign-in-with-apple-support": {
+    "title": "Support for Sign in with Apple",
+    "seen_at": "2026-02-15T05:36:54.529661+00:00"
+  },
+  "//vercel.com/changelog/vercel-logs-cli-command-now-optimized-for-agents-with-historical-log": {
+    "title": "vercel logs CLI command now optimized for agents with historical log querying",
+    "seen_at": "2026-02-15T05:36:54.590275+00:00"
+  },
+  "//vercel.com/changelog/agents-can-now-access-runtime-logs-with-vercels-mcp-server": {
+    "title": "Agents can now access runtime logs with Vercel's MCP server",
+    "seen_at": "2026-02-15T05:36:54.639712+00:00"
   }
 }

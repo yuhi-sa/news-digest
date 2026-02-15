@@ -2378,5 +2378,1195 @@
     "source_name": "Google Project Zero",
     "category": "Security",
     "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "link": "https://developers.googleblog.com/conductor-update-introducing-automated-reviews/",
+    "summary": "Conductorのアップデートにより、AI生成コードの品質と精度を自動レビューする機能が導入され、テストスイート検証やセキュリティリスクの特定を通じて安全性を高めます。",
+    "published": "2026-02-15T05:36:40.841909+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+    "title": "Making Gemini CLI extensions easier to use",
+    "link": "https://developers.googleblog.com/making-gemini-cli-extensions-easier-to-use/",
+    "summary": "Gemini CLIの拡張機能が簡素化され、手動での環境変数設定が不要になり、必要な情報はインストール時に自動でユーザーに求められ、安全に保存されるようになりました。",
+    "published": "2026-02-15T05:36:40.841951+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "link": "https://developers.googleblog.com/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/",
+    "summary": "Data CommonsのMCPサービスがGoogle Cloud上でホストされるようになり、複雑なローカルサーバーのインストールが不要になり、AIエージェントやGemini CLIとの接続が容易になりました。",
+    "published": "2026-02-15T05:36:40.841987+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/",
+    "title": "Introducing the Developer Knowledge API and MCP Server",
+    "link": "https://developers.googleblog.com/introducing-the-developer-knowledge-api-and-mcp-server/",
+    "summary": "Developer Knowledge APIとMCP Serverがパブリックプレビューとして公開され、AIアシスタントがFirebase、Google Cloud、Androidなどの最新ドキュメントを検索・取得するための信頼できる手段を提供します。",
+    "published": "2026-02-15T05:36:40.842023+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
+    "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+    "link": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
+    "summary": "Google TPU上でJAXベースのTunixライブラリを使用してFunctionGemmaモデルのファインチューニングが容易になり、LoRAを用いた教師ありファインチューニングにより精度が向上しました。",
+    "published": "2026-02-15T05:36:40.842047+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "link": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+    "summary": "Googleの開発者エキスパートが、GCP、Gemini、Antigravityを用いて、信頼できるAIフレームワークを高速レースの事例で検証しました。",
+    "published": "2026-02-15T05:36:40.842070+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+    "title": "Tailor Gemini CLI to your workflow with hooks",
+    "link": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+    "summary": "Gemini CLIフックを使うことで、ワークフローの特定のタイミングでカスタムスクリプトを実行し、エージェントの動作をカスタマイズできるようになりました。",
+    "published": "2026-02-15T05:36:40.842089+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+    "title": "LiteRT: The Universal Framework for On-Device AI",
+    "link": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+    "summary": "TFLiteから進化したLiteRTは、GPU性能の向上やNPUサポート、GemmaのようなGenAIモデルの効率的な導入を実現する、デバイスAI向けの汎用フレームワークです。",
+    "published": "2026-02-15T05:36:40.842108+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "link": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+    "summary": "FunctionGemmaをファインチューニングすることで、ツール選択の曖昧さを解消し、企業向けの厳格なエージェントとして活用できるようになり、Hugging Face Spaces上でノーコードのファインチューニングを試せるデモも公開されました。",
+    "published": "2026-02-15T05:36:40.842135+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+    "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+    "link": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+    "summary": "Googleと業界リーダーが共同開発したUniversal Commerce Protocol（UCP）は、消費者向けインターフェースと企業バックエンドを接続し、シームレスなショッピング体験を実現する新しいオープンソースの規格です。",
+    "published": "2026-02-15T05:36:40.842163+00:00",
+    "source_name": "Google Developers Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5055",
+    "title": "Announcing TypeScript 6.0 Beta",
+    "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/",
+    "summary": "TypeScript 6.0のベータ版がリリースされ、これが現在のJavaScriptコードベースに基づく最後のリリースとなる予定です。",
+    "published": "2026-02-11T18:50:26+00:00",
+    "source_name": "TypeScript Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=5013",
+    "title": "Progress on TypeScript 7 – December 2025",
+    "link": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
+    "summary": "TypeScriptコンパイラと言語サービスをネイティブコードに移植するプロジェクト（TypeScript 7.0）が大きく進展しています。",
+    "published": "2025-12-02T17:31:32+00:00",
+    "source_name": "TypeScript Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=4974",
+    "title": "Announcing TypeScript 5.9",
+    "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/",
+    "summary": "TypeScript 5.9がリリースされ、型を追加することでJavaScriptのバグを事前にチェックできるようになりました。",
+    "published": "2025-08-01T16:19:25+00:00",
+    "source_name": "TypeScript Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=4886",
+    "title": "Announcing TypeScript Native Previews",
+    "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews/",
+    "summary": "TypeScriptコンパイラとツールセットのネイティブコードへの移植により、多くのプロジェクトで10倍の高速化が実現しました。",
+    "published": "2025-05-22T15:04:21+00:00",
+    "source_name": "TypeScript Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://devblogs.microsoft.com/typescript/?p=4567",
+    "title": "A 10x Faster TypeScript",
+    "link": "https://devblogs.microsoft.com/typescript/typescript-native-port/",
+    "summary": "TypeScriptのパフォーマンスを大幅に向上させるための取り組みが発表され、大規模なコードベースでも優れた開発者体験を提供することを目指しています。",
+    "published": "2025-03-11T14:31:27+00:00",
+    "source_name": "TypeScript Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMiakFVX3lxTE9EMFhsbHNObGM5QTYxZVVTbzJpWFlvMEZYVGljdzRiVlVNT2pxdmRvMUpid3loZDBvTTc1QU40LXJ0YzBiUk5CdmVheW9DMTJrVEFYdmhNdXR3VzQwcWExV2Vydzh3XzEyVVE",
+    "title": "Databricks workspaces 101: Simplified guide to workspaces (2026) - Flexera",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EMFhsbHNObGM5QTYxZVVTbzJpWFlvMEZYVGljdzRiVlVNT2pxdmRvMUpid3loZDBvTTc1QU40LXJ0YzBiUk5CdmVheW9DMTJrVEFYdmhNdXR3VzQwcWExV2Vydzh3XzEyVVE?oc=5",
+    "summary": "Databricksワークスペースの基本的なガイドに関する記事です。",
+    "published": "2026-02-10T20:58:58+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMirAFBVV95cUxNbkxTYmpmWk8yX01fTTdONmNydGhHc2txdnFmYmJTR2VYVDcwS3Uxa2dnN2JSdXlQZW1WQ2dBX1FlQlR5aXJPc1FhcXQ3YS1FVjN6b2ViQm1BZTdLenFXc0Q5ejU2Z2R6U00yZUwyUXh4OXlYWVd1X0ptdkM4dWhBUWllUjBjWm93R011SGpKc3BhQnBpTzlMQThRblE3OGg1RVJSTlhQaHJ1M2c2",
+    "title": "Apache Software Foundation Announces New Top-Level Project - HPCwire",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbkxTYmpmWk8yX01fTTdONmNydGhHc2txdnFmYmJTR2VYVDcwS3Uxa2dnN2JSdXlQZW1WQ2dBX1FlQlR5aXJPc1FhcXQ3YS1FVjN6b2ViQm1BZTdLenFXc0Q5ejU2Z2R6U00yZUwyUXh4OXlYWVd1X0ptdkM4dWhBUWllUjBjWm93R011SGpKc3BhQnBpTzlMQThRblE3OGg1RVJSTlhQaHJ1M2c2?oc=5",
+    "summary": "Apache Software Foundationが新しいトップレベルプロジェクトを発表しました。",
+    "published": "2026-02-12T20:07:24+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMijwFBVV95cUxQQlRNRTNiUTB5SzdvVTdjRHhCQlRkblNFYzRSMjlMbERINkp5MHlZNld4NHJ1eU83T1RSZGdkbXY1YmdLSV81c3Y4cEl3ZUpaWUpMWTNmandvUUFNNGd5YkVvVUJqX3MtQTByQzVkbHJxZUxSS0xNSnhYbmk3WC15aV82TDdiTnl3N19jYl9Kbw",
+    "title": "The Apache Software Foundation Announces New Top-Level Project - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQlRNRTNiUTB5SzdvVTdjRHhCQlRkblNFYzRSMjlMbERINkp5MHlZNld4NHJ1eU83T1RSZGdkbXY1YmdLSV81c3Y4cEl3ZUpaWUpMWTNmandvUUFNNGd5YkVvVUJqX3MtQTByQzVkbHJxZUxSS0xNSnhYbmk3WC15aV82TDdiTnl3N19jYl9Kbw?oc=5",
+    "summary": "Apache Software Foundationが新しいトップレベルプロジェクトを発表しました。",
+    "published": "2026-02-12T14:00:00+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMiowFBVV95cUxOamJybXVDNmF0X2ZsSDdhOFU1enpZcnlQR3FMQTFhWWJDMmpRejY0eHB3VGZzWXphNUpNUzZZeEVzQmhVeE1ISlVlNm90T3pmWm9DQzNRQmd6SzNacGZYcWt6TEU2R0o2bU1kc0J4a2ZkX1RDTzM5YlZpaGRzRlZ2czVRRjdLUGtRdXptTzBPTnVrMjh4SHhHUnZJV1pFaDZqdjhv",
+    "title": "Migrate relational-style data from NoSQL to Amazon Aurora DSQL - Amazon Web Services",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOamJybXVDNmF0X2ZsSDdhOFU1enpZcnlQR3FMQTFhWWJDMmpRejY0eHB3VGZzWXphNUpNUzZZeEVzQmhVeE1ISlVlNm90T3pmWm9DQzNRQmd6SzNacGZYcWt6TEU2R0o2bU1kc0J4a2ZkX1RDTzM5YlZpaGRzRlZ2czVRRjdLUGtRdXptTzBPTnVrMjh4SHhHUnZJV1pFaDZqdjhv?oc=5",
+    "summary": "NoSQLの関連データ形式のデータをAmazon Aurora DSQLに移行する方法について解説しています。",
+    "published": "2026-02-11T21:55:10+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMi0wFBVV95cUxNQVpIZUgwT2ZiZGV1TjlYSWtGUWQ1aDZVd0hKRUozMkVVcGxlRU9Zd1M1aHdQRVZiWTlHaTcxUzg2QVpGUUxyakNlU1R4TjROR1Q1Y3RQQkZkZ3BzTGlULTN3cFZVanVkXzQtRkRhSUNPLTB0TXl0QjJ5aU9jeEd6S3N6NFp5T25wRVZ5LTQzRkk2MVVTeTdybU9RQ0VOYmF4U3dmdVJzeGNDVk5FVzJIMklaV0NSTmo2dmI2VlRucU45dGthYkxWUlotdzlNaUNmRkZn",
+    "title": "UK leader Starmer fights for his job as Mandelson-Epstein revelations spark a leadership crisis - yourvalley.net",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVpIZUgwT2ZiZGV1TjlYSWtGUWQ1aDZVd0hKRUozMkVVcGxlRU9Zd1M1aHdQRVZiWTlHaTcxUzg2QVpGUUxyakNlU1R4TjROR1Q1Y3RQQkZkZ3BzTGlULTN3cFZVanVkXzQtRkRhSUNPLTB0TXl0QjJ5aU9jeEd6S3N6NFp5T25wRVZ5LTQzRkk2MVVTeTdybU9RQ0VOYmF4U3dmdVJzeGNDVk5FVzJIMklaV0NSTmo2dmI2VlRucU45dGthYkxWUlotdzlNaUNmRkZn?oc=5",
+    "summary": "イギリスのスターマー首相が、マンデルソンとエプスタインの関係に関する暴露により、指導者としての危機に直面しています。",
+    "published": "2026-02-09T09:36:13+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMiggFBVV95cUxNLTVzS09Nc2xZQl92dXROVVpyNDFmendfdzlOdzlnU050elpSRWh1QVh5WFdlcUNEZnJ3cFFiS182VHlOMUNZV3V2UkFmaEJ6bG10eklXTDNFZ2F1aVhiSFV4d2xGZ2ZKVWlILU5IbGpyVVM2WFA5el84OEhEa3g2QUlR",
+    "title": "Run OpenClaw For Free On GeForce RTX and NVIDIA RTX GPUs & DGX Spark - NVIDIA",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLTVzS09Nc2xZQl92dXROVVpyNDFmendfdzlOdzlnU050elpSRWh1QVh5WFdlcUNEZnJ3cFFiS182VHlOMUNZV3V2UkFmaEJ6bG10eklXTDNFZ2F1aVhiSFV4d2xGZ2ZKVWlILU5IbGpyVVM2WFA5el84OEhEa3g2QUlR?oc=5",
+    "summary": "NVIDIAは、GeForce RTX、NVIDIA RTX GPU、DGX Spark上でOpenClawを無料で実行可能にしました。",
+    "published": "2026-02-13T14:32:29+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMihwFBVV95cUxNVUNNN3o4MmVoYmNlM3FqUnZuLTl2ZURLdnFESjJ0R003QlBkU3J3V05hUUNrb05pR3d1emtvR1hzeGFUcFZJdDlCSE1WRWlIUlI2eldoRFl3M3BSQ1dCZHBxVlBHYjVQbWNMUkVxSG9KQlNYSlpsNkQwMHJ2eGtDbjBOTnMzLUE",
+    "title": "The 13 Best Vibe Analytics Tools to Consider for 2026 - solutionsreview.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVUNNN3o4MmVoYmNlM3FqUnZuLTl2ZURLdnFESjJ0R003QlBkU3J3V05hUUNrb05pR3d1emtvR1hzeGFUcFZJdDlCSE1WRWlIUlI2eldoRFl3M3BSQ1dCZHBxVlBHYjVQbWNMUkVxSG9KQlNYSlpsNkQwMHJ2eGtDbjBOTnMzLUE?oc=5",
+    "summary": "solutionsreview.comは、2026年に検討すべき13の最高のVibe Analyticsツールを紹介しています。",
+    "published": "2026-02-09T08:00:00+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMilgFBVV95cUxQVlBnN3pseDJodGhDU2ZpMUxMQnFkc2xfeEttRTJtUmwxMGtXS09Gbzg0T3BaVFZQa2NOcXVWTklRX0hMaUZYN3cxdHlHWkdCQjhET3Y2RjB1QXBSbUE4aDJzajY4RFR5RHBKX1RmdmlnLXdFZ1dLV3AzUklQZU9zNlNkd0lGall6QnZzb2Z5a2hrZTVPWXc",
+    "title": "Death of the warehouse: Blue Crystal Solutions unveils BlueStack for the AI era - CRN Australia",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVlBnN3pseDJodGhDU2ZpMUxMQnFkc2xfeEttRTJtUmwxMGtXS09Gbzg0T3BaVFZQa2NOcXVWTklRX0hMaUZYN3cxdHlHWkdCQjhET3Y2RjB1QXBSbUE4aDJzajY4RFR5RHBKX1RmdmlnLXdFZ1dLV3AzUklQZU9zNlNkd0lGall6QnZzb2Z5a2hrZTVPWXc?oc=5",
+    "summary": "Blue Crystal Solutionsは、AI時代に向けたBlueStackを発表し、従来のデータウェアハウスの終焉を示唆しています。",
+    "published": "2026-02-11T22:22:32+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMioAFBVV95cUxOd3ZHai1BeWIyQ2NsRmFuR2NCRW9wTEtzaWo1NXBxT2tLaEtQSXJtdVZoVXoxUngxaExkSDRKbTk0aXdRSlpfYi1laG5SMlBBY0ZmSUhSWUpBMGdOdVAxS3JsRFRyTFFjc2lVaTVoQ0ZhOE91SmoySWxNMUZicXZEQ0lmenlpNWs4emUxQTE1NDBzdjJSdUxhRk1JYXByenpN",
+    "title": "Before Buying TVS Apache RTX 300: 5 Issues Every Rider Should Know - DriveSpark",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3ZHai1BeWIyQ2NsRmFuR2NCRW9wTEtzaWo1NXBxT2tLaEtQSXJtdVZoVXoxUngxaExkSDRKbTk0aXdRSlpfYi1laG5SMlBBY0ZmSUhSWUpBMGdOdVAxS3JsRFRyTFFjc2lVaTVoQ0ZhOE91SmoySWxNMUZicXZEQ0lmenlpNWs4emUxQTE1NDBzdjJSdUxhRk1JYXByenpN?oc=5",
+    "summary": "DriveSparkは、TVS Apache RTX 300を購入する前にライダーが知っておくべき5つの問題点を挙げています。",
+    "published": "2026-02-15T05:18:15+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMijAFBVV95cUxOLVpfekhMMXVjeUQzaXJMeDc1Q0t1bDlWT1NKZTk0eTRnVGg3eHBCVEljamRjSGQ5azdWd3pvT1RISFpBTFhidVNYMV9WWG1hTERWOUt2WWd3RXJPOENJeGlCNGhWcjZ2TWFZLXIyVVd5UGtCVW1xQ0k4Mjd3UkhsN0NiVzY4azF4clBfUA",
+    "title": "Top Data Scientist Skills for 2026: Full Guide + Examples - Simplilearn.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLVpfekhMMXVjeUQzaXJMeDc1Q0t1bDlWT1NKZTk0eTRnVGg3eHBCVEljamRjSGQ5azdWd3pvT1RISFpBTFhidVNYMV9WWG1hTERWOUt2WWd3RXJPOENJeGlCNGhWcjZ2TWFZLXIyVVd5UGtCVW1xQ0k4Mjd3UkhsN0NiVzY4azF4clBfUA?oc=5",
+    "summary": "Simplilearn.comは、2026年に求められるデータサイエンティストのトップスキルをガイドと例付きで解説しています。",
+    "published": "2026-02-11T08:00:00+00:00",
+    "source_name": "Google News Spark/PySpark",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMijAFBVV95cUxPcTlDQ0c2T3ExdXZoU0lSbmQ1NkZtVGFuTUJqWHNrNnhneDRXVl9MVFJQME4wR2dUbnZORUxmcGJGZENMOGNIbFZuejdCYkxpb0xXZzkwaHlPYUhlRTdzbnNIX19hMEo1YTk4bVBkbm5uU2JPaDdTYkthTlBiQXZaTVV4RUdLMjZCOGpuQQ",
+    "title": "How Python Devs Can Build AI Agents Using MCP, Kafka, and Flink - HackerNoon",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTlDQ0c2T3ExdXZoU0lSbmQ1NkZtVGFuTUJqWHNrNnhneDRXVl9MVFJQME4wR2dUbnZORUxmcGJGZENMOGNIbFZuejdCYkxpb0xXZzkwaHlPYUhlRTdzbnNIX19hMEo1YTk4bVBkbm5uU2JPaDdTYkthTlBiQXZaTVV4RUdLMjZCOGpuQQ?oc=5",
+    "summary": "Python開発者はMCP、Kafka、Flinkを使ってAIエージェントを構築できる。",
+    "published": "2026-02-12T11:07:40+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMi4AFBVV95cUxPQmM0cllKYml2NHpHY1RZa3Z0bUVwbW4tYzlRZjJOcWpnS2Z0UG1xVlVVUk5ubUFTSHcxSjAyRnBKWGZGOEhCNURVMkRUOVpBajlfcE50eFloVnA3YlZmVU5LQVYtNWQ5cUxQb1Z5Sng0RmdOVzM1NGVXT2NFbTNoTjR5WlQ0b0M2VDN2SnFtQnVINDBwcFRpc2wwQ3pPbDFReDdyTXZCTk5tT082VnRPcVdNWDYtcmN5QmpvRXlYQzJPLXRNcmw1OTg3VGM3Um5TMjM3NjYtN1RKVElyQlo4Vg",
+    "title": "Confluent (NASDAQ:CFLT) Exceeds Q4 CY2025 Expectations But Large Customer Wins Slow Down - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQmM0cllKYml2NHpHY1RZa3Z0bUVwbW4tYzlRZjJOcWpnS2Z0UG1xVlVVUk5ubUFTSHcxSjAyRnBKWGZGOEhCNURVMkRUOVpBajlfcE50eFloVnA3YlZmVU5LQVYtNWQ5cUxQb1Z5Sng0RmdOVzM1NGVXT2NFbTNoTjR5WlQ0b0M2VDN2SnFtQnVINDBwcFRpc2wwQ3pPbDFReDdyTXZCTk5tT082VnRPcVdNWDYtcmN5QmpvRXlYQzJPLXRNcmw1OTg3VGM3Um5TMjM3NjYtN1RKVElyQlo4Vg?oc=5",
+    "summary": "Confluentは2025年第4四半期の予想を上回ったが、大型顧客の獲得ペースは鈍化している。",
+    "published": "2026-02-11T22:12:41+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMiZkFVX3lxTFBjS0RyMThCLUJJdDVkRGZMbVo1cWNzZkJyd1k4NFNUcnJXZGZDQldwbW0tanlabGwwNnBabnRkSVZVamk3MjdUVDNMRmtLYlNvcmxlbHRfVUVfU2RJYWRvYUJUMzIwdw",
+    "title": "Evaluating The Performance Cost To AMD SEV-SNP On EPYC 9005 VMs Review - Phoronix",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjS0RyMThCLUJJdDVkRGZMbVo1cWNzZkJyd1k4NFNUcnJXZGZDQldwbW0tanlabGwwNnBabnRkSVZVamk3MjdUVDNMRmtLYlNvcmxlbHRfVUVfU2RJYWRvYUJUMzIwdw?oc=5",
+    "summary": "AMD EPYC 9005 VMにおけるSEV-SNPのパフォーマンスコストが評価された。",
+    "published": "2026-02-13T15:17:00+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMi0gFBVV95cUxPcGJFb2wyMEVjck1QTTZ1SXJyNWYxYmhxZG5xb0YtWVRzZG5RNXpPTXZjbi1Zdll2Q1lyWm9HM1h3T013ejRwQTVVa2dKM0tBZVgwQkM3Zkx5NzkzcWduUnY1ZU9BYjk1UVZtdzBCUklfUVdCUTA1R2lPcnhRRzVxbURRT3hsbVQ4U25YSmVfZ21kVnJvS0FWTFp1Xy1ZSkZmSk5kQW5uemtnR0hzYmxSYXNReF9jdFpfTjkxRHFERGFkUy1adXY3R01DZ1hVTV90V3fSAdcBQVVfeXFMTTJlZ1BOSlpacEYweTlpNVYySXZpVmE2R0pSNml5UmJWOU1Qc1k2LS0wb1NaTFNweEJjWkNtLUU0b3AtMFhuUkt0VEN0UmFFYTJodlNXZTNWeE9LTi1QSXVWNFIzbzNIekxrMlB5UTNvN01kdUpRc3FuN1B3LXV6MTIzMlpKQ3pCbnZIR3d0RHp2aW9JcC1UMWMxWVRlSkd0bUN6b2lhN2dCVDNuUHNEWFllOV9SOFdVYjdSQy1na0tCR2VXMFMxRXZvR2w1RmFVZ1dVcnVxQkU",
+    "title": "The Apache Software Foundation Announces New Top-Level Project - The Manila Times",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcGJFb2wyMEVjck1QTTZ1SXJyNWYxYmhxZG5xb0YtWVRzZG5RNXpPTXZjbi1Zdll2Q1lyWm9HM1h3T013ejRwQTVVa2dKM0tBZVgwQkM3Zkx5NzkzcWduUnY1ZU9BYjk1UVZtdzBCUklfUVdCUTA1R2lPcnhRRzVxbURRT3hsbVQ4U25YSmVfZ21kVnJvS0FWTFp1Xy1ZSkZmSk5kQW5uemtnR0hzYmxSYXNReF9jdFpfTjkxRHFERGFkUy1adXY3R01DZ1hVTV90V3fSAdcBQVVfeXFMTTJlZ1BOSlpacEYweTlpNVYySXZpVmE2R0pSNml5UmJWOU1Qc1k2LS0wb1NaTFNweEJjWkNtLUU0b3AtMFhuUkt0VEN0UmFFYTJodlNXZTNWeE9LTi1QSXVWNFIzbzNIekxrMlB5UTNvN01kdUpRc3FuN1B3LXV6MTIzMlpKQ3pCbnZIR3d0RHp2aW9JcC1UMWMxWVRlSkd0bUN6b2lhN2dCVDNuUHNEWFllOV9SOFdVYjdSQy1na0tCR2VXMFMxRXZvR2w1RmFVZ1dVcnVxQkU?oc=5",
+    "summary": "Apache Software Foundationは新たなトップレベルプロジェクトを発表した。",
+    "published": "2026-02-12T14:12:07+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMi8gFBVV95cUxNYmN0eS0xYllpb3U0UmFMcjRQZXNUVy1VOXpRa0ZTblVTQzBJY0xQS3E2VkJBc0dBMVlzbk5LT3dpLVRyNVdUMTVwWEpjVUJCRFNkWDlicmhXbExXcEVZTVBjbHR2NDRtX3ZwYm9PS0xPNnlmZmxieloxdHAzbWRweWtRRzVaUmVCLUZ3enh2eWh4VWdLTDFtLW9VYzk5cF9fdTlqWnRzMUV5OXJSZGRqVldsSlRiTllFdEFnQ3R3T0JrNUpGUkxwWWFsMnhSYkxubW42cmJkaTMtbko3MHV5ZEtBS0NBOEFBRzRuZFp5Nm9Bdw",
+    "title": "Globe Business and Confluent form partnership to accelerate Enterprise AI and transform digital experiences in the Philippines - Mindanao Times",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYmN0eS0xYllpb3U0UmFMcjRQZXNUVy1VOXpRa0ZTblVTQzBJY0xQS3E2VkJBc0dBMVlzbk5LT3dpLVRyNVdUMTVwWEpjVUJCRFNkWDlicmhXbExXcEVZTVBjbHR2NDRtX3ZwYm9PS0xPNnlmZmxieloxdHAzbWRweWtRRzVaUmVCLUZ3enh2eWh4VWdLTDFtLW9VYzk5cF9fdTlqWnRzMUV5OXJSZGRqVldsSlRiTllFdEFnQ3R3T0JrNUpGUkxwWWFsMnhSYkxubW42cmJkaTMtbko3MHV5ZEtBS0NBOEFBRzRuZFp5Nm9Bdw?oc=5",
+    "summary": "Globe BusinessとConfluentは提携し、フィリピンにおけるエンタープライズAIを加速させ、デジタル体験を変革する。",
+    "published": "2026-02-13T05:57:24+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMixwFBVV95cUxNVmlsSWR0RzY1bGUtdHgzNnN1UmtLb2VhT1R3aHdjRDY5cXlJRlFnNVBUWmxQVV9fVnZVYmhHSlVqaWNpT1BQbUQ0MGRJZlRzMDdMZERraTNVNVhiRkNMYlpZWXhFMTJCZzNqT1diTU1kV2ZGYTJzVHpNM2l1MkYzNWt2ZlFwdjJwX0g4bWZnUGV0bGJKXy1aeGoyRWF2aU9UTU9NeGtDOFpiLVBjaTUzcXJ6ZUQzc3VlZnc2QnRLdk9nU2lvLU9n",
+    "title": "IBM Faces Pressure as Confluent Acquisition Clears Hurdle and Kyndryl Audit Casts Shadow - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmlsSWR0RzY1bGUtdHgzNnN1UmtLb2VhT1R3aHdjRDY5cXlJRlFnNVBUWmxQVV9fVnZVYmhHSlVqaWNpT1BQbUQ0MGRJZlRzMDdMZERraTNVNVhiRkNMYlpZWXhFMTJCZzNqT1diTU1kV2ZGYTJzVHpNM2l1MkYzNWt2ZlFwdjJwX0g4bWZnUGV0bGJKXy1aeGoyRWF2aU9UTU9NeGtDOFpiLVBjaTUzcXJ6ZUQzc3VlZnc2QnRLdk9nU2lvLU9n?oc=5",
+    "summary": "IBMはConfluentの買収が障害をクリアした一方で、Kyndrylの監査が影を落とし、プレッシャーに直面している。",
+    "published": "2026-02-13T08:30:58+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "CBMiwAFBVV95cUxPMzlpMW9hR1k1OHFqOGtsb1BPRFNPN2RWaWVURUpwYzhXWnk0cUtHQzFqT3dyZTZTeVlmbHFSNWFDNmVFVzVIR3dSdEFOUU1HR2w3TnhGSE0xMTdrcXhGZUZBX2VhenhnbGFZZXhvakNSeUI1cjVuZFhqMDI0N0FKcG95SkVvc09ialN5Z05GV2l2QWxHMndnZ0VqZW40bGlOc19SeFlia3I0RUFyVjRsTnp3VXR5ZzZYdG9RdDhaTlg",
+    "title": "IBM’s Strategic Acquisition: A $11 Billion Bet on Real-Time Data for AI - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzlpMW9hR1k1OHFqOGtsb1BPRFNPN2RWaWVURUpwYzhXWnk0cUtHQzFqT3dyZTZTeVlmbHFSNWFDNmVFVzVIR3dSdEFOUU1HR2w3TnhGSE0xMTdrcXhGZUZBX2VhenhnbGFZZXhvakNSeUI1cjVuZFhqMDI0N0FKcG95SkVvc09ialN5Z05GV2l2QWxHMndnZ0VqZW40bGlOc19SeFlia3I0RUFyVjRsTnp3VXR5ZzZYdG9RdDhaTlg?oc=5",
+    "summary": "IBMはAIのためのリアルタイムデータ獲得のため、110億ドルを投じて戦略的な買収を行っている。",
+    "published": "2026-02-12T16:21:04+00:00",
+    "source_name": "Google News Kafka",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157888",
+    "title": "KubeCon + CloudNativeCon Europe 2026 Co-located Event Deep Dive: Telco Day",
+    "link": "https://www.cncf.io/blog/2026/02/13/kubecon-cloudnativecon-europe-2026-co-located-event-deep-dive-telco-day/",
+    "summary": "KubeCon + CloudNativeCon Europe 2026では、通信とクラウドネイティブコミュニティを結びつけるCloud Native Telco Dayが開催される。",
+    "published": "2026-02-13T20:51:26+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157824",
+    "title": "Security Slam Returns for 2026 — Now Open to All Open Source Projects",
+    "link": "https://www.cncf.io/blog/2026/02/11/security-slam-returns-for-2026-now-open-to-all-open-source-projects/",
+    "summary": "2026年のKubeCon + CloudNativeCon Europeで、全てのオープンソースプロジェクトを対象としたSecurity Slamが開催される。",
+    "published": "2026-02-11T19:28:13+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157653",
+    "title": "What CNCF Project Velocity in 2025 Reveals About Cloud Native’s Future",
+    "link": "https://www.cncf.io/blog/2026/02/09/what-cncf-project-velocity-in-2025-reveals-about-cloud-natives-future/",
+    "summary": "CNCFのプロジェクトの進捗状況から、クラウドネイティブが不可視なインフラとして日常生活を支える存在になっていることが明らかになった。",
+    "published": "2026-02-09T18:20:13+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157263",
+    "title": "Cluster API v1.12: Introducing in-place updates and chained upgrades",
+    "link": "https://www.cncf.io/blog/2026/02/09/cluster-api-v1-12-introducing-in-place-updates-and-chained-upgrades/",
+    "summary": "Cluster API v1.12では、インプレースアップデートとチェーンアップグレードが導入され、Kubernetesクラスタのライフサイクル管理が宣言的に行えるようになった。",
+    "published": "2026-02-09T12:00:00+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=156240",
+    "title": "Dragonfly v2.4.0 is released",
+    "link": "https://www.cncf.io/blog/2026/02/05/dragonfly-v2-4-0-is-released/",
+    "summary": "Dragonfly v2.4.0がリリースされ、ロードアウェアスケジューリングアルゴリズムなどの新機能と機能強化が追加された。",
+    "published": "2026-02-06T00:00:00+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=156235",
+    "title": "Conversing with Large Language Models using Dapr",
+    "link": "https://www.cncf.io/blog/2026/02/04/conversing-with-large-language-models-using-dapr/",
+    "summary": "分散アプリケーションランタイム（Dapr）を使用して大規模言語モデルと対話する方法について解説している。",
+    "published": "2026-02-04T20:51:48+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157204",
+    "title": "CNCF celebrates successful mentees from LFX Mentorship 2025 Term 3",
+    "link": "https://www.cncf.io/blog/2026/02/04/cncf-celebrates-successful-mentees-from-lfx-mentorship-2025-term-3/",
+    "summary": "CNCFは、LFXメンターシッププログラム2025年第3期を成功裏に完了したメンティーたちを祝福している。",
+    "published": "2026-02-04T11:52:18+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=157153",
+    "title": "The Best of KubeCon + CloudNativeCon: Watch the video!",
+    "link": "https://www.cncf.io/blog/2026/02/03/the-best-of-kubecon-cloudnativecon-watch-the-video/",
+    "summary": "KubeCon + CloudNativeConのエネルギー、参加者、コミュニティを称える動画が公開された。",
+    "published": "2026-02-03T12:45:33+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=155812",
+    "title": "OpenTelemetry Collector vs agent: How to choose the right telemetry approach",
+    "link": "https://www.cncf.io/blog/2026/02/02/opentelemetry-collector-vs-agent-how-to-choose-the-right-telemetry-approach/",
+    "summary": "OpenTelemetry Collectorとエージェントの選択について、クラウドネイティブアーキテクチャの成熟に伴い、オブザーバビリティが重要になっているという記事。",
+    "published": "2026-02-02T12:00:00+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.cncf.io/?p=155801",
+    "title": "From global stages to a local landmark: Organizing KCD Sri Lanka 2025",
+    "link": "https://www.cncf.io/blog/2026/01/29/from-global-stages-to-a-local-landmark-organizing-kcd-sri-lanka-2025/",
+    "summary": "KCD Sri Lanka 2025の開催に向けて、主催チームがKubeConイベントに参加し、グローバルなクラウドネイティブコミュニティから学んだ経験についての記事。",
+    "published": "2026-01-29T12:00:00+00:00",
+    "source_name": "CNCF Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "09f94919ce3903ff4b5832c5b74c69e5",
+    "title": "New Era of MySQL Community Engagement",
+    "link": "https://blogs.oracle.com/mysql/new-era-of-mysql-community-engagement",
+    "summary": "MySQLの30周年を記念し、OracleがMySQLに関する重要な最新情報を共有するMySQL Belgian Days in Brusselsについての記事。",
+    "published": "2026-02-12T15:53:33+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-1135944569112521190.post-3254846751505972175",
+    "title": "Wireshark now can decode MySQL X Protocol",
+    "link": "https://databaseblog.myname.nl/2026/02/wireshark-now-can-decode-mysql-x.html",
+    "summary": "WiresharkにMySQL X Protocolの新しいプロトコルデコード機能が追加されたという記事。",
+    "published": "2026-02-08T17:40:00+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "31306ed478da310001f9d7e07447fbfe",
+    "title": "Extending MySQL 8.0 support in MySQL HeatWave",
+    "link": "https://blogs.oracle.com/mysql/extending-mysql-8-0-support-in-mysql-heatwave",
+    "summary": "MySQL HeatWaveにおけるMySQL 8.0のサポートを、EOLを迎える2026年4月以降も延長するという記事。",
+    "published": "2026-02-05T21:48:32+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "4d1a7cb54f582d288da155b026999677",
+    "title": "No More Hidden Changes: How MySQL 9.6 Transforms Foreign Key Management",
+    "link": "https://blogs.oracle.com/mysql/no-more-hidden-changes-how-mysql-9-6-transforms-foreign-key-management",
+    "summary": "MySQL 9.6では、外部キー制約とカスケード処理がInnoDBストレージエンジンではなくSQLエンジンで直接処理されるようになり、データの一貫性が向上します。",
+    "published": "2026-01-30T11:54:51+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.percona.com/blog/?p=104623",
+    "title": "Rebuilding a Replica with MyDumper",
+    "link": "https://www.percona.com/blog/rebuilding-a-replica-with-mydumper/",
+    "summary": "レプリカが破損した場合、MyDumperを使用してマスターからの論理バックアップからレプリカを再構築する方法について解説しています。",
+    "published": "2026-01-29T14:40:22+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "http://askdba.net/?p=2598",
+    "title": "Scoped Vector Search with the MyVector Plugin for MySQL — Part III",
+    "link": "https://askdba.net/2026/01/27/scoped-vector-search-with-the-myvector-plugin-for-mysql-part-iii/",
+    "summary": "MyVectorプラグインを用いたMySQLでのスコープ付きベクトル検索の実践的な利用、クエリプラン、今後の展望について解説するシリーズの最終回です。",
+    "published": "2026-01-27T09:30:00+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.percona.com/blog/?p=104520",
+    "title": "Separating FUD and Reality: Has MySQL Really Been Abandoned?",
+    "link": "https://www.percona.com/blog/separating-fud-and-reality-has-mysql-really-been-abandoned/",
+    "summary": "MySQLの開発がOracleによって放棄されたという噂に対し、GitHubのコミットグラフなどを元にその真偽を検証しています。",
+    "published": "2026-01-22T14:34:53+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://lefred.be/?p=8573",
+    "title": "Native Password Legacy for 9.6",
+    "link": "https://lefred.be/content/native-password-legacy-for-9-6/",
+    "summary": "最新のMySQL Innovation 9.6を旧アプリケーションでテストしたいユーザー向けに、古い認証メソッドをサポートするレガシー認証プラグインのRPMを提供しています。",
+    "published": "2026-01-22T09:55:06+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "f92766d39d0da0350ee0a16593db3bad",
+    "title": "Where can you find MySQL during January to April 2026",
+    "link": "https://blogs.oracle.com/mysql/where-can-you-find-mysql-during-january-to-april-2026",
+    "summary": "MySQLは2026年1月から4月にかけて様々なイベントやミートアップに参加予定で、具体的な日程と場所が告知されている。",
+    "published": "2026-01-22T08:15:00+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://www.percona.com/blog/?p=104408",
+    "title": "What Oracle Missed, We Fixed: More Performant Query Processing in Percona Server for MySQL, Part 2",
+    "link": "https://www.percona.com/blog/what-oracle-missed-we-fixed-more-performant-query-processing-in-percona-server-for-mysql-part-2/",
+    "summary": "Percona Server for MySQLは、MySQLのクエリ処理におけるパフォーマンスをさらに向上させるための改善策を導入した。",
+    "published": "2026-01-20T13:21:39+00:00",
+    "source_name": "Planet MySQL",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-1569605132526995799",
+    "title": "Generative AI to quantify uncertainty in weather forecasting",
+    "link": "http://blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html",
+    "summary": "Google Researchは、生成AIを用いて天気予報の不確実性を定量化する研究に取り組んでいる。",
+    "published": "2024-03-29T18:03:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-1799535679952845079",
+    "title": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
+    "link": "http://blog.research.google/2024/03/autobnn-probabilistic-time-series.html",
+    "summary": "Google Researchは、ベイジアンニューラルネットワークを用いて時系列予測を行うAutoBNNという手法を開発した。",
+    "published": "2024-03-28T20:53:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-7061041222399769838",
+    "title": "Computer-aided diagnosis for lung cancer screening",
+    "link": "http://blog.research.google/2024/03/computer-aided-diagnosis-for-lung.html",
+    "summary": "Google Researchは、肺がん検診におけるコンピューター支援診断技術の開発に取り組んでおり、早期発見による生存率向上を目指している。",
+    "published": "2024-03-20T20:54:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-4615278636568583418",
+    "title": "Using AI to expand global access to reliable flood forecasts",
+    "link": "http://blog.research.google/2024/03/using-ai-to-expand-global-access-to.html",
+    "summary": "AIを活用して、信頼性の高い洪水予測へのグローバルなアクセスを拡大する取り組みについて。",
+    "published": "2024-03-20T16:06:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-520087429457973735",
+    "title": "ScreenAI: A visual language model for UI and visually-situated language understanding",
+    "link": "http://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html",
+    "summary": "UIやインフォグラフィックを理解する視覚言語モデルScreenAIが開発され、人間と機械のインタラクションを促進する。",
+    "published": "2024-03-19T20:15:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-4328167517765145678",
+    "title": "SCIN: A new resource for representative dermatology images",
+    "link": "http://blog.research.google/2024/03/scin-new-resource-for-representative.html",
+    "summary": "多様な皮膚の色調や症状を網羅した、代表的な皮膚科学イメージの新しいリソースSCINが発表された。",
+    "published": "2024-03-19T15:00:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-757976001746578714",
+    "title": "MELON: Reconstructing 3D objects from images with unknown poses",
+    "link": "http://blog.research.google/2024/03/melon-reconstructing-3d-objects-from.html",
+    "summary": "未知のポーズの画像から3Dオブジェクトを再構築するMELONという技術が開発され、コンピュータビジョンの課題を解決する。",
+    "published": "2024-03-18T18:41:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-977556648557231190",
+    "title": "HEAL: A framework for health equity assessment of machine learning performance",
+    "link": "http://blog.research.google/2024/03/heal-framework-for-health-equity.html",
+    "summary": "機械学習の性能における健康格差を評価するためのフレームワークHEALが発表され、医療へのアクセスや治療における不平等に対処する。",
+    "published": "2024-03-15T18:22:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-7868032799856333119",
+    "title": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
+    "link": "http://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html",
+    "summary": "Google Researchは、小規模なスコアラーを用いて大規模なマルチタスク言語モデルの性能を向上させる「Cappy」を発表しました。",
+    "published": "2024-03-14T19:38:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-8474926331452026626.post-6090481872694489715",
+    "title": "Talk like a graph: Encoding graphs for large language models",
+    "link": "http://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html",
+    "summary": "Google Researchは、グラフ構造を大規模言語モデルにエンコードする技術について解説し、オブジェクト間の接続関係を表現するグラフの重要性を示唆しました。",
+    "published": "2024-03-12T21:15:00+00:00",
+    "source_name": "Google AI Blog",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-3941553907430899163.post-6973278117439741537",
+    "title": "Python 3.15.0 alpha 6",
+    "link": "https://pythoninsider.blogspot.com/2026/02/python-3150-alpha-6.html",
+    "summary": "Python 3.15.0 alpha 6が開発者向けに公開され、新機能やバグ修正のテストを目的としています。",
+    "published": "2026-02-11T15:42:00+00:00",
+    "source_name": "Python Insider",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-3941553907430899163.post-3021891016049002155",
+    "title": "Python 3.14.3 and 3.13.12 are now available!",
+    "link": "https://pythoninsider.blogspot.com/2026/02/python-3143-and-31312-are-now-available.html",
+    "summary": "Python 3.14.3と3.13.12がリリースされ、Python 3.14.3には約299件のバグ修正、ビルド改善、ドキュメント変更が含まれています。",
+    "published": "2026-02-03T22:08:00+00:00",
+    "source_name": "Python Insider",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-3941553907430899163.post-6770398946690401432",
+    "title": "Python 3.15.0 alpha 5 (yes, another alpha!)",
+    "link": "https://pythoninsider.blogspot.com/2026/01/python-3150-alpha-5-yes-another-alpha.html",
+    "summary": "Python 3.15.0 alpha 5がリリースされ、これは誤ってビルドされたalpha 4を修正するための追加リリースです。",
+    "published": "2026-01-14T17:38:00+00:00",
+    "source_name": "Python Insider",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-3941553907430899163.post-3486853991373185096",
+    "title": "Python 3.13.10 is now available, too, you know!",
+    "link": "https://pythoninsider.blogspot.com/2025/12/python-31310-is-now-available-too-you.html",
+    "summary": "Python 3.13.10が公開され、バグ修正、ビルド改善、ドキュメント変更など約300件の修正が含まれています。",
+    "published": "2025-12-02T18:50:00+00:00",
+    "source_name": "Python Insider",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-3941553907430899163.post-2990905167420750023",
+    "title": "Python 3.14.1 is now available!",
+    "link": "https://pythoninsider.blogspot.com/2025/12/python-3141-is-now-available.html",
+    "summary": "Python 3.14.1が公開され、バグ修正、ビルド改善、ドキュメント変更など約558件の修正の他、Free-threaded Pythonの公式サポートなどの新機能が含まれています。",
+    "published": "2025-12-02T16:43:00+00:00",
+    "source_name": "Python Insider",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "CBMi1AFBVV95cUxPN2JIaGhMcGhVcEZrekJpN1BaVmtDR2RybFFodkFsMlU1T1owUktYeWdxd3hSSDJIbzZxcUZZX3RtOGJWUkRTUWhxOGdrYU1zTDBUTExyX1RoMmVkV3FtRVpGQlFsc3dDc19YTHBLSnVIVjNmbk80dV9OdFNjVlhfX25JVW0xRHA1Q2VVUURmaUd0NXV4aVdFQjBSVHluUjBKWlBralNhYVRRUXYxTnRlWUV0bkM3TFh0Z25tRl9CUlh2a0Q0ZUczQlB3dW5VTkZtclhwQw",
+    "title": "The Apache Software Foundation Announces New Top-Level Project - GlobeNewswire",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN2JIaGhMcGhVcEZrekJpN1BaVmtDR2RybFFodkFsMlU1T1owUktYeWdxd3hSSDJIbzZxcUZZX3RtOGJWUkRTUWhxOGdrYU1zTDBUTExyX1RoMmVkV3FtRVpGQlFsc3dDc19YTHBLSnVIVjNmbk80dV9OdFNjVlhfX25JVW0xRHA1Q2VVUURmaUd0NXV4aVdFQjBSVHluUjBKWlBralNhYVRRUXYxTnRlWUV0bkM3TFh0Z25tRl9CUlh2a0Q0ZUczQlB3dW5VTkZtclhwQw?oc=5",
+    "summary": "Apache Software Foundationが新たなトップレベルプロジェクトを発表しました。",
+    "published": "2026-02-12T14:00:00+00:00",
+    "source_name": "Google News Cassandra",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/what-is-idempotency-in-redis/",
+    "title": "Idempotency patterns for LLM apps with Redis",
+    "link": "https://redis.io/blog/what-is-idempotency-in-redis/",
+    "summary": "LLM API呼び出し時のネットワークタイムアウトとリトライによって二重課金が発生する問題に対し、Redisを用いた冪等性パターンが紹介されています。",
+    "published": "2026-02-11T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/model-distillation-llm-guide/",
+    "title": "Model distillation for LLMs: A practical guide to smaller, faster AI",
+    "link": "https://redis.io/blog/model-distillation-llm-guide/",
+    "summary": "LLMの推論コストを削減するために、より小さく高速なAIモデルを生成するモデル蒸留の実践的なガイドが解説されています。",
+    "published": "2026-02-11T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/build-smarter-ai-agents-manage-short-term-and-long-term-memory-with-redis/",
+    "title": "How to build AI agents with Redis memory management",
+    "link": "https://redis.io/blog/build-smarter-ai-agents-manage-short-term-and-long-term-memory-with-redis/",
+    "summary": "Redisは、AIエージェント構築におけるメモリ管理の課題を解決するソリューションを提供する。",
+    "published": "2026-02-11T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/what-is-data-matchmaking-fast-pairing/",
+    "title": "What is data matchmaking? Fast pairing at scale",
+    "link": "https://redis.io/blog/what-is-data-matchmaking-fast-pairing/",
+    "summary": "データマッチメイキングは、リアルタイムなインタラクションを可能にし、アプリの応答速度を向上させる技術である。",
+    "published": "2026-02-10T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/redis-achieves-aws-ai-competency/",
+    "title": "Redis achieves AWS AI competency: Powering the next generation of AI applications",
+    "link": "https://redis.io/blog/redis-achieves-aws-ai-competency/",
+    "summary": "RedisはAWS AIコンピテンシーを獲得し、リアルタイムデータアクセスとスケーラビリティで次世代AIアプリケーションを支援する。",
+    "published": "2026-02-10T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/announcing-redis-86-performance-improvements-streams/",
+    "title": "Announcing Redis 8.6: Performance improvements, streams enhancements, new eviction policies, & more",
+    "link": "https://redis.io/blog/announcing-redis-86-performance-improvements-streams/",
+    "summary": "Redis 8.6がリリースされ、パフォーマンス向上、ストリーム機能の強化、新たな削除ポリシーなどが導入された。",
+    "published": "2026-02-10T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/ai-risk-analysis-continuous-monitoring-infrastructure/",
+    "title": "AI risk analysis: Continuous monitoring as critical infrastructure",
+    "link": "https://redis.io/blog/ai-risk-analysis-continuous-monitoring-infrastructure/",
+    "summary": "AIシステムは予測不能なタイミングで劣化し、それによってリスクが生じるため、継続的な監視が重要である。",
+    "published": "2026-02-09T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/saas-semantic-search-intent-beyond-keywords/",
+    "title": "Semantic search for SaaS: When keywords aren't enough",
+    "link": "https://redis.io/blog/saas-semantic-search-intent-beyond-keywords/",
+    "summary": "セマンティック検索は、キーワードだけでなくユーザーの意図を理解し、ベクトル埋め込みやニューラルネットワークを活用して適切な検索結果を提供する。",
+    "published": "2026-02-08T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/best-open-source-vector-databases-comparison/",
+    "title": "Comparing the best open source vector databases",
+    "link": "https://redis.io/blog/best-open-source-vector-databases-comparison/",
+    "summary": "オープンソースのベクトルデータベースには、ベクトル処理に特化したものと、ベクトル検索と運用データを組み合わせた統合プラットフォームの2種類がある。",
+    "published": "2026-02-07T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://redis.io/blog/data-isolation-multi-tenant-saas/",
+    "title": "Data isolation in multi-tenant SaaS environments",
+    "link": "https://redis.io/blog/data-isolation-multi-tenant-saas/",
+    "summary": "マルチテナントSaaS環境では、テナント間のデータ分離が重要であり、データ漏洩は顧客離れにつながる可能性がある。",
+    "published": "2026-02-06T00:00:00+00:00",
+    "source_name": "Redis Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
+    "title": "Spotlight on SIG Architecture: API Governance",
+    "link": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
+    "summary": "KubernetesのSIG Architecture: API Governanceのスポットライトインタビューで、リーダーのJordan Liggitt氏が自身の役割とKubernetesへの関わりについて語っている。",
+    "published": "2026-02-12T00:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
+    "title": "Introducing Node Readiness Controller",
+    "link": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
+    "summary": "Kubernetesプロジェクトは、ノードの準備状態をより細かく管理するためのNode Readiness Controllerを発表し、ノードがワークロードを安全にホストできるようになるまでの依存関係を宣言的に管理するシステムを導入する。",
+    "published": "2026-02-03T02:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
+    "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
+    "link": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
+    "summary": "cgroup v1 CPU sharesからcgroup v2 CPU weightへの変換式が改善され、Kubernetes環境におけるCPU優先度割り当ての問題が解決される。",
+    "published": "2026-01-30T16:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+    "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+    "link": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+    "summary": "Kubernetesの重要なインフラであるIngress NGINXが2026年3月に廃止され、バグ修正やセキュリティパッチなどの更新がなくなるため、早急な対応が必要である。",
+    "published": "2026-01-29T00:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+    "title": "Experimenting with Gateway API using kind",
+    "link": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+    "summary": "kindを使用してGateway APIのローカル実験環境を構築する方法を紹介し、本番環境ではない学習・テスト目的での利用を推奨している。",
+    "published": "2026-01-28T00:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
+    "title": "Headlamp in 2025: Project Highlights",
+    "link": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
+    "summary": "Headlampプロジェクトは2025年に大きく進展し、Kubernetes SIG UIへの参加やプラグインによる機能拡張、コミュニティとの連携強化などが実現した。",
+    "published": "2026-01-22T02:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
+    "title": "Announcing the Checkpoint/Restore Working Group",
+    "link": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
+    "summary": "Kubernetesの新しいワーキンググループとして、Checkpoint/Restore機能の統合に焦点を当てたCheckpoint Restore WGが発足した。",
+    "published": "2026-01-21T18:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
+    "title": "Uniform API server access using clientcmd",
+    "link": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
+    "summary": "`clientcmd`ライブラリを使うことで、Kubernetes APIクライアントをkubectlのプラグインのように実装できる。",
+    "published": "2026-01-19T18:00:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
+    "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+    "link": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
+    "summary": "kubectlはkubeconfigの`exec`プラグインを通じて任意の実行ファイルを実行可能であり、Go 1.35ではこれを制限するallowListがkubercに追加された。",
+    "published": "2026-01-09T18:30:00+00:00",
+    "source_name": "Kubernetes Blog",
+    "category": "Infrastructure",
+    "category_ja": "インフラ"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
+    "title": "Go 1.26 is released",
+    "link": "https://go.dev/blog/go1.26",
+    "summary": "Go 1.26がリリースされ、新しいガベージコレクタやSIMD関連の実験的パッケージなどが追加された。",
+    "published": "2026-02-10T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/survey2025",
+    "title": "Results from the 2025 Go Developer Survey",
+    "link": "https://go.dev/blog/survey2025",
+    "summary": "2025年のGo開発者調査の結果が発表され、Goに対する感情や利用状況、課題などが明らかになった。",
+    "published": "2026-01-21T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/16years",
+    "title": "Go’s Sweet 16",
+    "link": "https://go.dev/blog/16years",
+    "summary": "Go言語が16周年を迎え、誕生日を祝う記事。",
+    "published": "2025-11-14T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/greenteagc",
+    "title": "The Green Tea Garbage Collector",
+    "link": "https://go.dev/blog/greenteagc",
+    "summary": "Go 1.25に、実験的な新しいガベージコレクタ「Green Tea」が導入された。",
+    "published": "2025-10-29T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/flight-recorder",
+    "title": "Flight Recorder in Go 1.25",
+    "link": "https://go.dev/blog/flight-recorder",
+    "summary": "Go 1.25では、診断ツールとしてフライトレコーディングが利用可能になった。",
+    "published": "2025-09-26T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/survey2025-announce",
+    "title": "It's survey time! How has Go has been working out for you?",
+    "link": "https://go.dev/blog/survey2025-announce",
+    "summary": "Goの将来を形作るために、Goに関するアンケートが実施されている。",
+    "published": "2025-09-16T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/jsonv2-exp",
+    "title": "A new experimental Go API for JSON",
+    "link": "https://go.dev/blog/jsonv2-exp",
+    "summary": "Go 1.25では、JSON処理のための新しい実験的なAPIが導入された。",
+    "published": "2025-09-09T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/testing-time",
+    "title": "Testing Time (and other asynchronicities)",
+    "link": "https://go.dev/blog/testing-time",
+    "summary": "非同期コードのテストに関する議論と、`testing/synctest`パッケージの解説が行われている。",
+    "published": "2025-08-26T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "tag:blog.golang.org,2013:blog.golang.org/container-aware-gomaxprocs",
+    "title": "Container-aware GOMAXPROCS",
+    "link": "https://go.dev/blog/container-aware-gomaxprocs",
+    "summary": "Go 1.25では、コンテナ環境におけるGOMAXPROCSのデフォルト値が改善され、より適切な動作が期待される。",
+    "published": "2025-08-20T00:00:00+00:00",
+    "source_name": "Go Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+    "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+    "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+    "summary": "ゴールドマン・サックスは、2023年第4四半期のデータに基づき、中国の経常収支黒字の2026年予測を上方修正した。",
+    "published": "2026-02-15T05:01:18+00:00",
+    "source_name": "Bloomberg Markets",
+    "category": "Economy & Finance",
+    "category_ja": "経済・金融"
+  },
+  {
+    "id": "4870366",
+    "title": "Short-Term Energy Outlook: February 2026",
+    "link": "https://seekingalpha.com/article/4870366-short-term-energy-outlook-february-2026?source=feed_all_articles",
+    "summary": "(概要なし)",
+    "published": "2026-02-15T05:30:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4867576",
+    "title": "Politics And The Markets 02/15/26",
+    "link": "https://seekingalpha.com/article/4867576-politics-and-the-markets-021526?source=feed_all_articles",
+    "summary": "(概要なし)",
+    "published": "2026-02-15T05:00:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "tech-media-telecom-roundup-market-talk-3a8de879?siteid=yhoof2&yptr=yahoo",
+    "title": "Tech, Media & Telecom Roundup: Market Talk",
+    "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-3a8de879?siteid=yhoof2&yptr=yahoo",
+    "summary": "(概要なし)",
+    "published": "2026-02-13T21:58:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "Stock Market Today: Dow Ends Choppy Session Higher, Nasdaq Slips; Travel Name Falls Again (Live Coverage)",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-draftkings-dkng/?src=A00220&yptr=yahoo",
+    "summary": "ダウは不安定なセッションを終え上昇、ナスダックは下落し、旅行関連銘柄が再び値を下げた。",
+    "published": "2026-02-13T21:58:08+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "experian-launches-savings-account-members-215324706.html",
+    "title": "Experian launches savings account for its members",
+    "link": "https://finance.yahoo.com/news/experian-launches-savings-account-members-215324706.html",
+    "summary": "Experianは、会員向けに貯蓄口座の提供を開始した。",
+    "published": "2026-02-13T21:53:24+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "How A Value Play Like Costco Stock Became A Swing Trade",
+    "link": "https://www.investors.com/research/swing-trading/costco-stock-became-a-swing-trade/?src=A00220&yptr=yahoo",
+    "summary": "コストコ株のようなバリュー株が、どのようにスイングトレードの対象となったのかを解説している。",
+    "published": "2026-02-13T21:49:19+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "tl-carrier-pamt-corp-posts-221105658.html",
+    "title": "TL carrier Pamt posts Q4 loss",
+    "link": "https://finance.yahoo.com/news/tl-carrier-pamt-corp-posts-221105658.html",
+    "summary": "大手トラック運送会社Pam Transport (Pamt)は、第4四半期に損失を計上した。",
+    "published": "2026-02-13T22:11:05+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "basic-materials-roundup-market-talk-598ce964?siteid=yhoof2&yptr=yahoo",
+    "title": "Basic Materials Roundup: Market Talk",
+    "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-598ce964?siteid=yhoof2&yptr=yahoo",
+    "summary": "素材関連市場に関するまとめ記事。",
+    "published": "2026-02-13T21:58:00+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "paramount-taps-ex-trump-official-221159445.html",
+    "title": "Paramount taps ex-Trump official as public policy VP amid Warner Bros bid",
+    "link": "https://finance.yahoo.com/news/paramount-taps-ex-trump-official-221159445.html",
+    "summary": "パラマウントは、ワーナー・ブラザースによる買収提案の最中、トランプ政権の元高官を公共政策担当副社長として起用した。",
+    "published": "2026-02-13T22:11:59+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "DraftKings Tanks On Q4 Results; Cathie Wood Unloads More Shares",
+    "link": "https://www.investors.com/news/draftkings-stock-q4-2025-earnings-cathie-wood-ark-prediction-markets/?src=A00220&yptr=yahoo",
+    "summary": "DraftKingsは第4四半期の業績不振により株価が下落し、キャシー・ウッド氏はさらに多くの株式を売却した。",
+    "published": "2026-02-13T21:42:36+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "?src=A00220&yptr=yahoo",
+    "title": "Coinbase Scores Q4 Miss. Here's Why Shares Are Rebounding.",
+    "link": "https://www.investors.com/news/coinbase-earnings-q4-2025-coin-stock-bitcoin-clarity-act-stablecoin-prediction-markets/?src=A00220&yptr=yahoo",
+    "summary": "Coinbaseは第4四半期決算で市場予想を下回ったものの、株価は反発している。",
+    "published": "2026-02-13T21:37:34+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMia0FVX3lxTE5qRFctV1otMk4wd3ZFQnFNd1JyNFp1LVRiMS1ZQ19NSXN2cnlkaU8xdDlFUFJUdmhyc0laelRWendnQXk0eEFsWmJKbUJJbS01bG4zTmJLVnpSN0M0RFptTGhvQUFLaTRPZGYw",
+    "title": "Is SOLV on track to beat earnings - Weekly Trade Analysis & Weekly Setup with High ROI Potential - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qRFctV1otMk4wd3ZFQnFNd1JyNFp1LVRiMS1ZQ19NSXN2cnlkaU8xdDlFUFJUdmhyc0laelRWendnQXk0eEFsWmJKbUJJbS01bG4zTmJLVnpSN0M0RFptTGhvQUFLaTRPZGYw?oc=5",
+    "summary": "SOLVは、収益予想を上回る軌道に乗っている可能性がある。",
+    "published": "2026-02-15T03:15:32+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://vercel.com/changelog/stale-if-error-cache-control-header-is-now-supported",
+    "title": "Stale-if-error cache-control directive now supported for all responses",
+    "link": "https://vercel.com/changelog/stale-if-error-cache-control-header-is-now-supported",
+    "summary": "Vercel CDNがstale-if-error cache-controlディレクティブをサポートし、オリジンのエラー発生時にキャッシュされた古いレスポンスを提供することで、より柔軟なキャッシュ動作を可能にした。",
+    "published": "2026-02-13T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/browserbase-joins-the-vercel-agent-marketplace",
+    "title": "Browserbase joins the Vercel Agent Marketplace",
+    "link": "https://vercel.com/changelog/browserbase-joins-the-vercel-agent-marketplace",
+    "summary": "BrowserbaseがVercel Marketplaceに登場し、インフラ管理なしでAIエージェントのブラウザ自動化が可能になった。",
+    "published": "2026-02-12T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/use-minimax-m2-5-on-ai-gateway",
+    "title": "Use MiniMax M2.5 on AI Gateway",
+    "link": "https://vercel.com/changelog/use-minimax-m2-5-on-ai-gateway",
+    "summary": "AI GatewayでMiniMax M2.5が利用可能になり、Web、Android、iOSなどフルスタックプロジェクトの開発ライフサイクル全体をカバーできる。",
+    "published": "2026-02-12T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/new-deployments-with-vulnerable-versions-of-next-mdx-remote-are-now-blocked-by-default",
+    "title": "New deployments with vulnerable versions of the third-party package next-mdx-remote are now blocked by default",
+    "link": "https://vercel.com/changelog/new-deployments-with-vulnerable-versions-of-next-mdx-remote-are-now-blocked-by-default",
+    "summary": "脆弱性のあるサードパーティパッケージnext-mdx-remoteを含む新規デプロイメントは、Vercelでデフォルトでブロックされるようになった。",
+    "published": "2026-02-12T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/glm-5-is-live-on-ai-gateway",
+    "title": "GLM-5 is live on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-is-live-on-ai-gateway",
+    "summary": "AI Gatewayを通じてGLM-5が利用可能になり、複数の思考モード、長期計画、複雑なタスク処理が改善された。",
+    "published": "2026-02-11T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/advanced-egress-firewall-filtering-for-vercel-sandbox",
+    "title": "Advanced egress firewall filtering for Vercel Sandbox",
+    "link": "https://vercel.com/changelog/advanced-egress-firewall-filtering-for-vercel-sandbox",
+    "summary": "Vercel Sandboxに高度な出力ファイアウォールフィルタリングが追加され、SNIフィルタリングとCIDRブロックでサンドボックスからのネットワークアクセスを制御できるようになった。",
+    "published": "2026-02-11T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/vercel-flags-is-now-in-public-beta",
+    "title": "Vercel Flags is now in public beta",
+    "link": "https://vercel.com/changelog/vercel-flags-is-now-in-public-beta",
+    "summary": "Vercel Flagsがパブリックベータになり、Vercelダッシュボードでフィーチャーフラグの作成・管理が可能になった。",
+    "published": "2026-02-11T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/sign-in-with-apple-support",
+    "title": "Support for Sign in with Apple",
+    "link": "https://vercel.com/changelog/sign-in-with-apple-support",
+    "summary": "Apple IDでのサインインに対応し、Appleアカウントを持つユーザーはより迅速にアクセスできるようになった。",
+    "published": "2026-02-10T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/vercel-logs-cli-command-now-optimized-for-agents-with-historical-log",
+    "title": "vercel logs CLI command now optimized for agents with historical log querying",
+    "link": "https://vercel.com/changelog/vercel-logs-cli-command-now-optimized-for-agents-with-historical-log",
+    "summary": "`vercel logs` コマンドが再構築され、プロジェクト、デプロイメントIDなどの条件で過去のログを検索できるようになった。",
+    "published": "2026-02-10T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
+  },
+  {
+    "id": "https://vercel.com/changelog/agents-can-now-access-runtime-logs-with-vercels-mcp-server",
+    "title": "Agents can now access runtime logs with Vercel's MCP server",
+    "link": "https://vercel.com/changelog/agents-can-now-access-runtime-logs-with-vercels-mcp-server",
+    "summary": "エージェントがVercelのMCPサーバーを通じて、プロジェクトまたはデプロイメントのランタイムログにアクセスできるようになった。",
+    "published": "2026-02-10T13:00:00+00:00",
+    "source_name": "Vercel Blog",
+    "category": "Languages & Frameworks",
+    "category_ja": "言語・フレームワーク"
   }
 ]
