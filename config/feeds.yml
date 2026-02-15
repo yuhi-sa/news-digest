@@ -19,6 +19,36 @@ categories:
       - name: "MIT Technology Review"
         url: "https://www.technologyreview.com/feed/"
 
+  - name: "Languages & Frameworks"
+    label_ja: "言語・フレームワーク"
+    feeds:
+      - name: "Vercel Blog"
+        url: "https://vercel.com/atom"
+      - name: "TypeScript Blog"
+        url: "https://devblogs.microsoft.com/typescript/feed/"
+      - name: "Go Blog"
+        url: "https://go.dev/blog/feed.atom"
+      - name: "Python Insider"
+        url: "https://blog.python.org/feeds/posts/default"
+      - name: "Google News Spark/PySpark"
+        url: "https://news.google.com/rss/search?q=when:7d+Apache+Spark+OR+PySpark&ceid=US:en&hl=en-US&gl=US"
+
+  - name: "Infrastructure"
+    label_ja: "インフラ"
+    feeds:
+      - name: "Kubernetes Blog"
+        url: "https://kubernetes.io/feed.xml"
+      - name: "CNCF Blog"
+        url: "https://www.cncf.io/blog/feed/"
+      - name: "Google News Kafka"
+        url: "https://news.google.com/rss/search?q=when:7d+Apache+Kafka+OR+Confluent+Kafka&ceid=US:en&hl=en-US&gl=US"
+      - name: "Planet MySQL"
+        url: "https://planet.mysql.com/rss20.xml"
+      - name: "Redis Blog"
+        url: "https://redis.io/blog/feed/"
+      - name: "Google News Cassandra"
+        url: "https://news.google.com/rss/search?q=when:7d+Apache+Cassandra+database&ceid=US:en&hl=en-US&gl=US"
+
   - name: "Data Engineering"
     label_ja: "データエンジニアリング"
     feeds:
