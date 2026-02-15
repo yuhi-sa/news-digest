@@ -1,1 +1,278 @@
-{}
+{
+  "//bloomberg.com/news/articles/2026-02-14/boe-on-knife-edge-over-rates-awaits-pivotal-uk-inflation-data": {
+    "title": "BOE on Knife Edge Over Rates Awaits Pivotal UK Inflation Data",
+    "seen_at": "2026-02-15T04:34:56.272304+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/peru-s-sovereignty-not-at-risk-with-chinese-port-minister-says": {
+    "title": "Peru’s Sovereignty Not at Risk With Chinese Port, Minister Says",
+    "seen_at": "2026-02-15T04:34:56.272587+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal": {
+    "title": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal",
+    "seen_at": "2026-02-15T04:34:56.272939+00:00"
+  },
+  "//bloomberg.com/news/features/2026-02-14/beef-prices-are-rising-more-than-inflation-this-year-with-no-relief-seen": {
+    "title": "America’s Vanishing Cattle Herd Drives 15% Price Hikes for Beef",
+    "seen_at": "2026-02-15T04:34:56.273431+00:00"
+  },
+  "//bloomberg.com/news/newsletters/2026-02-14/ai-battle-turbocharged-by-50-power-demand-surge-new-economy": {
+    "title": "Global AI Battle Turbocharged by 50% Power Demand Surge",
+    "seen_at": "2026-02-15T04:34:56.274059+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/world-economy-latest-us-jobs-inflation-send-mixed-signals-for-fed": {
+    "title": "Charting the Global Economy: US Jobs, Inflation Send Mixed Signals for Fed",
+    "seen_at": "2026-02-15T04:34:56.274926+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/china-unveils-permanent-rural-finance-framework-eases-risk-rule": {
+    "title": "China Unveils Permanent Rural Finance Framework, Eases Risk Rule",
+    "seen_at": "2026-02-15T04:34:56.275918+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/imf-says-thai-fiscal-support-rate-cut-needed-for-tepid-economy": {
+    "title": "IMF Says Thai Fiscal Support, Rate Cut Needed For Tepid Economy",
+    "seen_at": "2026-02-15T04:34:56.277096+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-02-14/friedrichshafen-und-zf-video": {
+    "title": "Friedrichshafen und ZF",
+    "seen_at": "2026-02-15T04:34:56.277630+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-13/fed-s-goolsbee-says-more-cuts-hinge-on-inflation-heading-to-2": {
+    "title": "Fed’s Goolsbee Says More Cuts Hinge on Inflation Heading to 2%",
+    "seen_at": "2026-02-15T04:34:56.278798+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes": {
+    "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+    "seen_at": "2026-02-15T04:34:56.280377+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm": {
+    "title": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm",
+    "seen_at": "2026-02-15T04:34:56.282151+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-12/the-legal-weed-business-is-booming-bank-access-isn-t": {
+    "title": "The Legal Weed Business Is Booming. Bank Access Isn’t",
+    "seen_at": "2026-02-15T04:34:56.283829+00:00"
+  },
+  "//bloomberg.com/news/articles/2026-02-14/ai-bubble-fears-are-creating-new-derivatives-credit-weekly": {
+    "title": "AI Bubble Fears Are Creating New Derivatives",
+    "seen_at": "2026-02-15T04:34:56.285393+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video": {
+    "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+    "seen_at": "2026-02-15T04:34:56.287212+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-02-14/starmer-speaks-at-msc-on-independence-from-the-us-video": {
+    "title": "Starmer Speaks at MSC, on Independence From the US",
+    "seen_at": "2026-02-15T04:34:56.288923+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-02-14/is-trump-s-manufacturing-comeback-real-video": {
+    "title": "Is Trump’s Manufacturing Comeback Real?",
+    "seen_at": "2026-02-15T04:34:56.290462+00:00"
+  },
+  "//bloomberg.com/news/videos/2026-02-14/us-senator-slotkin-speaks-on-us-relationship-with-europe-video": {
+    "title": "US Senator Slotkin Speaks on US Relationship with Europe",
+    "seen_at": "2026-02-15T04:34:56.292617+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiygFBVV95cUxPSVdmU1YtU0hWN0VWbHNLVlR1cHZXb3F5b1FZOFM5ZHZFMlVUa3BEZjFBQTZSODg4ejVmZVBMbjRpVXlUOGVIazJPb1Mwcjd2aEVmOXFGNXFwUDl0WndDb2VMM2pUMGdkV3F1SjNRZlByX2FmVUZROW9LODZnTVNjZGRwVmdzN1Rpdm1IbGxBVmxFbkZvSWVUZ3V3dnpoODl1OS1ONEZ1QmM2SXVEemJpU2RZVW1Bb0gwOFpCS0paN2l3c2ZUbkVvNzRB?oc=5": {
+    "title": "Bangladesh's incoming prime minister puts restoring economy and governance first - Reuters",
+    "seen_at": "2026-02-15T04:34:56.296029+00:00"
+  },
+  "//investing.com/news/economy-news/ecb-makes-euro-backstop-global-to-bolster-currencys-role-4507256": {
+    "title": "ECB makes euro backstop global to bolster currency’s role",
+    "seen_at": "2026-02-15T04:34:56.302159+00:00"
+  },
+  "//investing.com/news/economy-news/factboxecb-opens-up-euro-lifeline-in-bid-to-boost-global-role-4507257": {
+    "title": "Factbox-ECB opens up euro lifeline in bid to boost global role",
+    "seen_at": "2026-02-15T04:34:56.305024+00:00"
+  },
+  "//investing.com/news/economy-news/ukraine-imf-ease-conditions-on-new-82-billion-loan-program-4507237": {
+    "title": "Ukraine, IMF ease conditions on new $8.2 billion loan program",
+    "seen_at": "2026-02-15T04:34:56.308214+00:00"
+  },
+  "//investing.com/news/economy-news/courts-have-ruled-4400-times-that-ice-jailed-people-illegally-it-hasnt-stopped-4507235": {
+    "title": "Courts have ruled 4,400 times that ICE jailed people illegally. It hasn’t stopped",
+    "seen_at": "2026-02-15T04:34:56.311990+00:00"
+  },
+  "//investing.com/news/economy-news/what-are-the-implications-of-a-shrinking-fed-balance-sheet-4494164": {
+    "title": "What are the implications of a shrinking Fed balance sheet?",
+    "seen_at": "2026-02-15T04:34:56.315287+00:00"
+  },
+  "//investing.com/news/economy-news/top-3-ai-takeaways-from-web-summit-in-doha-4493554": {
+    "title": "Top 3 AI takeaways from Web Summit in Doha",
+    "seen_at": "2026-02-15T04:34:56.317976+00:00"
+  },
+  "//investing.com/news/economy-news/trump-administration-sued-for-attempted-overhaul-of-public-golf-course-in-washington-4507104": {
+    "title": "Trump administration sued for attempted overhaul of public golf course in Washington",
+    "seen_at": "2026-02-15T04:34:56.322220+00:00"
+  },
+  "//investing.com/news/economy-news/anduril-discusses-new-funding-at-60-billionplus-valuation-the-information-reports-4507049": {
+    "title": "Anduril discusses new funding at $60 billion-plus valuation, The Information reports",
+    "seen_at": "2026-02-15T04:34:56.326857+00:00"
+  },
+  "//investing.com/news/economy-news/swift-home-trademark-abandoned-after-taylor-swift-opposition-4507019": {
+    "title": "’Swift Home’ trademark abandoned after Taylor Swift opposition",
+    "seen_at": "2026-02-15T04:34:56.330726+00:00"
+  },
+  "//investing.com/news/economy-news/cubans-turn-to-electric-vehicles-as-us-tightens-oil-blockade-4507016": {
+    "title": "Cubans turn to electric vehicles as US tightens oil blockade",
+    "seen_at": "2026-02-15T04:34:56.334859+00:00"
+  },
+  "//newpipe.net": {
+    "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
+    "seen_at": "2026-02-15T04:34:56.339761+00:00"
+  },
+  "//mrdoob.github.io/three-descent": {
+    "title": "Descent, ported to the web",
+    "seen_at": "2026-02-15T04:34:56.341983+00:00"
+  },
+  "//niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns": {
+    "title": "News publishers limit Internet Archive access due to AI scraping concerns",
+    "seen_at": "2026-02-15T04:34:56.347435+00:00"
+  },
+  "//github.com/i5heu/ublock-hide-yt-shorts": {
+    "title": "uBlock filter list to hide all YouTube Shorts",
+    "seen_at": "2026-02-15T04:34:56.351076+00:00"
+  },
+  "//github.com/davidgiven/ack": {
+    "title": "Amsterdam Compiler Kit",
+    "seen_at": "2026-02-15T04:34:56.353228+00:00"
+  },
+  "//aimilios.bearblog.dev/reverse-engineering-sleep-mask": {
+    "title": "My smart sleep mask broadcasts users' brainwaves to an open MQTT broker",
+    "seen_at": "2026-02-15T04:34:56.358926+00:00"
+  },
+  "//github.com/datavorous/sameshi": {
+    "title": "Show HN: Sameshi – a ~1200 Elo chess engine that fits within 2KB",
+    "seen_at": "2026-02-15T04:34:56.364108+00:00"
+  },
+  "//ooh.directory": {
+    "title": "Ooh.directory: a place to find good blogs that interest you",
+    "seen_at": "2026-02-15T04:34:56.369141+00:00"
+  },
+  "//github.com/PulseBeat02/yt-media-storage": {
+    "title": "YouTube as Storage",
+    "seen_at": "2026-02-15T04:34:56.371141+00:00"
+  },
+  "//latent.space/p/ainews-why-openai-should-build-slack": {
+    "title": "OpenAI should build Slack",
+    "seen_at": "2026-02-15T04:34:56.373664+00:00"
+  },
+  "//spectrum.ieee.org/chatgpt-translate-skills-human-comparison": {
+    "title": "ChatGPT’s Translation Skills Parallel Most Human Translators",
+    "seen_at": "2026-02-15T04:34:56.379146+00:00"
+  },
+  "//spectrum.ieee.org/moltbook-agentic-ai-agents-openclaw": {
+    "title": "The First Social Network for AI Agents Heralds Their Messy Future",
+    "seen_at": "2026-02-15T04:34:56.385237+00:00"
+  },
+  "//spectrum.ieee.org/ai-companion-harm-benefit": {
+    "title": "How Can AI Companions Be Helpful, not Harmful?",
+    "seen_at": "2026-02-15T04:34:56.389761+00:00"
+  },
+  "//spectrum.ieee.org/ai-companion-relationships": {
+    "title": "How Do You Define an AI Companion?",
+    "seen_at": "2026-02-15T04:34:56.393588+00:00"
+  },
+  "//spectrum.ieee.org/dram-shortage": {
+    "title": "How and When the Memory Chip Shortage Will End",
+    "seen_at": "2026-02-15T04:34:56.398478+00:00"
+  },
+  "//spectrum.ieee.org/ai-and-memory-wall": {
+    "title": "New Devices Might Scale the Memory Wall",
+    "seen_at": "2026-02-15T04:34:56.402933+00:00"
+  },
+  "//spectrum.ieee.org/alphagenome-ai-gene-regulation": {
+    "title": "AlphaGenome Deciphers Non-Coding DNA for Gene Regulation",
+    "seen_at": "2026-02-15T04:34:56.408523+00:00"
+  },
+  "//spectrum.ieee.org/particle-physics-ai": {
+    "title": "AI Hunts for the Next Big Thing in Physics",
+    "seen_at": "2026-02-15T04:34:56.415425+00:00"
+  },
+  "//spectrum.ieee.org/ai-model-regulation": {
+    "title": "Don’t Regulate AI Models. Regulate AI Use",
+    "seen_at": "2026-02-15T04:34:56.420286+00:00"
+  },
+  "//spectrum.ieee.org/ai-agent-benchmarks": {
+    "title": "When Will AI Agents Be Ready for Autonomous Business Operations?",
+    "seen_at": "2026-02-15T04:34:56.427295+00:00"
+  },
+  "//arstechnica.com/space/2026/02/nasa-chief-vows-to-solve-sls-rocket-fueling-issues-before-artemis-iii": {
+    "title": "NASA has a new problem to fix before the next Artemis II countdown test",
+    "seen_at": "2026-02-15T04:34:56.435195+00:00"
+  },
+  "//arstechnica.com/culture/2026/02/a-valentines-day-homage-to-crouching-tiger-hidden-dragon": {
+    "title": "A Valentine's Day homage to Crouching Tiger, Hidden Dragon",
+    "seen_at": "2026-02-15T04:34:56.441809+00:00"
+  },
+  "//arstechnica.com/science/2026/02/astronomers-are-filling-in-the-blanks-of-the-kuiper-belt": {
+    "title": "Astronomers are filling in the blanks of the Kuiper Belt",
+    "seen_at": "2026-02-15T04:34:56.448552+00:00"
+  },
+  "//arstechnica.com/health/2026/02/who-slams-us-funded-newborn-vaccine-trial-as-unethical": {
+    "title": "WHO slams US-funded newborn vaccine trial as \"unethical\"",
+    "seen_at": "2026-02-15T04:34:56.455187+00:00"
+  },
+  "//arstechnica.com/tech-policy/2026/02/santa-monica-deploys-ai-powered-parking-cameras-to-protect-bike-lanes": {
+    "title": "Aided by AI, California beach town broadens hunt for bike lane blockers",
+    "seen_at": "2026-02-15T04:34:56.463939+00:00"
+  },
+  "//arstechnica.com/tech-policy/2026/02/verizon-makes-customers-wait-35-days-to-unlock-fully-paid-off-phones": {
+    "title": "Verizon imposes new roadblock on users trying to unlock paid-off phones",
+    "seen_at": "2026-02-15T04:34:56.472244+00:00"
+  },
+  "//arstechnica.com/tech-policy/2026/02/after-creepy-super-bowl-ad-sparks-outrage-ring-abandons-flock-deal": {
+    "title": "Ring cancels Flock deal after dystopian Super Bowl ad prompts mass outrage",
+    "seen_at": "2026-02-15T04:34:56.480847+00:00"
+  },
+  "//arstechnica.com/gadgets/2026/02/the-first-android-17-beta-is-now-available-on-pixel-devices": {
+    "title": "The first Android 17 beta is now available on Pixel devices",
+    "seen_at": "2026-02-15T04:34:56.488325+00:00"
+  },
+  "//arstechnica.com/culture/2026/02/1-8-million-mst3k-kickstarter-brings-in-almost-everyone-from-the-old-show": {
+    "title": "$1.8 million MST3K Kickstarter brings in (almost) everyone from the old show",
+    "seen_at": "2026-02-15T04:34:56.497003+00:00"
+  },
+  "//arstechnica.com/science/2026/02/researchers-find-small-rnas-that-can-make-copies-of-themselves": {
+    "title": "Tiny, 45 base long RNA can make copies of itself",
+    "seen_at": "2026-02-15T04:34:56.503854+00:00"
+  },
+  "//technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing": {
+    "title": "ALS stole this musician’s voice. AI let him sing again.",
+    "seen_at": "2026-02-15T04:34:56.511413+00:00"
+  },
+  "//technologyreview.com/2026/02/13/1132896/the-download-an-exclusive-chat-with-jim-oneill-and-the-surprising-truth-about-heists": {
+    "title": "The Download: an exclusive chat with Jim O’Neill, and the surprising truth about heists",
+    "seen_at": "2026-02-15T04:34:56.522987+00:00"
+  },
+  "//technologyreview.com/2026/02/13/1132397/myth-of-high-tech-heist": {
+    "title": "The myth of the high-tech heist",
+    "seen_at": "2026-02-15T04:34:56.528015+00:00"
+  },
+  "//technologyreview.com/2026/02/13/1132889/us-deputy-health-secretary-vaccine-guidelines-longevity-arpa-h-cdc-nih": {
+    "title": "US deputy health secretary: Vaccine guidelines are still subject to change",
+    "seen_at": "2026-02-15T04:34:56.537924+00:00"
+  },
+  "//technologyreview.com/2026/02/13/1132848/rfk-jr-carnivore-diet-maha-social-media": {
+    "title": "RFK Jr. follows a carnivore diet. That doesn’t mean you should.",
+    "seen_at": "2026-02-15T04:34:56.547131+00:00"
+  },
+  "//technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants": {
+    "title": "The Download: AI-enhanced cybercrime, and secure AI assistants",
+    "seen_at": "2026-02-15T04:34:56.556453+00:00"
+  },
+  "//technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier": {
+    "title": "AI is already making online crimes easier. It could get much worse.",
+    "seen_at": "2026-02-15T04:34:56.566971+00:00"
+  },
+  "//technologyreview.com/2026/02/12/1132790/evs-progress-africa": {
+    "title": "Why EVs are gaining ground in Africa",
+    "seen_at": "2026-02-15T04:34:56.572928+00:00"
+  },
+  "//technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai": {
+    "title": "What’s next for Chinese open-source AI",
+    "seen_at": "2026-02-15T04:34:56.579276+00:00"
+  },
+  "//technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible": {
+    "title": "Is a secure AI assistant possible?",
+    "seen_at": "2026-02-15T04:34:56.585649+00:00"
+  }
+}
