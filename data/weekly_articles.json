@@ -688,5 +688,1695 @@
     "source_name": "MIT Technology Review",
     "category": "Engineering & Technology",
     "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://www.databricks.com/blog/getting-full-picture-unifying-databricks-and-cloud-infrastructure-costs",
+    "title": "Getting the Full Picture: Unifying Databricks and Cloud Infrastructure Costs",
+    "link": "https://www.databricks.com/blog/getting-full-picture-unifying-databricks-and-cloud-infrastructure-costs",
+    "summary": "DatabricksのTotal Cost of Ownership（TCO）を把握し、AIおよびデータ投資の価値を理解するための情報。",
+    "published": "2026-02-12T22:00:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "title": "Domain Intelligence Wins: What “High-Quality” Actually Means in Production AI",
+    "link": "https://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "summary": "生成AIを実用段階に移行する上で、高品質なAIの実現におけるドメイン知識の重要性について。",
+    "published": "2026-02-12T17:00:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
+    "title": "AI/BI Genie, Foundational Model API, and Databricks Assistant Now Generally Available in AWS GovCloud",
+    "link": "https://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
+    "summary": "AWS GovCloudでAI/BI Genie、Foundational Model API、Databricks Assistantが一般提供開始され、政府機関などが利用可能に。",
+    "published": "2026-02-12T07:00:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/collaboration-advantage-how-modern-retailers-and-cpg-brands-win-together",
+    "title": "The Collaboration Advantage: How Modern Retailers and CPG Brands Win Together",
+    "link": "https://www.databricks.com/blog/collaboration-advantage-how-modern-retailers-and-cpg-brands-win-together",
+    "summary": "最新の小売業者とCPGブランドが協力することで成功を収める方法について、事例を交えて解説。",
+    "published": "2026-02-12T00:45:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/whats-new-aibi-february-2026-roundup",
+    "title": "What’s New in AI/BI - February 2026 Roundup",
+    "link": "https://www.databricks.com/blog/whats-new-aibi-february-2026-roundup",
+    "summary": "2026年2月のAI/BIの最新情報として、エージェント分析への投資継続などについてまとめている。",
+    "published": "2026-02-11T20:21:16+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/building-whats-next-together-introducing-brickbuilder-partner-network-agentic-ai-era",
+    "title": "Building What’s Next. Together. Introducing the Brickbuilder Partner Network for the Agentic AI Era",
+    "link": "https://www.databricks.com/blog/building-whats-next-together-introducing-brickbuilder-partner-network-agentic-ai-era",
+    "summary": "Brickbuilder Partner Networkが発表され、Agentic AI時代に向けた協業を促進する。",
+    "published": "2026-02-11T19:30:00+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/structured-vs-unstructured-data",
+    "title": "Structured vs unstructured data",
+    "link": "https://www.databricks.com/blog/structured-vs-unstructured-data",
+    "summary": "構造化データと非構造化データはどちらも現代の組織にとって重要な資産である。",
+    "published": "2026-02-11T14:34:53+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/how-ai-transforming-data-analytics",
+    "title": "How AI Is Transforming Data Analytics",
+    "link": "https://www.databricks.com/blog/how-ai-transforming-data-analytics",
+    "summary": "AIはデータ分析においてますます不可欠な存在となり、その手法を変革している。",
+    "published": "2026-02-11T13:24:23+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/modernize-your-data-engineering-platform-lakeflow-azure-databricks",
+    "title": "Modernize your Data Engineering Platform with Lakeflow on Azure Databricks",
+    "link": "https://www.databricks.com/blog/modernize-your-data-engineering-platform-lakeflow-azure-databricks",
+    "summary": "Azure Databricks上のLakeflowでデータエンジニアリングプラットフォームをモダナイズできる。",
+    "published": "2026-02-10T19:54:19+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.databricks.com/blog/agent-bricks-supervisor-agent-now-ga-orchestrate-enterprise-agents",
+    "title": "Agent Bricks Supervisor Agent is Now GA: Orchestrate Enterprise Agents",
+    "link": "https://www.databricks.com/blog/agent-bricks-supervisor-agent-now-ga-orchestrate-enterprise-agents",
+    "summary": "Agent Bricks Supervisor Agentが一般提供開始となり、エンタープライズエージェントのオーケストレーションが可能になる。",
+    "published": "2026-02-10T17:00:57+00:00",
+    "source_name": "Databricks Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "link": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "summary": "dbt LabsはFusionと状態認識オーケストレーションにより、dbt関連のコンピューティングコストを64%削減し、ジョブアーキテクチャを簡素化しました。",
+    "published": "2026-02-12T21:13:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/dbt-business-value",
+    "title": "Maximize the business value of your data platform with dbt",
+    "link": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Fusionの状態認識オーケストレーションなどのツールを活用することで、データプラットフォームのビジネス価値を最大化できます。",
+    "published": "2026-02-11T20:15:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "title": "Bring structured context to Snowflake Intelligence with dbt",
+    "link": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "summary": "dbtとSnowflake Semantic Viewsを使用することで、Snowflake IntelligenceとCortexに構造化されたコンテキストを提供し、信頼性を高めることができます。",
+    "published": "2026-02-11T16:33:20+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/dbt-core-v1-11-is-ga",
+    "title": "dbt Core v1.11 is GA",
+    "link": "https://www.getdbt.com/blog/dbt-core-v1-11-is-ga",
+    "summary": "dbt Core v1.11がGAとなり、UDFのサポート、プロジェクト検証の明確化、アダプター全体のパフォーマンス改善が実現しました。",
+    "published": "2026-02-10T17:24:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/dbt-mcp-server-reliable-ai",
+    "title": "Deliver reliable AI with the dbt Semantic Layer and dbt MCP Server",
+    "link": "https://www.getdbt.com/blog/dbt-mcp-server-reliable-ai",
+    "summary": "dbt Semantic Layerとdbt MCP Serverを活用することで、AIシステムに構造化されたコンテキストを提供し、信頼性の高いAIを実現できます。",
+    "published": "2026-02-05T16:59:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/how-data-mesh-solves-centralized-data-challenges",
+    "title": "How data mesh solved centralized data management challenges",
+    "link": "https://www.getdbt.com/blog/how-data-mesh-solves-centralized-data-challenges",
+    "summary": "データメッシュは、データの所有権を分散化し、セルフサービスプラットフォームと連合ガバナンスによってボトルネックを軽減します。",
+    "published": "2026-02-04T17:00:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/why-analytics-engineering-isnt-just-data-modeling",
+    "title": "Why analytics engineering isn't just data modeling",
+    "link": "https://www.getdbt.com/blog/why-analytics-engineering-isnt-just-data-modeling",
+    "summary": "アナリティクスエンジニアリングは、モデリングだけでなく、コラボレーション、テスト、ドキュメンテーション、分析ワークフローの拡張を含みます。",
+    "published": "2026-02-02T16:43:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/what-defines-a-control-plan-for-data-infrastructure",
+    "title": "What defines a control plan for data infrastructure",
+    "link": "https://www.getdbt.com/blog/what-defines-a-control-plan-for-data-infrastructure",
+    "summary": "データコントロールプレーンは、メタデータ、ガバナンス、コラボレーションを一元化し、分散データアーキテクチャを管理可能にします。",
+    "published": "2026-02-02T16:15:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/data-marts-vs-data-products",
+    "title": "Data marts vs. Data products: What's the difference?",
+    "link": "https://www.getdbt.com/blog/data-marts-vs-data-products",
+    "summary": "データマートとデータプロダクトは、最新のデータプラットフォームで異なる役割を果たしており、両方が必要です。",
+    "published": "2026-02-02T15:39:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.getdbt.com/blog/the-osi-spec-updates",
+    "title": "What the Open Semantic Interchange (OSI) spec means for metrics, semantics, and AI",
+    "link": "https://www.getdbt.com/blog/the-osi-spec-updates",
+    "summary": "セマンティックな移植性のためのオープンなOSI仕様が利用可能になり、dbtがセマンティクスの運用化にコミットしています。",
+    "published": "2026-01-29T15:53:00+00:00",
+    "source_name": "dbt Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47020191",
+    "title": "I love the work of the ArchWiki maintainers",
+    "link": "https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/",
+    "summary": "ArchWikiのメンテナーたちの仕事に対する賛辞の記事。",
+    "published": "2026-02-15T01:20:58+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://news.ycombinator.com/item?id=47017545",
+    "title": "Descent, ported to the web",
+    "link": "https://mrdoob.github.io/three-descent/",
+    "summary": "3Dシューティングゲーム「Descent」がWebブラウザに移植された。",
+    "published": "2026-02-14T19:33:24+00:00",
+    "source_name": "Hacker News (100+ points)",
+    "category": "Engineering & Technology",
+    "category_ja": "エンジニアリング・技術"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608385",
+    "title": "Your First 90 Days as a Data Scientist",
+    "link": "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
+    "summary": "データサイエンティストとして最初の90日間で信頼を築き、ビジネスの知識を深め、データに対する直感を養うための実践的なチェックリスト。",
+    "published": "2026-02-14T11:25:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608383",
+    "title": "The Evolving Role of the ML Engineer",
+    "link": "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
+    "summary": "MLエンジニアの役割が、AI投資バブルや大規模言語モデルの登場によってどのように変化しているかについての記事。",
+    "published": "2026-02-13T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608378",
+    "title": "AI in Multiple GPUs: Point-to-Point and Collective Operations",
+    "link": "https://towardsdatascience.com/point-to-point-and-collective-operations/",
+    "summary": "複数GPU環境でのAIワークロードのために、PyTorchの分散処理に関する記事。",
+    "published": "2026-02-13T13:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608380",
+    "title": "How to Leverage Explainable AI for Better Business Decisions",
+    "link": "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
+    "summary": "説明可能なAIを活用して、複雑なモデル出力を組織戦略に転換する方法について解説しています。",
+    "published": "2026-02-12T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608376",
+    "title": "AI in Multiple GPUs: Understanding the Host and Device Paradigm",
+    "link": "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
+    "summary": "複数GPU環境におけるCPUとGPUの連携（ホスト-デバイスパラダイム）について解説しています。",
+    "published": "2026-02-12T13:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608372",
+    "title": "Building an AI Agent to Detect and Handle Anomalies in Time-Series Data",
+    "link": "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
+    "summary": "時系列データにおける異常検知と対応を行うAIエージェントの構築について解説しています。",
+    "published": "2026-02-11T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608370",
+    "title": "Not All RecSys Problems Are Created Equal",
+    "link": "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
+    "summary": "レコメンデーションシステムの課題は、ベースラインの強さ、解約率、主観性によって複雑さが異なることを説明しています。",
+    "published": "2026-02-11T13:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608366",
+    "title": "How to Model The Expected Value of Marketing Campaigns",
+    "link": "https://towardsdatascience.com/how-to-model-the-expected-value-of-marketing-campaigns/",
+    "summary": "マーケティングキャンペーンの期待値をモデル化し、企業のデータ成熟度を向上させる手法について解説しています。",
+    "published": "2026-02-10T15:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608364",
+    "title": "Implementing the Snake Game in Python",
+    "link": "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
+    "summary": "Pythonで簡単なステップバイステップのガイドに従って、ゼロからスネークゲームを作成する方法。",
+    "published": "2026-02-10T13:30:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://towardsdatascience.com/?p=608362",
+    "title": "How to Personalize Claude Code",
+    "link": "https://towardsdatascience.com/how-to-personalize-claude-code/",
+    "summary": "より多くの情報にアクセスさせることで、Claude Codeをパーソナライズし、より活用する方法について解説。",
+    "published": "2026-02-10T12:00:00+00:00",
+    "source_name": "Towards Data Science",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-256",
+    "title": "Data Engineering Weekly #256",
+    "link": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-256",
+    "summary": "毎週配信されるデータエンジニアリングに関するニュースレター。",
+    "published": "2026-02-09T04:54:05+00:00",
+    "source_name": "Data Engineering Weekly",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.dataengineeringweekly.com/p/the-missing-layer-in-your-ai-stack",
+    "title": "The Missing Layer in Your AI Stack: Context, Not Just State",
+    "link": "https://www.dataengineeringweekly.com/p/the-missing-layer-in-your-ai-stack",
+    "summary": "AIエージェントにとって重要なのは状態だけでなく、コンテキストグラフによるコンテキストの理解であるという議論。",
+    "published": "2026-01-31T04:13:17+00:00",
+    "source_name": "Data Engineering Weekly",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.dataengineeringweekly.com/p/data-contracts-a-missed-opportunity",
+    "title": "Data Contracts: A Missed Opportunity",
+    "link": "https://www.dataengineeringweekly.com/p/data-contracts-a-missed-opportunity",
+    "summary": "データ契約は、システム設計よりも思想的リーダーシップが優先されたために見過ごされた機会であるという考察。",
+    "published": "2026-01-20T18:31:10+00:00",
+    "source_name": "Data Engineering Weekly",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.dataengineeringweekly.com/p/a-critique-of-iceberg-rest-catalog",
+    "title": "A Critique of Iceberg REST Catalog: A Classic Case of Why Semantic Spec Fails",
+    "link": "https://www.dataengineeringweekly.com/p/a-critique-of-iceberg-rest-catalog",
+    "summary": "Iceberg REST Catalogは、セマンティックには正しいAPIでも、大規模運用においては信頼性が低下する典型的な例であることを批判している。",
+    "published": "2026-01-09T05:57:38+00:00",
+    "source_name": "Data Engineering Weekly",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71581",
+    "title": "Upcoming Speaking Engagements",
+    "link": "https://www.schneier.com/blog/archives/2026/02/upcoming-speaking-engagements-53.html",
+    "summary": "著者が2026年2月〜3月にカナダ、アメリカの複数の都市で講演を行う予定である。",
+    "published": "2026-02-14T17:04:59+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71523",
+    "title": "Friday Squid Blogging: Do Squid Dream?",
+    "link": "https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-do-squid-dream.html",
+    "summary": "イカは夢を見るのかという興味深い疑問を探求している。",
+    "published": "2026-02-13T22:08:39+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71583",
+    "title": "3D Printer Surveillance",
+    "link": "https://www.schneier.com/blog/archives/2026/02/3d-printer-surveillance.html",
+    "summary": "ニューヨーク州で販売される3Dプリンターに、銃器設計図を検知して印刷を拒否するソフトウェアの搭載を義務付ける法案が検討されている。",
+    "published": "2026-02-12T12:01:31+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71593",
+    "title": "Rewiring Democracy Ebook is on Sale",
+    "link": "https://www.schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html",
+    "summary": "書籍「Rewiring Democracy」の電子書籍版がAmazonなどでセール価格で販売されており、ハードカバー版もクーポンで割引される。",
+    "published": "2026-02-11T14:48:14+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71577",
+    "title": "Prompt Injection Via Road Signs",
+    "link": "https://www.schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html",
+    "summary": "AIを搭載した車両システムにおいて、道路標識を用いたプロンプトインジェクション攻撃「CHAI」による新たなセキュリティリスクが示唆されている。",
+    "published": "2026-02-11T12:03:22+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71563",
+    "title": "AI-Generated Text and the Detection Arms Race",
+    "link": "https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html",
+    "summary": "文芸誌がAI生成テキストの投稿増加により投稿受付を停止するなど、AI生成テキストとその検出を巡る攻防が激化している。",
+    "published": "2026-02-10T12:03:50+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71569",
+    "title": "LLMs are Getting a Lot Better and Faster at Finding and Exploiting Zero-Days",
+    "link": "https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html",
+    "summary": "最新のLLMであるOpus 4.6は、特別なツールやプロンプトなしに、従来モデルよりも迅速かつ効果的にゼロデイ脆弱性を見つけ出し、悪用できるようになった。",
+    "published": "2026-02-09T12:04:29+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71521",
+    "title": "Friday Squid Blogging: Squid Fishing Tips",
+    "link": "https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html",
+    "summary": "この記事では、ピュージェットサウンドでのイカ釣りのアドバイス動画が紹介されている。",
+    "published": "2026-02-06T22:01:05+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71567",
+    "title": "I Am in the Epstein Files",
+    "link": "https://www.schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html",
+    "summary": "筆者は、エプスタイン事件関連文書に一度名前が登場しており、DDoS攻撃に関する誤解を招くような言動があったと指摘されている。",
+    "published": "2026-02-06T20:43:52+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.schneier.com/?p=71560",
+    "title": "iPhone Lockdown Mode Protects Washington Post Reporter",
+    "link": "https://www.schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html",
+    "summary": "ワシントンポストの記者がiPhoneのロックダウンモードを有効にしたことで、FBIはデバイスにアクセスできなかった。",
+    "published": "2026-02-06T12:00:36+00:00",
+    "source_name": "Schneier on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
+    "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
+    "summary": "Ivanti Endpoint Manager Mobileの脆弱性を悪用した攻撃の83%は、単一の脅威アクターによるものだった。",
+    "published": "2026-02-14T16:02:34+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
+    "title": "Snail mail letters target Trezor and Ledger users in crypto-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
+    "summary": "TrezorとLedgerのユーザーに対し、回復フレーズを詐取するための偽の手紙を使った攻撃が発生している。",
+    "published": "2026-02-14T15:15:25+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
+    "title": "Fake job recruiters hide malware in developer coding challenges",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
+    "summary": "北朝鮮の脅威アクターが、仮想通貨関連のコーディング課題を装ってJavaScript/Python開発者を標的とする偽の求人キャンペーンを展開している。",
+    "published": "2026-02-13T22:35:37+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
+    "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
+    "summary": "脅威アクターはClaudeの成果物とGoogle広告を悪用し、特定の検索クエリを行うmacOSユーザーに情報窃取マルウェアを配布するClickFix攻撃を行っている。",
+    "published": "2026-02-13T20:21:43+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+    "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+    "link": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+    "summary": "韓国が、セキュリティ対策の不備により550万人以上の顧客データが漏洩したルイ・ヴィトン、ディオール、ティファニーに2500万ドルの罰金を科した。",
+    "published": "2026-02-13T18:35:15+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+    "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+    "link": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+    "summary": "Criminal IPがIBM QRadarと連携し、外部IPベースの脅威インテリジェンスを検出・対応ワークフローに統合することで、SOCチームは高リスクIPの優先順位付けと調査の迅速化が可能になる。",
+    "published": "2026-02-13T15:05:15+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/",
+    "title": "CISA flags critical Microsoft SCCM flaw as exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/",
+    "summary": "CISAは、2024年10月に修正されたMicrosoft Configuration Managerの脆弱性が悪用されていることを受け、連邦機関にシステム保護を命じた。",
+    "published": "2026-02-13T12:35:09+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
+    "title": "Microsoft fixes bug that blocked Google Chrome from launching",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
+    "summary": "Microsoftは、ファミリーセーフティのペアレンタルコントロールサービスがGoogle Chromeなどのブラウザの起動をブロックするバグを修正した。",
+    "published": "2026-02-13T09:31:01+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/",
+    "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
+    "link": "https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/",
+    "summary": "ロシア政府は、管理下にない通信プラットフォームへの取り締まりを強化しており、国内でWhatsAppをブロックしようとしている。",
+    "published": "2026-02-12T22:57:54+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+    "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+    "link": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+    "summary": "Bitwardenが、信頼できるメールアドレスと安全にパスワードを共有できる新システム「Cupid Vault」を導入した。",
+    "published": "2026-02-12T21:55:24+00:00",
+    "source_name": "BleepingComputer",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32712",
+    "title": "AI-Powered Knowledge Graph Generator & APTs, (Thu, Feb 12th)",
+    "link": "https://isc.sans.edu/diary/rss/32712",
+    "summary": "LLMとSPOトリプレット抽出を用いて、非構造化テキストからインタラクティブなナレッジグラフを生成するAI技術に関する記事。",
+    "published": "2026-02-13T03:04:48+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32714",
+    "title": "ISC Stormcast For Friday, February 13th, 2026 https://isc.sans.edu/podcastdetail/9808, (Fri, Feb 13th)",
+    "link": "https://isc.sans.edu/diary/rss/32714",
+    "summary": "(記事概要なし)",
+    "published": "2026-02-13T02:00:02+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32708",
+    "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2 [Guest Diary], (Wed, Feb 11th)",
+    "link": "https://isc.sans.edu/diary/rss/32708",
+    "summary": "暗号署名されたC2を持つ自己伝播型SSHワームを分析し、ボットネットが4秒で構築される様子を解説する記事。",
+    "published": "2026-02-12T01:56:24+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32706",
+    "title": "Apple Patches Everything: February 2026, (Wed, Feb 11th)",
+    "link": "https://isc.sans.edu/diary/rss/32706",
+    "summary": "Appleが全てのOS（iOS, iPadOS, macOS, tvOS, watchOS, visionOS）に対してアップデートをリリースし、71件の脆弱性を修正した。",
+    "published": "2026-02-11T19:36:59+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32704",
+    "title": "WSL in the Malware Ecosystem, (Wed, Feb 11th)",
+    "link": "https://isc.sans.edu/diary/rss/32704",
+    "summary": "WSL（Windows Subsystem Linux）は、仮想マシンやデュアルブートなしにWindows内でLinux環境を実行できる機能であり、特に開発やセキュリティ分野で役立つ。",
+    "published": "2026-02-11T13:28:29+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32702",
+    "title": "ISC Stormcast For Wednesday, February 11th, 2026 https://isc.sans.edu/podcastdetail/9804, (Wed, Feb 11th)",
+    "link": "https://isc.sans.edu/diary/rss/32702",
+    "summary": "(概要が提供されていません)",
+    "published": "2026-02-11T02:05:02+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://isc.sans.edu/diary/rss/32700",
+    "title": "Microsoft Patch Tuesday - February 2026, (Tue, Feb 10th)",
+    "link": "https://isc.sans.edu/diary/rss/32700",
+    "summary": "マイクロソフトの2026年2月の月例パッチでは、59件の脆弱性（うち6件は既に悪用されている）が修正され、緊急度の高い脆弱性も5件含まれている。",
+    "published": "2026-02-10T19:04:00+00:00",
+    "source_name": "SANS ISC",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "10c552fb88933e11bb06a09bde0b9961fe8e179d",
+    "title": "Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink",
+    "link": "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
+    "summary": "Amazon Kinesis Data Analytics for Apache Flinkにおける一般的なストリームデータエンリッチメントのパターンについて解説している。",
+    "published": "2026-02-13T19:46:16+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "9be18bc5f46c438a85162ea40c4b5b287f2a7306",
+    "title": "Matching your Ingestion Strategy with your OpenSearch Query Patterns",
+    "link": "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
+    "summary": "OpenSearchでEdge n-gram tokenizerを利用したカスタムインデックスアナライザーを作成し、ワイルドカードを使用せずに効率的なオートコンプリート機能を実装する方法を紹介している。",
+    "published": "2026-02-12T18:13:12+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "49cf2dc25f8622fadb800737f6981e5db4a5dd29",
+    "title": "Amazon Athena adds 1-minute reservations and new capacity control features",
+    "link": "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
+    "summary": "Amazon Athenaが、より柔軟で管理しやすいキャパシティ予約機能として、最小予約時間の短縮や新たな容量制御機能を追加しました。",
+    "published": "2026-02-11T22:16:01+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "c64557fc342a16bba0cb3e722aa260407c1940e0",
+    "title": "How Zalando innovates their Fast-Serving layer by migrating to Amazon Redshift",
+    "link": "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
+    "summary": "Zalandoが、より優れた費用対効果とスケーラビリティを実現するために、高速配信レイヤーのデータウェアハウスをAmazon Redshiftに移行した事例を紹介します。",
+    "published": "2026-02-10T23:37:35+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "a78bc74b45d131a7533072d458e499944c87b6d4",
+    "title": "Using Amazon SageMaker Unified Studio Identity center (IDC) and IAM-based domains together",
+    "link": "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
+    "summary": "Amazon SageMaker Unified StudioのIDCベースドメインとIAMベースドメインを、ロールの再利用と属性ベースのアクセス制御を用いて連携させる方法を解説します。",
+    "published": "2026-02-09T22:27:10+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "28e2fc1cc4f10d6a1428d1781c2a37b94370bfc9",
+    "title": "Orchestrate end-to-end scalable ETL pipeline with Amazon SageMaker workflows",
+    "link": "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
+    "summary": "Amazon SageMakerワークフローを使用して、スケーラブルなエンドツーエンドのETLパイプラインを構築・管理する方法をコードベースのアプローチで解説し、単一UIでデータ処理を効率化します。",
+    "published": "2026-02-09T22:14:13+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "0daa1601900b43ba546c8441aa27c7c4c3066496",
+    "title": "Reduce Mean Time to Resolution with an observability agent",
+    "link": "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
+    "summary": "OpenSearch ServiceとAmazon Bedrock AgentCoreを使用したオブザーバビリティエージェントにより、根本原因の特定を迅速化し、MTTR（平均修復時間）を短縮する方法を紹介します。",
+    "published": "2026-02-05T19:48:33+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "30bcb726c6b161bbaef7381538de651af93d6217",
+    "title": "Amazon OpenSearch Ingestion 101: Set CloudWatch alarms for key metrics",
+    "link": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
+    "summary": "Amazon OpenSearch Ingestionパイプラインのボトルネック特定とトラブルシューティングのために、CloudWatchアラームの設定方法を詳細に解説します。",
+    "published": "2026-02-05T19:47:26+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "a41cbaf076d85bdcaa2996038dff335b18670750",
+    "title": "Use Amazon MSK Connect and Iceberg Kafka Connect to build a real-time data lake",
+    "link": "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
+    "summary": "Amazon MSK ConnectとIceberg Kafka Connectを使用して、トランザクションデータベースからApache Icebergテーブルへのリアルタイムデータ取り込みを加速し、データレイク構築を簡素化する方法を紹介します。",
+    "published": "2026-02-03T18:42:38+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "2db1919b34b3286b6637d1066039012839235190",
+    "title": "Optimizing Flink’s join operations on Amazon EMR with Alluxio",
+    "link": "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
+    "summary": "Apache Flinkを使用してストリーミング注文データと履歴データを結合し、リアルタイムデータ相関を実現し、Alluxioキャッシュ層を介してHiveディメンションテーブルデータをロードすることでFlinkのjoin処理を最適化するソリューションを紹介します。",
+    "published": "2026-02-03T18:41:31+00:00",
+    "source_name": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "category_ja": "データエンジニアリング"
+  },
+  {
+    "id": "/node/24552",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/02/13/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "summary": "CISAは、活発な悪用が確認された脆弱性CVE-2026-1731を既知の悪用された脆弱性カタログに追加し、連邦政府機関へのリスク軽減を呼びかけています。",
+    "published": "2026-02-13T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24538",
+    "title": "Siemens SINEC OS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-06",
+    "summary": "Siemens SINEC OSのV3.3より前のバージョンには複数の脆弱性を持つサードパーティコンポーネントが含まれており、Siemensは最新バージョンへのアップデートを推奨しています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24537",
+    "title": "Siemens Solid Edge",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-05",
+    "summary": "Solid EdgeのPS/IGES Parasolid Translator Componentに、悪意のあるIGSファイルを開くとアプリケーションがクラッシュしたり、コードが実行される可能性のある脆弱性があり、最新版へのアップデートが推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24539",
+    "title": "Siemens Siveillance Video Management Servers",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-07",
+    "summary": "Siveillance Video Management ServersのWebhooks実装に、認証された攻撃者がWebhooks APIへのフルアクセスを得られる脆弱性があり、最新版へのアップデートが推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24534",
+    "title": "Siemens Polarion",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-02",
+    "summary": "Polarion V2506以前のバージョンに、認証されたリモート攻撃者がクロスサイトスクリプティング攻撃を実行できる脆弱性があり、最新版へのアップデートが推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24542",
+    "title": "Airleader Master",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-10",
+    "summary": "Airleader Master <=6.381にリモートコード実行を可能にする脆弱性があり、重要なインフラストラクチャセクターに影響を与える可能性があります。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24540",
+    "title": "Siemens NX",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-08",
+    "summary": "Siemens NXに複数のファイル解析の脆弱性があり、悪意のあるCGMファイルを開くとアプリケーションがクラッシュしたり、コードが実行される可能性があり、最新版へのアップデートが推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24536",
+    "title": "Siemens Desigo CC Product Family and SENTRON Powermanager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-04",
+    "summary": "Siemens Desigo CC製品群とSENTRON Powermanagerに、サードパーティ製コンポーネントの脆弱性が存在し、悪用されるとコード実行につながる可能性があるため、アップデートが推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "/node/24535",
+    "title": "Siemens COMOS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-03",
+    "summary": "Siemens COMOSに複数の脆弱性が見つかり、攻撃者が任意のコードを実行したり、DoS攻撃を引き起こしたりする可能性があるため、最新バージョンへのアップデートと対策が推奨されています。",
+    "published": "2026-02-12T12:00:00+00:00",
+    "source_name": "CISA Advisories",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+    "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "summary": "Googleは、CANFAILマルウェアによるウクライナの組織への攻撃に関与した疑いのある、未確認の脅威アクターをロシアの情報機関と関連付けています。",
+    "published": "2026-02-13T17:27:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+    "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+    "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+    "summary": "Googleは、中国、イラン、ロシア、北朝鮮の国家支援型アクターが、連携して防衛産業基盤（DIB）セクターをサイバー攻撃の標的にしていると分析しています。",
+    "published": "2026-02-13T16:23:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+    "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+    "summary": "シスコTalosによると、UAT-9921と呼ばれる未知の脅威アクターが、テクノロジーおよび金融サービスセクターを標的に、VoidLinkという新しいモジュール式フレームワークを使用していることが確認されました。",
+    "published": "2026-02-13T15:23:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+    "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+    "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+    "summary": "悪意のあるChrome拡張機能が見つかり、Meta Business SuiteやFacebook Business Managerのデータを盗んでいた。",
+    "published": "2026-02-13T11:25:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
+    "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
+    "link": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
+    "summary": "npmはサプライチェーン攻撃対策として認証システムを強化したが、完全に安全になったわけではなく、マルウェア攻撃に対する注意が必要である。",
+    "published": "2026-02-13T10:45:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+    "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+    "summary": "BeyondTrust製品の重大な脆弱性が実際に悪用され始めており、攻撃者が悪用していることが確認された。",
+    "published": "2026-02-13T08:34:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+    "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+    "link": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+    "summary": "Googleは、北朝鮮のハッカー集団がGemini AIを偵察や攻撃支援に利用していることを確認した。",
+    "published": "2026-02-12T17:57:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+    "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+    "link": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+    "summary": "北朝鮮のLazarus Groupが、偽の採用キャンペーンを装ってnpmとPyPIに悪意のあるパッケージを仕込んでいることが判明した。",
+    "published": "2026-02-12T16:55:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+    "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+    "summary": "今週の脅威活動は、攻撃者が新しいエクスプロイトではなく、信頼されたツールやワークフローの悪用、見過ごされた露出に重点を置いていることを示している。",
+    "published": "2026-02-12T11:51:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
+    "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
+    "link": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
+    "summary": "継続的脅威露出管理(CTEM)を導入している組織は、攻撃対象領域の可視性が50%向上し、セキュリティ対策が大幅に改善されている。",
+    "published": "2026-02-12T10:30:00+00:00",
+    "source_name": "The Hacker News",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73065",
+    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+    "summary": "Kimwolfと呼ばれるIoTボットネットが200万台以上のデバイスに感染し、DDoS攻撃などに利用されており、政府や企業ネットワークにも蔓延している。",
+    "published": "2026-01-20T18:19:13+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=73059",
+    "title": "Patch Tuesday, January 2026 Edition",
+    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+    "summary": "マイクロソフトは113件以上のセキュリティ脆弱性に対するパッチを公開し、そのうち8件は深刻度が最も高く、すでに悪用されているものも存在する。",
+    "published": "2026-01-14T00:47:38+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72999",
+    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+    "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+    "summary": "AisuruとKimwolfボットネットの拡散から利益を得たハッカー、ネットワーク事業者、サイバー犯罪サービスの実態をデジタルな手がかりから調査する。",
+    "published": "2026-01-08T23:23:43+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72836",
+    "title": "The Kimwolf Botnet is Stalking Your Local Network",
+    "link": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+    "summary": "Kimwolfボットネットがローカルネットワークを脅かしており、ルーターの背後にある内部ネットワークのセキュリティに関する認識を改める必要がある。",
+    "published": "2026-01-02T14:20:10+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72907",
+    "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
+    "link": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
+    "summary": "KrebsOnSecurity.comが16周年を迎え、読者への感謝を述べ、2025年のサイバー犯罪対策における取り組みを報告している。",
+    "published": "2025-12-29T20:23:26+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72706",
+    "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
+    "link": "https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/",
+    "summary": "トランプ政権は、サイバーセキュリティ、プライバシー、偽情報対策など、技術的な課題への対応能力を弱める可能性のある政策転換を急速に進めている。",
+    "published": "2025-12-19T15:14:55+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72848",
+    "title": "Most Parked Domains Now Serving Malicious Content",
+    "link": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
+    "summary": "「パークドメイン」の大部分が、悪意のあるコンテンツを配布するサイトにリダイレクトされるように設定されており、直接ナビゲーションのリスクが高まっている。",
+    "published": "2025-12-16T14:14:48+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72782",
+    "title": "Microsoft Patch Tuesday, December 2025 Edition",
+    "link": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+    "summary": "マイクロソフトは、Windowsおよび関連ソフトウェアの56件以上のセキュリティ脆弱性を修正するアップデートを公開した。",
+    "published": "2025-12-09T23:18:29+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72269",
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "link": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
+    "summary": "ロシア最大の私立大学が、ウクライナとの戦争のためにドローンを製造しており、2500万ドルの論文代行業と奇妙な繋がりがある。",
+    "published": "2025-12-06T14:45:03+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://krebsonsecurity.com/?p=72622",
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "summary": "中国を拠点とするフィッシンググループが、ホリデーシーズンに合わせて偽のECサイト構築キットを販売し、未払い税金の払い戻しやモバイルポイントを騙るSMSフィッシングも行っている。",
+    "published": "2025-12-04T23:02:34+00:00",
+    "source_name": "Krebs on Security",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "rithm-property-trust-inc-q4-213141167.html",
+    "title": "Rithm Property Trust Inc. Q4 2025 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/rithm-property-trust-inc-q4-213141167.html",
+    "summary": "（概要がないため省略）",
+    "published": "2026-02-13T21:31:41+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "marcus-millichap-inc-q4-2025-213139786.html",
+    "title": "Marcus & Millichap, Inc. Q4 2025 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/marcus-millichap-inc-q4-2025-213139786.html",
+    "summary": "（概要がないため省略）",
+    "published": "2026-02-13T21:31:39+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "wendys-company-q4-2025-earnings-213203656.html",
+    "title": "The Wendy's Company Q4 2025 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/wendys-company-q4-2025-earnings-213203656.html",
+    "summary": "（概要がないため省略）",
+    "published": "2026-02-13T21:32:03+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "beyond-air-inc-q3-2026-213201921.html",
+    "title": "Beyond Air, Inc. Q3 2026 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/beyond-air-inc-q3-2026-213201921.html",
+    "summary": "Beyond Air, Inc. の2026年第3四半期決算報告の概要です。",
+    "published": "2026-02-13T21:32:01+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "raymond-james-upgrades-colliers-international-213316722.html",
+    "title": "Raymond James Upgrades Colliers International Group Inc. (CIGI) to Strong Buy and Raises its Price Target to $200",
+    "link": "https://finance.yahoo.com/news/raymond-james-upgrades-colliers-international-213316722.html",
+    "summary": "Raymond James は Colliers International Group Inc. (CIGI) の投資判断を「強い買い」に格上げし、目標株価を200ドルに引き上げました。",
+    "published": "2026-02-13T21:33:16+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "atlasclear-holdings-inc-q2-2026-213129128.html",
+    "title": "AtlasClear Holdings, Inc. Q2 2026 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/atlasclear-holdings-inc-q2-2026-213129128.html",
+    "summary": "AtlasClear Holdings, Inc. の2026年第2四半期決算報告の概要です。",
+    "published": "2026-02-13T21:31:29+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "colliers-international-group-inc-q4-213130371.html",
+    "title": "Colliers International Group Inc. Q4 2025 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/colliers-international-group-inc-q4-213130371.html",
+    "summary": "Colliers International Group Inc. の2025年第4四半期決算報告の概要です。",
+    "published": "2026-02-13T21:31:30+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "advance-auto-parts-inc-q4-213128404.html",
+    "title": "Advance Auto Parts, Inc. Q4 2025 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/news/advance-auto-parts-inc-q4-213128404.html",
+    "summary": "Advance Auto Parts, Inc. の2025年第4四半期決算報告の概要です。",
+    "published": "2026-02-13T21:31:28+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "gold-steadies-sharp-drop-sparked-000702230.html",
+    "title": "Gold Reclaims $5,000 as Cooling Inflation Lifts Fed Easing Bets",
+    "link": "https://finance.yahoo.com/news/gold-steadies-sharp-drop-sparked-000702230.html",
+    "summary": "金価格はインフレ緩和期待によるFRBの金融緩和見通しから5,000ドルを回復した。",
+    "published": "2026-02-13T21:31:24+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "stocks-settle-slightly-higher-bond-213443461.html",
+    "title": "Stocks Settle Slightly Higher as Bond Yields Fall",
+    "link": "https://finance.yahoo.com/news/stocks-settle-slightly-higher-bond-213443461.html",
+    "summary": "債券利回りの低下を受け、株式市場は小幅に上昇して取引を終えた。",
+    "published": "2026-02-13T21:34:43+00:00",
+    "source_name": "Yahoo Finance",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004773586",
+    "title": "‘We have no prenup’: I want rights of survivorship in our marital home. My wife prefers tenants in common. Now what?",
+    "link": "https://www.marketwatch.com/story/we-have-no-prenup-i-want-rights-of-survivorship-in-our-marital-home-my-wife-prefers-tenants-in-common-now-what-996cf652?mod=mw_rss_topstories",
+    "summary": "結婚前の契約がない夫婦が、持ち家の所有権を巡って権利生存者とするか共有財産とするかで対立している。",
+    "published": "2026-02-15T00:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004776364",
+    "title": "‘I’m part of a blended family that didn’t blend well’: My stepsister added her mailing address to our mother’s bank account. Can she be trusted?",
+    "link": "https://www.marketwatch.com/story/my-mom-was-very-upset-my-stepsister-changed-the-address-on-our-mothers-bank-account-can-she-be-trusted-as-executor-dab23670?mod=mw_rss_topstories",
+    "summary": "義理の姉が母親の銀行口座に住所を追加したことで、相談者は義理の姉に対する疑念を抱いている。",
+    "published": "2026-02-15T00:00:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004767069",
+    "title": "‘I feel the clock ticking’: My wife and I are in our 60s — and employ 48 people in a small town. Can we ever retire?",
+    "link": "https://www.marketwatch.com/story/i-feel-the-clock-ticking-my-wife-and-i-are-in-our-60s-and-employ-48-people-in-a-small-town-can-we-ever-retire-2399ba41?mod=mw_rss_topstories",
+    "summary": "60代の夫婦が、従業員を多く抱える中小企業の経営者として、引退できるかどうか悩んでいる。",
+    "published": "2026-02-14T23:31:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004777358",
+    "title": "‘I’m close to retiring’: I’m behind on my property tax. Is this a really bad time to sell my house?",
+    "link": "https://www.marketwatch.com/story/im-close-to-retiring-im-behind-on-my-property-taxes-is-this-a-bad-time-to-sell-my-house-40954efd?mod=mw_rss_topstories",
+    "summary": "不動産税の滞納を抱える人が、引退間近で家の売却を検討しているが、タイミングが悪いのではないかと不安に思っている。",
+    "published": "2026-02-14T23:26:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004777954",
+    "title": "‘We’ve been dating for 5 years’: My boyfriend’s parents say he doesn’t earn enough to marry. Should I speak to his father?",
+    "link": "https://www.marketwatch.com/story/weve-been-dating-for-5-years-my-boyfriends-parents-say-he-doesnt-earn-enough-to-marry-should-i-speak-to-his-father-44b48700?mod=mw_rss_topstories",
+    "summary": "交際5年のカップルで、彼の裕福な両親が彼の収入が結婚に足りないと反対しており、彼女が彼の父親に話すべきか悩んでいる。",
+    "published": "2026-02-14T23:22:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004778357",
+    "title": "Tempted to use buy-now-pay-later to split your rent payments? Watch out for these fees.",
+    "link": "https://www.marketwatch.com/story/tempted-to-use-buy-now-pay-later-to-split-your-rent-payments-watch-out-for-these-fees-8849433a?mod=mw_rss_topstories",
+    "summary": "家賃を分割払いにするために「今買って後で払う」サービスを利用する際は、手数料に注意が必要である。",
+    "published": "2026-02-14T20:19:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004773709",
+    "title": "Social Security could run out of money in just 6 years — even sooner than originally feared",
+    "link": "https://www.marketwatch.com/story/social-security-could-run-out-of-money-in-just-6-years-even-sooner-than-originally-feared-c28eb5a5?mod=mw_rss_topstories",
+    "summary": "社会保障基金が予想よりも早く、わずか6年で枯渇する可能性がある。",
+    "published": "2026-02-14T19:55:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004771552",
+    "title": "My employer is forcing me into a Roth 401(k). Is there anything I can do?",
+    "link": "https://www.marketwatch.com/story/im-being-forced-into-a-roth-401-k-is-there-anything-i-can-do-81a6848d?mod=mw_rss_topstories",
+    "summary": "雇用主から強制的にRoth 401(k)への加入を求められている人が、何かできることはないかと模索している。",
+    "published": "2026-02-14T19:42:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004776398",
+    "title": "The Dow transports’ steep takeoff isn’t the green light you’re told it is",
+    "link": "https://www.marketwatch.com/story/what-wall-street-bulls-are-getting-wrong-about-the-dow-transports-steep-takeoff-549c6694?mod=mw_rss_topstories",
+    "summary": "ダウ輸送株が好調でも、S&P 500が必ずしも上昇するとは限らない。",
+    "published": "2026-02-14T19:40:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "WP-MKTW-0004773542",
+    "title": "S&P 500’s failed breakouts signal a darkening technical cloud",
+    "link": "https://www.marketwatch.com/story/these-are-high-probability-options-trades-for-next-weeks-busy-earnings-crush-32b47d47?mod=mw_rss_topstories",
+    "summary": "S&P 500のブレイクアウト失敗は、テクニカル的な状況悪化を示唆している可能性がある。",
+    "published": "2026-02-14T19:30:00+00:00",
+    "source_name": "MarketWatch Top Stories",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMid0FVX3lxTE1NVmFDdy1MUmRVTTRJY2xHQVJHV294V2d6MDRncWhFLXZob2VEWHlhZ0p4NXFpR25fNHZvZUJrR2EwelBwdWpyVXlNMmNfSjc3dnBiNFhXbjc5bkVvMEJfVEg5TXNBNmVDYllkczFYam9DTWdoaDBz",
+    "title": "5 signs of an AI bubble to watch for - Fidelity",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NVmFDdy1MUmRVTTRJY2xHQVJHV294V2d6MDRncWhFLXZob2VEWHlhZ0p4NXFpR25fNHZvZUJrR2EwelBwdWpyVXlNMmNfSjc3dnBiNFhXbjc5bkVvMEJfVEg5TXNBNmVDYllkczFYam9DTWdoaDBz?oc=5",
+    "summary": "フィデリティはAIバブルの兆候を5つ挙げ、注意を促している。",
+    "published": "2026-02-14T23:15:16+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiowFBVV95cUxNRmdEcWZpUGVweVozQXZMMHcyczYwMFNhMGpWSGRadlV0WTlUeWVGQ0RKMDRlWHpHMTZOaERZSkxTQ0w4QWhDNXg3aDY0dXIzRG9vLTB3bHUtS2dLdFNfQVo1UjRVTVhWcnJsZXhvcXdaeHF5ZU1VdkZfM3JkVzU0ajVrdEJDa2V4M2VBelNaMGhRZHVVLXhaWTRpVUY5ZUFhZnZB",
+    "title": "What dividend safety score for Eaton Vance Municipal Income Trust stock - Earnings Overview Summary & Safe Capital Preservation Plans - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRmdEcWZpUGVweVozQXZMMHcyczYwMFNhMGpWSGRadlV0WTlUeWVGQ0RKMDRlWHpHMTZOaERZSkxTQ0w4QWhDNXg3aDY0dXIzRG9vLTB3bHUtS2dLdFNfQVo1UjRVTVhWcnJsZXhvcXdaeHF5ZU1VdkZfM3JkVzU0ajVrdEJDa2V4M2VBelNaMGhRZHVVLXhaWTRpVUY5ZUFhZnZB?oc=5",
+    "summary": "Eaton Vance Municipal Income Trustの配当安全スコアと収益概要に関する情報が記載されている。",
+    "published": "2026-02-14T23:29:15+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMi1wFBVV95cUxOTkhjWGNlUlFnX2lPNzItSVpMaG9iV290OGJZd29qaE13NmN2UW5ZX1hkc2tPdzdkZElCdjhqZmxnaWFSTzdvYUF2NVQ4Z3RfRGF6Y3FpcWpyckEwXy1MOHZMNHdzUzFEZklJQWZNMWJJMlNQcWtaMFhLcGY2UmpWdXM2eWN4d3hHS2Rfc3R1RURGLWlTQjlnWTlET3lZVUxfcVBqMlpTOS1ER3U0TVVPeUgzUUJHQjVXZTFnc1BoTzNHQzNidTA1Q04tWExnd0RRclVOZjRDYw",
+    "title": "Quarterly Earnings Review: Dec 2025 Results Reveal Mixed Trends Across Market Caps - Markets Mojo",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTkhjWGNlUlFnX2lPNzItSVpMaG9iV290OGJZd29qaE13NmN2UW5ZX1hkc2tPdzdkZElCdjhqZmxnaWFSTzdvYUF2NVQ4Z3RfRGF6Y3FpcWpyckEwXy1MOHZMNHdzUzFEZklJQWZNMWJJMlNQcWtaMFhLcGY2UmpWdXM2eWN4d3hHS2Rfc3R1RURGLWlTQjlnWTlET3lZVUxfcVBqMlpTOS1ER3U0TVVPeUgzUUJHQjVXZTFnc1BoTzNHQzNidTA1Q04tWExnd0RRclVOZjRDYw?oc=5",
+    "summary": "2025年12月期の四半期決算レビューでは、時価総額別に様々な傾向が見られた。",
+    "published": "2026-02-14T21:22:40+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMickFVX3lxTE5HeVY0X3hXNU1wcGJhTC1hRDU2cm1FeEFaaDNoU3k4RE5CV25QZnZpdEpSQnEwbXZKRUVRZjQyXzNRN0hkUTh6dWY3OWtuYUxPcWQ1alJnMnJnLTBuS0JqVUYxRXFQZTE4c3Z1U2I1QzVqdw",
+    "title": "Will ReposiTrak Inc. announce a stock split - 2025 Earnings Surprises & Risk Adjusted Swing Trade Ideas - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HeVY0X3hXNU1wcGJhTC1hRDU2cm1FeEFaaDNoU3k4RE5CV25QZnZpdEpSQnEwbXZKRUVRZjQyXzNRN0hkUTh6dWY3OWtuYUxPcWQ1alJnMnJnLTBuS0JqVUYxRXFQZTE4c3Z1U2I1QzVqdw?oc=5",
+    "summary": "ReposiTrak Inc.が株式分割を発表するか、および2025年の収益サプライズとリスク調整されたスイングトレードアイデアについて考察されています。",
+    "published": "2026-02-14T21:55:26+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMigAFBVV95cUxQd2ZUekZlVHNhOEhmQ3k1T2wtcUJfRlV6SXYxNTZfaTlvZWNlVVpCMVRpbVlGZnItUUdUd2xQM0xXVW1Kc05FMEtrZmlUTnBFeTlaa3ZIVVhiLTRXUzFSM2gwekdxQ1Azc1ZOb08yZXRjOGhQUHRJYU5uOVdnbUZlOQ",
+    "title": "Will CIVI stock benefit from upcoming earnings reports - 2025 Short Interest & Entry and Exit Point Strategies - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd2ZUekZlVHNhOEhmQ3k1T2wtcUJfRlV6SXYxNTZfaTlvZWNlVVpCMVRpbVlGZnItUUdUd2xQM0xXVW1Kc05FMEtrZmlUTnBFeTlaa3ZIVVhiLTRXUzFSM2gwekdxQ1Azc1ZOb08yZXRjOGhQUHRJYU5uOVdnbUZlOQ?oc=5",
+    "summary": "CIVI株は今後の収益報告から恩恵を受けるか、また2025年の空売りとエントリー・イグジットポイント戦略について分析されています。",
+    "published": "2026-02-15T01:56:46+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMilAFBVV95cUxQNzNjMkh3dUoxVGt3Y2R4QkV4R2w2LWZwclFwc09hSHNHT2RMZDZTSWNqZXItcWlTSjN3amNPU0RnV1ZqdXVEUVJOWFo4QlZJM1paV2d5MmxkY1hLTmJEcjFVR0I3bTE5NGxyT2Nqb3FjVmd3dkNUdURiQzEydG15U0c1YmJNVFg4Q19GSnJRUUlfRXpB",
+    "title": "Is ExlService Holdings Inc. stock a safe buy before earnings - July 2025 PostEarnings & AI Enhanced Trading Alerts - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNzNjMkh3dUoxVGt3Y2R4QkV4R2w2LWZwclFwc09hSHNHT2RMZDZTSWNqZXItcWlTSjN3amNPU0RnV1ZqdXVEUVJOWFo4QlZJM1paV2d5MmxkY1hLTmJEcjFVR0I3bTE5NGxyT2Nqb3FjVmd3dkNUdURiQzEydG15U0c1YmJNVFg4Q19GSnJRUUlfRXpB?oc=5",
+    "summary": "ExlService Holdings Inc.株は決算発表前に安全な買いか、また2025年7月の決算発表後とAI強化された取引アラートについて検討されています。",
+    "published": "2026-02-14T21:24:23+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMickFVX3lxTFBwM0F0VVFfQTRka0NRcklKVUFuZThMdmlXZk10ZVdxVW1rN09HdE5WWU1IX29TMHdJTkNVM3hEU19rYTRkU2owMWNhdWdhSFNvdm45ZDktYkdiOGNzdFhIdkx5R3RTSnlXSk02UmhvdU5NUQ",
+    "title": "Is CLAR stock a top pick in earnings season - July 2025 Opening Moves & AI Forecast for Swing Trade Picks - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwM0F0VVFfQTRka0NRcklKVUFuZThMdmlXZk10ZVdxVW1rN09HdE5WWU1IX29TMHdJTkNVM3hEU19rYTRkU2owMWNhdWdhSFNvdm45ZDktYkdiOGNzdFhIdkx5R3RTSnlXSk02UmhvdU5NUQ?oc=5",
+    "summary": "CLAR株は決算シーズンにおいて有望な選択肢か、また2025年7月のオープニングとAI予測に基づくスイングトレードピックについて分析されています。",
+    "published": "2026-02-14T19:18:36+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMidEFVX3lxTE9GZHU4M2pZMWhpem4xb3k3U054R1hHMXc0cE50LS1sUnNMQ2V1TlRyWjd4TW12YS1FUHNodEt1djhvWFZSUXpiVU1wZlluV0hIWGs1SS1taVlTOHJxYWxtbmZNc0ZxSjZwMWxqVVJ4SGpZSVky",
+    "title": "What are AROC’s earnings expectations - Portfolio Return Summary & High Accuracy Investment Entry Signals - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GZHU4M2pZMWhpem4xb3k3U054R1hHMXc0cE50LS1sUnNMQ2V1TlRyWjd4TW12YS1FUHNodEt1djhvWFZSUXpiVU1wZlluV0hIWGs1SS1taVlTOHJxYWxtbmZNc0ZxSjZwMWxqVVJ4SGpZSVky?oc=5",
+    "summary": "AROCの収益予想は何か、またポートフォリオのリターン概要と高精度投資エントリーシグナルについて考察されています。",
+    "published": "2026-02-15T00:44:50+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMijAFBVV95cUxObm5IV0dEZHZXaXZYdUduUm1ONnU4SFNJeGpKbC15ZmpoVGhNb2JyUW1Wd2I0UTlnejAyWVlrZS1hdGtzZ2JaUzA0ZFVFTWQtTFUwRnA0ZGZ5R0N5cjJUak5BcnZyTFRZa3YwZnMyd0dhV0JoSHZBNE5LTFV3U2xRMzRVUkJCZUM2anF5RA",
+    "title": "Will MNSB stock benefit from upcoming earnings reports - Market Rally & Low Risk Entry Point Tips - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObm5IV0dEZHZXaXZYdUduUm1ONnU4SFNJeGpKbC15ZmpoVGhNb2JyUW1Wd2I0UTlnejAyWVlrZS1hdGtzZ2JaUzA0ZFVFTWQtTFUwRnA0ZGZ5R0N5cjJUak5BcnZyTFRZa3YwZnMyd0dhV0JoSHZBNE5LTFV3U2xRMzRVUkJCZUM2anF5RA?oc=5",
+    "summary": "MNSB株は、今後の決算報告と市場の回復、低リスクのエントリーポイントにより恩恵を受ける可能性がある。",
+    "published": "2026-02-14T19:33:42+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "CBMiiwFBVV95cUxQRWlpWDh3MmxkUk56cktqTC1EWjBWS0NERGVyczBnWVlXMFRRQ1BmaVNPOFZCTG1MUG1xYThQaUhqZXJjd0JHZU5rMEtxS3A5aFNBYmFsOEh3ZGJoVENfUGJJQ1lrXzVLa1NwUHFMa0hFT1JYSENNaV9CdTRmZGNCXzNKZTNiajBVajhN",
+    "title": "Can Barings BDC Inc. stock surprise markets with earnings - Earnings Trend Report & Reliable Price Breakout Alerts - mfd.ru",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRWlpWDh3MmxkUk56cktqTC1EWjBWS0NERGVyczBnWVlXMFRRQ1BmaVNPOFZCTG1MUG1xYThQaUhqZXJjd0JHZU5rMEtxS3A5aFNBYmFsOEh3ZGJoVENfUGJJQ1lrXzVLa1NwUHFMa0hFT1JYSENNaV9CdTRmZGNCXzNKZTNiajBVajhN?oc=5",
+    "summary": "Barings BDC Inc.株は、決算トレンド報告と信頼できる価格ブレイクアウトアラートにより、市場を驚かせる可能性がある。",
+    "published": "2026-02-14T15:25:59+00:00",
+    "source_name": "Google News Stock Analysis",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264069",
+    "title": "Lunar New Year gives luxury brands a chance to win back big spenders in China",
+    "link": "https://www.cnbc.com/2026/02/14/lunar-new-year-luxury-china.html",
+    "summary": "旧正月は、高級ブランドが中国の富裕層を取り戻す機会となる。",
+    "published": "2026-02-14T13:00:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108265643",
+    "title": "AI disruption could spark a ‘shock to the system’ in credit markets, UBS analyst says",
+    "link": "https://www.cnbc.com/2026/02/13/ai-credit-markets.html",
+    "summary": "UBSのアナリストは、AIの変革が予想以上に早く進んでおり、信用市場に「衝撃」を与える可能性があると述べている。",
+    "published": "2026-02-13T18:19:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264101",
+    "title": "How packaging and logistics companies are automating their warehouses",
+    "link": "https://www.cnbc.com/2026/02/13/shipping-auotmation-logistics-labor.html",
+    "summary": "UPS、FedEx、DHLなどの包装・物流企業は、効率向上とコスト削減のため倉庫業務の自動化を進めている。",
+    "published": "2026-02-13T12:30:01+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108265237",
+    "title": "Rivian tops fourth-quarter expectations, targets significant production increase",
+    "link": "https://www.cnbc.com/2026/02/12/rivian-automotive-rivn-earnings-q4-2025.html",
+    "summary": "Rivianは第4四半期の予想を上回り、2026年には車両出荷台数を大幅に増加させる目標を掲げている。",
+    "published": "2026-02-13T13:29:14+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108265038",
+    "title": "Spirit Airlines sells more planes, calls back 500 flight attendants from furlough ahead of spring break",
+    "link": "https://www.cnbc.com/2026/02/12/spirit-airlines-sells-planes-flight-attendants.html",
+    "summary": "Spirit Airlinesはさらに20機の航空機を売却し、春休み前に一時帰休させていた500名の客室乗務員を呼び戻している。",
+    "published": "2026-02-12T17:51:47+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264981",
+    "title": "Realtors report a 'new housing crisis' as January home sales tank more than 8%",
+    "link": "https://www.cnbc.com/2026/02/12/january-homes-sales.html",
+    "summary": "1月の住宅販売は、住宅ローン金利の停滞と消費者信頼感の低下により予想以上に落ち込み、不動産業者は「新たな住宅危機」を報告している。",
+    "published": "2026-02-12T15:37:41+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108263061",
+    "title": "American Airlines flight attendants picket as CEO tries to calm frustrated employees",
+    "link": "https://www.cnbc.com/2026/02/12/american-airlines-ceo-pressure-flight-attendants-picket.html",
+    "summary": "American Airlinesの客室乗務員組合は、CEOロバート・アイソムに対する不信任投票を行い、同CEOは従業員の不満を鎮めようとしている。",
+    "published": "2026-02-12T20:31:11+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264575",
+    "title": "Restaurant Brands shares fall despite earnings beat, strong international growth",
+    "link": "https://www.cnbc.com/2026/02/12/restaurant-brands-international-qsr-q4-2025-earnings.html",
+    "summary": "Restaurant Brandsは、好調な海外成長により利益予想を上回ったものの、株価は下落した。",
+    "published": "2026-02-12T17:49:47+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264097",
+    "title": "McDonald’s earnings beat estimates as chain’s value push pays off",
+    "link": "https://www.cnbc.com/2026/02/11/mcdonalds-mcd-q4-2025-earnings.html",
+    "summary": "マクドナルドは、話題性のあるプロモーションが富裕層の顧客を獲得し、業績が予想を上回った。",
+    "published": "2026-02-12T15:25:21+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "108264603",
+    "title": "Why the largest U.S. auto dealer isn't interested in Chinese cars — for now",
+    "link": "https://www.cnbc.com/2026/02/11/autos-chinese-car.html",
+    "summary": "米国最大の自動車ディーラーは、政治、物流、消費者の反発の可能性だけでなく、他の理由から、現時点では中国車に興味がない。",
+    "published": "2026-02-11T21:07:26+00:00",
+    "source_name": "CNBC Markets",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552175-trump-reverses-landmark-endangerment-finding-in-major-blow-to-climate-regulations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Trump reverses landmark 'endangerment finding' in major blow to climate regulations",
+    "link": "https://seekingalpha.com/news/4552175-trump-reverses-landmark-endangerment-finding-in-major-blow-to-climate-regulations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "トランプ前大統領は、気候変動対策に大きな打撃となる、重要な「危険性認定」を覆した。",
+    "published": "2026-02-15T01:20:51+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552207-key-deals-this-week-schroders-qxo-valaris-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Key deals this week: Schroders, QXO, Valaris, and more",
+    "link": "https://seekingalpha.com/news/4552207-key-deals-this-week-schroders-qxo-valaris-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "今週は、Schroders、QXO、Valarisなど、重要な取引がいくつか成立した。",
+    "published": "2026-02-14T20:15:01+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552042-is-kraft-heinzs-announcement-to-stay-together-a-love-letter-to-investors?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Is Kraft Heinz's announcement to stay together a love letter to investors?",
+    "link": "https://seekingalpha.com/news/4552042-is-kraft-heinzs-announcement-to-stay-together-a-love-letter-to-investors?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "クラフト・ハインツが合併を維持すると発表したことは、投資家へのラブレターと言えるかもしれない。",
+    "published": "2026-02-14T19:00:36+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552208-alibaba-other-tech-giants-summoned-china?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Alibaba, Baidu, and other tech giants summoned in China over competition",
+    "link": "https://seekingalpha.com/news/4552208-alibaba-other-tech-giants-summoned-china?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "中国で、アリババや百度などのテクノロジー企業が競争に関する問題で政府に召喚された。",
+    "published": "2026-02-14T18:26:09+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4551795-earnings-scoreboard-54-of-81-companies-post-earnings-growth-in-earnings-latest-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Earnings scoreboard: 54 of 81 companies post earnings growth in latest week",
+    "link": "https://seekingalpha.com/news/4551795-earnings-scoreboard-54-of-81-companies-post-earnings-growth-in-earnings-latest-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "最新の週では、81社中54社が収益成長を記録した。",
+    "published": "2026-02-14T18:20:23+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552206-volkswagen-face-dieselgate-trial-paris?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "Volkswagen ordered to face “dieselgate” trial in Paris: report",
+    "link": "https://seekingalpha.com/news/4552206-volkswagen-face-dieselgate-trial-paris?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "フォルクスワーゲンは、パリで「ディーゼルゲート」訴訟に直面するよう命じられた。",
+    "published": "2026-02-14T17:44:27+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://seekingalpha.com/news/4552179-whats-next-for-meta-amid-its-massive-ai-spending-projection?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "title": "What's next for Meta amid its massive AI spending projection?",
+    "link": "https://seekingalpha.com/news/4552179-whats-next-for-meta-amid-its-massive-ai-spending-projection?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+    "summary": "Meta社はAIへの巨額投資を計画しており、その後の展開が注目されている。",
+    "published": "2026-02-14T17:05:52+00:00",
+    "source_name": "Seeking Alpha Market News",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870452",
+    "title": "Noah Holdings: Deep Value With Structural Transformation",
+    "link": "https://seekingalpha.com/article/4870452-noah-holdings-deep-value-with-structural-transformation?source=feed_all_articles",
+    "summary": "諾亞控股（Noah Holdings）は、構造改革を伴う深い価値を持つ企業として評価されている。",
+    "published": "2026-02-15T04:47:55+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870451",
+    "title": "FPF: Dividend Can Be Sustained But Not A Buy Yet",
+    "link": "https://seekingalpha.com/article/4870451-fpf-dividend-can-be-sustained-but-not-a-buy-yet?source=feed_all_articles",
+    "summary": "FPFの配当は維持可能だが、現時点では買いではない。",
+    "published": "2026-02-15T04:23:19+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870450",
+    "title": "The 1-Minute Market Report, February 15, 2026",
+    "link": "https://seekingalpha.com/article/4870450-the-1-minute-market-report-february-15-2026?source=feed_all_articles",
+    "summary": "2026年2月15日の1分間マーケットレポート。",
+    "published": "2026-02-15T04:00:00+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870449",
+    "title": "DTD: Why Rotation Trade Favors Dividend Payers In 2026",
+    "link": "https://seekingalpha.com/article/4870449-dtd-why-rotation-trade-favors-dividend-payers-in-2026?source=feed_all_articles",
+    "summary": "2026年はローテーション取引において配当支払企業が有利。",
+    "published": "2026-02-15T03:45:48+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870447",
+    "title": "Globalstar: Commercial Execution Is Heating Up With New Contracts",
+    "link": "https://seekingalpha.com/article/4870447-globalstar-commercial-execution-is-heating-up-with-new-contracts?source=feed_all_articles",
+    "summary": "Globalstarは新たな契約により商業展開が加速している。",
+    "published": "2026-02-15T03:34:41+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870445",
+    "title": "Walmart To Lead Group Of 11 Companies Announcing Annual Dividend Increases In Second Half Of February",
+    "link": "https://seekingalpha.com/article/4870445-walmart-to-lead-group-of-11-companies-announcing-annual-dividend-increases-in-second-half-of-february?source=feed_all_articles",
+    "summary": "ウォルマートは2月後半に年間配当増額を発表する11社のグループを主導する。",
+    "published": "2026-02-15T03:16:24+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870443",
+    "title": "5 Closed-End Fund Buys In The Month Of January 2026",
+    "link": "https://seekingalpha.com/article/4870443-5-closed-end-fund-buys-in-the-month-of-january-2026?source=feed_all_articles",
+    "summary": "クローズドエンド型ファンドについて、2026年1月に購入するべき5つの銘柄が紹介されている。",
+    "published": "2026-02-15T02:54:28+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870442",
+    "title": "ExaWizards Inc. 2026 Q3 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4870442-exawizards-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "ExaWizards Inc.の2026年第3四半期の決算説明会の資料が公開された。",
+    "published": "2026-02-14T23:07:37+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870441",
+    "title": "Pan Pacific International Holdings Corporation 2026 Q2 - Results - Earnings Call Presentation",
+    "link": "https://seekingalpha.com/article/4870441-pan-pacific-international-holdings-corporation-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+    "summary": "Pan Pacific International Holdings Corporationの2026年第2四半期の決算説明会の資料が公開された。",
+    "published": "2026-02-14T23:07:07+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "4870435",
+    "title": "Howmet Aerospace: I Was Wrong, But The Stock Remains Expensive",
+    "link": "https://seekingalpha.com/article/4870435-howmet-aerospace-i-was-wrong-but-the-stock-remains-expensive-rating-upgrade?source=feed_all_articles",
+    "summary": "Howmet Aerospace社の株価は依然として割高であるという分析が示されている。",
+    "published": "2026-02-14T20:30:09+00:00",
+    "source_name": "Seeking Alpha Articles",
+    "category": "Investment & Markets",
+    "category_ja": "投資・マーケット"
+  },
+  {
+    "id": "https://projectzero.google/2026/02/windows-administrator-protection",
+    "title": "Bypassing Administrator Protection by Abusing UI Access",
+    "link": "https://projectzero.google/2026/02/windows-administrator-protection.html",
+    "summary": "UIアクセスを悪用することで、管理者保護を回避する手法に関する技術的な解説がなされている。",
+    "published": "2026-02-12T08:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2026/01/sound-barrier-2",
+    "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
+    "link": "https://projectzero.google/2026/01/sound-barrier-2.html",
+    "summary": "macOSのcoreaudiodデーモンにおける型混乱脆弱性(CVE-2024-54529)の悪用に焦点を当て、技術的な詳細を解説する。",
+    "published": "2026-01-30T08:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2026/26/windows-administrator-protection",
+    "title": "Bypassing Windows Administrator Protection",
+    "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
+    "summary": "Windows 11 25H2で導入されたAdministrator Protectionの新機能の概要、動作原理、UACとの違い、そしてセキュリティ研究について説明する。",
+    "published": "2026-01-26T08:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2026/01/0-click-android-part3",
+    "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
+    "link": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
+    "summary": "Pixel 9における0クリックエクスプロイトチェーンの発見、報告、悪用を通じて浮き彫りになったAndroidエコシステムにおける問題点と改善策を提案する。",
+    "published": "2026-01-14T18:01:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2026/01/0-click-android-part2",
+    "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+    "link": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+    "summary": "Dolby Unified Decoder RCEエクスプロイトの可能性を踏まえ、mediacodecコンテキストからアクセス可能なLinuxカーネルドライバを調査し、サンドボックスを突破する/dev/bigwaveというデバイスドライバを発見した。",
+    "published": "2026-01-14T18:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2026/01/0-click-android-part1",
+    "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
+    "link": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
+    "summary": "AI搭載機能の増加により0クリック攻撃対象領域が拡大しており、Googleメッセージで受信した音声添付ファイルが自動的にデコードされることが攻撃の入り口になる可能性がある。",
+    "published": "2026-01-14T17:59:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2025/12/welcome",
+    "title": "Welcome to the new Project Zero Blog",
+    "link": "https://projectzero.google/2025/12/welcome.html",
+    "summary": "Project Zeroのブログがリニューアルされ、過去の未公開記事が再公開されることになった。",
+    "published": "2025-12-16T10:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2025/12/thinking-outside-the-box",
+    "title": "Thinking Outside The Box [dusted off draft from 2017]",
+    "link": "https://projectzero.google/2025/12/thinking-outside-the-box.html",
+    "summary": "2017年に書かれたブログ記事の草稿が公開され、VirtualBoxの脆弱性CVE-2017-3558を利用したVMからのエスケープについて解説されている。",
+    "published": "2025-12-16T09:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2025/12/windows-exploitation-techniques",
+    "title": "Windows Exploitation Techniques: Winning Race Conditions with Path Lookups",
+    "link": "https://projectzero.google/2025/12/windows-exploitation-techniques.html",
+    "summary": "2016年に書かれたWindowsのパス検索における競合状態の脆弱性に関する記事が再公開され、Windows 11での動作検証結果も含まれている。",
+    "published": "2025-12-16T08:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
+  },
+  {
+    "id": "https://projectzero.google/2025/12/android-itw-dng",
+    "title": "A look at an Android ITW DNG exploit",
+    "link": "https://projectzero.google/2025/12/android-itw-dng.html",
+    "summary": "2024年7月から2025年2月の間にVirusTotalにアップロードされた不審な画像ファイル（DNG形式）が悪用され、Samsungデバイスの画像解析ライブラリQuramを標的とする攻撃が確認された。",
+    "published": "2025-12-12T10:00:00+00:00",
+    "source_name": "Google Project Zero",
+    "category": "Security",
+    "category_ja": "セキュリティ"
   }
 ]

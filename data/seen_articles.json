@@ -274,5 +274,681 @@
   "//technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible": {
     "title": "Is a secure AI assistant possible?",
     "seen_at": "2026-02-15T04:39:56.911324+00:00"
+  },
+  "//databricks.com/blog/getting-full-picture-unifying-databricks-and-cloud-infrastructure-costs": {
+    "title": "Getting the Full Picture: Unifying Databricks and Cloud Infrastructure Costs",
+    "seen_at": "2026-02-15T04:58:45.505700+00:00"
+  },
+  "//databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai": {
+    "title": "Domain Intelligence Wins: What “High-Quality” Actually Means in Production AI",
+    "seen_at": "2026-02-15T04:58:45.517183+00:00"
+  },
+  "//databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws": {
+    "title": "AI/BI Genie, Foundational Model API, and Databricks Assistant Now Generally Available in AWS GovCloud",
+    "seen_at": "2026-02-15T04:58:45.531726+00:00"
+  },
+  "//databricks.com/blog/collaboration-advantage-how-modern-retailers-and-cpg-brands-win-together": {
+    "title": "The Collaboration Advantage: How Modern Retailers and CPG Brands Win Together",
+    "seen_at": "2026-02-15T04:58:45.543643+00:00"
+  },
+  "//databricks.com/blog/whats-new-aibi-february-2026-roundup": {
+    "title": "What’s New in AI/BI - February 2026 Roundup",
+    "seen_at": "2026-02-15T04:58:45.551421+00:00"
+  },
+  "//databricks.com/blog/building-whats-next-together-introducing-brickbuilder-partner-network-agentic-ai-era": {
+    "title": "Building What’s Next. Together. Introducing the Brickbuilder Partner Network for the Agentic AI Era",
+    "seen_at": "2026-02-15T04:58:45.566144+00:00"
+  },
+  "//databricks.com/blog/structured-vs-unstructured-data": {
+    "title": "Structured vs unstructured data",
+    "seen_at": "2026-02-15T04:58:45.572074+00:00"
+  },
+  "//databricks.com/blog/how-ai-transforming-data-analytics": {
+    "title": "How AI Is Transforming Data Analytics",
+    "seen_at": "2026-02-15T04:58:45.579371+00:00"
+  },
+  "//databricks.com/blog/modernize-your-data-engineering-platform-lakeflow-azure-databricks": {
+    "title": "Modernize your Data Engineering Platform with Lakeflow on Azure Databricks",
+    "seen_at": "2026-02-15T04:58:45.592082+00:00"
+  },
+  "//databricks.com/blog/agent-bricks-supervisor-agent-now-ga-orchestrate-enterprise-agents": {
+    "title": "Agent Bricks Supervisor Agent is Now GA: Orchestrate Enterprise Agents",
+    "seen_at": "2026-02-15T04:58:45.604370+00:00"
+  },
+  "//getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration": {
+    "title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "seen_at": "2026-02-15T04:58:45.620855+00:00"
+  },
+  "//getdbt.com/blog/dbt-business-value": {
+    "title": "Maximize the business value of your data platform with dbt",
+    "seen_at": "2026-02-15T04:58:45.631884+00:00"
+  },
+  "//getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt": {
+    "title": "Bring structured context to Snowflake Intelligence with dbt",
+    "seen_at": "2026-02-15T04:58:45.643914+00:00"
+  },
+  "//getdbt.com/blog/dbt-core-v1-11-is-ga": {
+    "title": "dbt Core v1.11 is GA",
+    "seen_at": "2026-02-15T04:58:45.648455+00:00"
+  },
+  "//getdbt.com/blog/dbt-mcp-server-reliable-ai": {
+    "title": "Deliver reliable AI with the dbt Semantic Layer and dbt MCP Server",
+    "seen_at": "2026-02-15T04:58:45.661041+00:00"
+  },
+  "//getdbt.com/blog/how-data-mesh-solves-centralized-data-challenges": {
+    "title": "How data mesh solved centralized data management challenges",
+    "seen_at": "2026-02-15T04:58:45.672571+00:00"
+  },
+  "//getdbt.com/blog/why-analytics-engineering-isnt-just-data-modeling": {
+    "title": "Why analytics engineering isn't just data modeling",
+    "seen_at": "2026-02-15T04:58:45.682644+00:00"
+  },
+  "//getdbt.com/blog/what-defines-a-control-plan-for-data-infrastructure": {
+    "title": "What defines a control plan for data infrastructure",
+    "seen_at": "2026-02-15T04:58:45.693273+00:00"
+  },
+  "//getdbt.com/blog/data-marts-vs-data-products": {
+    "title": "Data marts vs. Data products: What's the difference?",
+    "seen_at": "2026-02-15T04:58:45.703860+00:00"
+  },
+  "//getdbt.com/blog/the-osi-spec-updates": {
+    "title": "What the Open Semantic Interchange (OSI) spec means for metrics, semantics, and AI",
+    "seen_at": "2026-02-15T04:58:45.720153+00:00"
+  },
+  "//k7r.eu/i-love-the-work-of-the-archwiki-maintainers": {
+    "title": "I love the work of the ArchWiki maintainers",
+    "seen_at": "2026-02-15T04:58:45.729841+00:00"
+  },
+  "//mrdoob.github.io/three-descent": {
+    "title": "Descent, ported to the web",
+    "seen_at": "2026-02-15T04:58:45.736129+00:00"
+  },
+  "//towardsdatascience.com/your-first-90-days-as-a-data-scientist": {
+    "title": "Your First 90 Days as a Data Scientist",
+    "seen_at": "2026-02-15T04:58:45.745131+00:00"
+  },
+  "//towardsdatascience.com/the-evolving-role-of-the-ml-engineer": {
+    "title": "The Evolving Role of the ML Engineer",
+    "seen_at": "2026-02-15T04:58:45.753580+00:00"
+  },
+  "//towardsdatascience.com/point-to-point-and-collective-operations": {
+    "title": "AI in Multiple GPUs: Point-to-Point and Collective Operations",
+    "seen_at": "2026-02-15T04:58:45.766152+00:00"
+  },
+  "//towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions": {
+    "title": "How to Leverage Explainable AI for Better Business Decisions",
+    "seen_at": "2026-02-15T04:58:45.779295+00:00"
+  },
+  "//towardsdatascience.com/understanding-the-host-and-device-paradigm": {
+    "title": "AI in Multiple GPUs: Understanding the Host and Device Paradigm",
+    "seen_at": "2026-02-15T04:58:45.792534+00:00"
+  },
+  "//towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data": {
+    "title": "Building an AI Agent to Detect and Handle Anomalies in Time-Series Data",
+    "seen_at": "2026-02-15T04:58:45.808225+00:00"
+  },
+  "//towardsdatascience.com/not-all-recsys-problems-are-created-equal": {
+    "title": "Not All RecSys Problems Are Created Equal",
+    "seen_at": "2026-02-15T04:58:45.818082+00:00"
+  },
+  "//towardsdatascience.com/how-to-model-the-expected-value-of-marketing-campaigns": {
+    "title": "How to Model The Expected Value of Marketing Campaigns",
+    "seen_at": "2026-02-15T04:58:45.830715+00:00"
+  },
+  "//towardsdatascience.com/implementing-the-snake-game-in-python": {
+    "title": "Implementing the Snake Game in Python",
+    "seen_at": "2026-02-15T04:58:45.839794+00:00"
+  },
+  "//towardsdatascience.com/how-to-personalize-claude-code": {
+    "title": "How to Personalize Claude Code",
+    "seen_at": "2026-02-15T04:58:45.847711+00:00"
+  },
+  "//dataengineeringweekly.com/p/data-engineering-weekly-256": {
+    "title": "Data Engineering Weekly #256",
+    "seen_at": "2026-02-15T04:58:45.854762+00:00"
+  },
+  "//dataengineeringweekly.com/p/the-missing-layer-in-your-ai-stack": {
+    "title": "The Missing Layer in Your AI Stack: Context, Not Just State",
+    "seen_at": "2026-02-15T04:58:45.875382+00:00"
+  },
+  "//dataengineeringweekly.com/p/data-contracts-a-missed-opportunity": {
+    "title": "Data Contracts: A Missed Opportunity",
+    "seen_at": "2026-02-15T04:58:45.891414+00:00"
+  },
+  "//dataengineeringweekly.com/p/a-critique-of-iceberg-rest-catalog": {
+    "title": "A Critique of Iceberg REST Catalog: A Classic Case of Why Semantic Spec Fails",
+    "seen_at": "2026-02-15T04:58:45.922824+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/upcoming-speaking-engagements-53.html": {
+    "title": "Upcoming Speaking Engagements",
+    "seen_at": "2026-02-15T04:58:45.944618+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/friday-squid-blogging-do-squid-dream.html": {
+    "title": "Friday Squid Blogging: Do Squid Dream?",
+    "seen_at": "2026-02-15T04:58:45.954227+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/3d-printer-surveillance.html": {
+    "title": "3D Printer Surveillance",
+    "seen_at": "2026-02-15T04:58:45.960944+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html": {
+    "title": "Rewiring Democracy Ebook is on Sale",
+    "seen_at": "2026-02-15T04:58:45.970762+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html": {
+    "title": "Prompt Injection Via Road Signs",
+    "seen_at": "2026-02-15T04:58:45.979379+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html": {
+    "title": "AI-Generated Text and the Detection Arms Race",
+    "seen_at": "2026-02-15T04:58:45.991549+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html": {
+    "title": "LLMs are Getting a Lot Better and Faster at Finding and Exploiting Zero-Days",
+    "seen_at": "2026-02-15T04:58:46.010761+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html": {
+    "title": "Friday Squid Blogging: Squid Fishing Tips",
+    "seen_at": "2026-02-15T04:58:46.021017+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html": {
+    "title": "I Am in the Epstein Files",
+    "seen_at": "2026-02-15T04:58:46.029037+00:00"
+  },
+  "//schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html": {
+    "title": "iPhone Lockdown Mode Protects Washington Post Reporter",
+    "seen_at": "2026-02-15T04:58:46.043111+00:00"
+  },
+  "//bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks": {
+    "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
+    "seen_at": "2026-02-15T04:58:46.060528+00:00"
+  },
+  "//bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks": {
+    "title": "Snail mail letters target Trezor and Ledger users in crypto-theft attacks",
+    "seen_at": "2026-02-15T04:58:46.079297+00:00"
+  },
+  "//bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges": {
+    "title": "Fake job recruiters hide malware in developer coding challenges",
+    "seen_at": "2026-02-15T04:58:46.095811+00:00"
+  },
+  "//bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack": {
+    "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
+    "seen_at": "2026-02-15T04:58:46.114530+00:00"
+  },
+  "//bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches": {
+    "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+    "seen_at": "2026-02-15T04:58:46.132346+00:00"
+  },
+  "//bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip": {
+    "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+    "seen_at": "2026-02-15T04:58:46.147177+00:00"
+  },
+  "//bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks": {
+    "title": "CISA flags critical Microsoft SCCM flaw as exploited in attacks",
+    "seen_at": "2026-02-15T04:58:46.164655+00:00"
+  },
+  "//bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching": {
+    "title": "Microsoft fixes bug that blocked Google Chrome from launching",
+    "seen_at": "2026-02-15T04:58:46.180590+00:00"
+  },
+  "//bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade": {
+    "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
+    "seen_at": "2026-02-15T04:58:46.198797+00:00"
+  },
+  "//bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing": {
+    "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+    "seen_at": "2026-02-15T04:58:46.216034+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32712": {
+    "title": "AI-Powered Knowledge Graph Generator & APTs, (Thu, Feb 12th)",
+    "seen_at": "2026-02-15T04:58:46.232335+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32714": {
+    "title": "ISC Stormcast For Friday, February 13th, 2026 https://isc.sans.edu/podcastdetail/9808, (Fri, Feb 13th)",
+    "seen_at": "2026-02-15T04:58:46.256457+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32708": {
+    "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2 [Guest Diary], (Wed, Feb 11th)",
+    "seen_at": "2026-02-15T04:58:46.315257+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32706": {
+    "title": "Apple Patches Everything: February 2026, (Wed, Feb 11th)",
+    "seen_at": "2026-02-15T04:58:46.330225+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32704": {
+    "title": "WSL in the Malware Ecosystem, (Wed, Feb 11th)",
+    "seen_at": "2026-02-15T04:58:46.343738+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32702": {
+    "title": "ISC Stormcast For Wednesday, February 11th, 2026 https://isc.sans.edu/podcastdetail/9804, (Wed, Feb 11th)",
+    "seen_at": "2026-02-15T04:58:46.369273+00:00"
+  },
+  "//isc.sans.edu/diary/rss/32700": {
+    "title": "Microsoft Patch Tuesday - February 2026, (Tue, Feb 10th)",
+    "seen_at": "2026-02-15T04:58:46.385164+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink": {
+    "title": "Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink",
+    "seen_at": "2026-02-15T04:58:46.460193+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns": {
+    "title": "Matching your Ingestion Strategy with your OpenSearch Query Patterns",
+    "seen_at": "2026-02-15T04:58:46.479071+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features": {
+    "title": "Amazon Athena adds 1-minute reservations and new capacity control features",
+    "seen_at": "2026-02-15T04:58:46.501400+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift": {
+    "title": "How Zalando innovates their Fast-Serving layer by migrating to Amazon Redshift",
+    "seen_at": "2026-02-15T04:58:46.525018+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together": {
+    "title": "Using Amazon SageMaker Unified Studio Identity center (IDC) and IAM-based domains together",
+    "seen_at": "2026-02-15T04:58:46.551265+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows": {
+    "title": "Orchestrate end-to-end scalable ETL pipeline with Amazon SageMaker workflows",
+    "seen_at": "2026-02-15T04:58:46.574557+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent": {
+    "title": "Reduce Mean Time to Resolution with an observability agent",
+    "seen_at": "2026-02-15T04:58:46.593990+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics": {
+    "title": "Amazon OpenSearch Ingestion 101: Set CloudWatch alarms for key metrics",
+    "seen_at": "2026-02-15T04:58:46.615288+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake": {
+    "title": "Use Amazon MSK Connect and Iceberg Kafka Connect to build a real-time data lake",
+    "seen_at": "2026-02-15T04:58:46.639523+00:00"
+  },
+  "//aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio": {
+    "title": "Optimizing Flink’s join operations on Amazon EMR with Alluxio",
+    "seen_at": "2026-02-15T04:58:46.659196+00:00"
+  },
+  "//cisa.gov/news-events/alerts/2026/02/13/cisa-adds-one-known-exploited-vulnerability-catalog": {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "seen_at": "2026-02-15T04:58:46.677551+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-06": {
+    "title": "Siemens SINEC OS",
+    "seen_at": "2026-02-15T04:58:46.684919+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-05": {
+    "title": "Siemens Solid Edge",
+    "seen_at": "2026-02-15T04:58:46.692650+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-07": {
+    "title": "Siemens Siveillance Video Management Servers",
+    "seen_at": "2026-02-15T04:58:46.728143+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-02": {
+    "title": "Siemens Polarion",
+    "seen_at": "2026-02-15T04:58:46.735221+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-10": {
+    "title": "Airleader Master",
+    "seen_at": "2026-02-15T04:58:46.742856+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-08": {
+    "title": "Siemens NX",
+    "seen_at": "2026-02-15T04:58:46.747894+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-04": {
+    "title": "Siemens Desigo CC Product Family and SENTRON Powermanager",
+    "seen_at": "2026-02-15T04:58:46.767640+00:00"
+  },
+  "//cisa.gov/news-events/ics-advisories/icsa-26-043-03": {
+    "title": "Siemens COMOS",
+    "seen_at": "2026-02-15T04:58:46.773664+00:00"
+  },
+  "//thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html": {
+    "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+    "seen_at": "2026-02-15T04:58:46.801177+00:00"
+  },
+  "//thehackernews.com/2026/02/google-links-china-iran-russia-north.html": {
+    "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+    "seen_at": "2026-02-15T04:58:46.831475+00:00"
+  },
+  "//thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html": {
+    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+    "seen_at": "2026-02-15T04:58:46.856541+00:00"
+  },
+  "//thehackernews.com/2026/02/malicious-chrome-extensions-caught.html": {
+    "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+    "seen_at": "2026-02-15T04:58:46.884706+00:00"
+  },
+  "//thehackernews.com/2026/02/npms-update-to-harden-their-supply.html": {
+    "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
+    "seen_at": "2026-02-15T04:58:46.908302+00:00"
+  },
+  "//thehackernews.com/2026/02/researchers-observe-in-wild.html": {
+    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+    "seen_at": "2026-02-15T04:58:46.934761+00:00"
+  },
+  "//thehackernews.com/2026/02/google-reports-state-backed-hackers.html": {
+    "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+    "seen_at": "2026-02-15T04:58:46.962000+00:00"
+  },
+  "//thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html": {
+    "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+    "seen_at": "2026-02-15T04:58:46.986212+00:00"
+  },
+  "//thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html": {
+    "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+    "seen_at": "2026-02-15T04:58:47.018232+00:00"
+  },
+  "//thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html": {
+    "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
+    "seen_at": "2026-02-15T04:58:47.040583+00:00"
+  },
+  "//krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks": {
+    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+    "seen_at": "2026-02-15T04:58:47.064017+00:00"
+  },
+  "//krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition": {
+    "title": "Patch Tuesday, January 2026 Edition",
+    "seen_at": "2026-02-15T04:58:47.077426+00:00"
+  },
+  "//krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets": {
+    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+    "seen_at": "2026-02-15T04:58:47.096489+00:00"
+  },
+  "//krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network": {
+    "title": "The Kimwolf Botnet is Stalking Your Local Network",
+    "seen_at": "2026-02-15T04:58:47.115671+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com": {
+    "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
+    "seen_at": "2026-02-15T04:58:47.130841+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review": {
+    "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
+    "seen_at": "2026-02-15T04:58:47.150093+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content": {
+    "title": "Most Parked Domains Now Serving Malicious Content",
+    "seen_at": "2026-02-15T04:58:47.169423+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition": {
+    "title": "Microsoft Patch Tuesday, December 2025 Edition",
+    "seen_at": "2026-02-15T04:58:47.187082+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill": {
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "seen_at": "2026-02-15T04:58:47.220330+00:00"
+  },
+  "//krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers": {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "seen_at": "2026-02-15T04:58:47.241110+00:00"
+  },
+  "//finance.yahoo.com/news/rithm-property-trust-inc-q4-213141167.html": {
+    "title": "Rithm Property Trust Inc. Q4 2025 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.262480+00:00"
+  },
+  "//finance.yahoo.com/news/marcus-millichap-inc-q4-2025-213139786.html": {
+    "title": "Marcus & Millichap, Inc. Q4 2025 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.283033+00:00"
+  },
+  "//finance.yahoo.com/news/wendys-company-q4-2025-earnings-213203656.html": {
+    "title": "The Wendy's Company Q4 2025 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.302311+00:00"
+  },
+  "//finance.yahoo.com/news/beyond-air-inc-q3-2026-213201921.html": {
+    "title": "Beyond Air, Inc. Q3 2026 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.320852+00:00"
+  },
+  "//finance.yahoo.com/news/raymond-james-upgrades-colliers-international-213316722.html": {
+    "title": "Raymond James Upgrades Colliers International Group Inc. (CIGI) to Strong Buy and Raises its Price Target to $200",
+    "seen_at": "2026-02-15T04:58:47.362006+00:00"
+  },
+  "//finance.yahoo.com/news/atlasclear-holdings-inc-q2-2026-213129128.html": {
+    "title": "AtlasClear Holdings, Inc. Q2 2026 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.384279+00:00"
+  },
+  "//finance.yahoo.com/news/colliers-international-group-inc-q4-213130371.html": {
+    "title": "Colliers International Group Inc. Q4 2025 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.408382+00:00"
+  },
+  "//finance.yahoo.com/news/advance-auto-parts-inc-q4-213128404.html": {
+    "title": "Advance Auto Parts, Inc. Q4 2025 Earnings Call Summary",
+    "seen_at": "2026-02-15T04:58:47.430178+00:00"
+  },
+  "//finance.yahoo.com/news/gold-steadies-sharp-drop-sparked-000702230.html": {
+    "title": "Gold Reclaims $5,000 as Cooling Inflation Lifts Fed Easing Bets",
+    "seen_at": "2026-02-15T04:58:47.455607+00:00"
+  },
+  "//finance.yahoo.com/news/stocks-settle-slightly-higher-bond-213443461.html": {
+    "title": "Stocks Settle Slightly Higher as Bond Yields Fall",
+    "seen_at": "2026-02-15T04:58:47.476689+00:00"
+  },
+  "//marketwatch.com/story/we-have-no-prenup-i-want-rights-of-survivorship-in-our-marital-home-my-wife-prefers-tenants-in-common-now-what-996cf652?mod=mw_rss_topstories": {
+    "title": "‘We have no prenup’: I want rights of survivorship in our marital home. My wife prefers tenants in common. Now what?",
+    "seen_at": "2026-02-15T04:58:47.520928+00:00"
+  },
+  "//marketwatch.com/story/my-mom-was-very-upset-my-stepsister-changed-the-address-on-our-mothers-bank-account-can-she-be-trusted-as-executor-dab23670?mod=mw_rss_topstories": {
+    "title": "‘I’m part of a blended family that didn’t blend well’: My stepsister added her mailing address to our mother’s bank account. Can she be trusted?",
+    "seen_at": "2026-02-15T04:58:47.575807+00:00"
+  },
+  "//marketwatch.com/story/i-feel-the-clock-ticking-my-wife-and-i-are-in-our-60s-and-employ-48-people-in-a-small-town-can-we-ever-retire-2399ba41?mod=mw_rss_topstories": {
+    "title": "‘I feel the clock ticking’: My wife and I are in our 60s — and employ 48 people in a small town. Can we ever retire?",
+    "seen_at": "2026-02-15T04:58:47.623334+00:00"
+  },
+  "//marketwatch.com/story/im-close-to-retiring-im-behind-on-my-property-taxes-is-this-a-bad-time-to-sell-my-house-40954efd?mod=mw_rss_topstories": {
+    "title": "‘I’m close to retiring’: I’m behind on my property tax. Is this a really bad time to sell my house?",
+    "seen_at": "2026-02-15T04:58:47.666083+00:00"
+  },
+  "//marketwatch.com/story/weve-been-dating-for-5-years-my-boyfriends-parents-say-he-doesnt-earn-enough-to-marry-should-i-speak-to-his-father-44b48700?mod=mw_rss_topstories": {
+    "title": "‘We’ve been dating for 5 years’: My boyfriend’s parents say he doesn’t earn enough to marry. Should I speak to his father?",
+    "seen_at": "2026-02-15T04:58:47.714563+00:00"
+  },
+  "//marketwatch.com/story/tempted-to-use-buy-now-pay-later-to-split-your-rent-payments-watch-out-for-these-fees-8849433a?mod=mw_rss_topstories": {
+    "title": "Tempted to use buy-now-pay-later to split your rent payments? Watch out for these fees.",
+    "seen_at": "2026-02-15T04:58:47.749968+00:00"
+  },
+  "//marketwatch.com/story/social-security-could-run-out-of-money-in-just-6-years-even-sooner-than-originally-feared-c28eb5a5?mod=mw_rss_topstories": {
+    "title": "Social Security could run out of money in just 6 years — even sooner than originally feared",
+    "seen_at": "2026-02-15T04:58:47.788359+00:00"
+  },
+  "//marketwatch.com/story/im-being-forced-into-a-roth-401-k-is-there-anything-i-can-do-81a6848d?mod=mw_rss_topstories": {
+    "title": "My employer is forcing me into a Roth 401(k). Is there anything I can do?",
+    "seen_at": "2026-02-15T04:58:47.818972+00:00"
+  },
+  "//marketwatch.com/story/what-wall-street-bulls-are-getting-wrong-about-the-dow-transports-steep-takeoff-549c6694?mod=mw_rss_topstories": {
+    "title": "The Dow transports’ steep takeoff isn’t the green light you’re told it is",
+    "seen_at": "2026-02-15T04:58:47.851627+00:00"
+  },
+  "//marketwatch.com/story/these-are-high-probability-options-trades-for-next-weeks-busy-earnings-crush-32b47d47?mod=mw_rss_topstories": {
+    "title": "S&P 500’s failed breakouts signal a darkening technical cloud",
+    "seen_at": "2026-02-15T04:58:47.878225+00:00"
+  },
+  "//news.google.com/rss/articles/CBMid0FVX3lxTE1NVmFDdy1MUmRVTTRJY2xHQVJHV294V2d6MDRncWhFLXZob2VEWHlhZ0p4NXFpR25fNHZvZUJrR2EwelBwdWpyVXlNMmNfSjc3dnBiNFhXbjc5bkVvMEJfVEg5TXNBNmVDYllkczFYam9DTWdoaDBz?oc=5": {
+    "title": "5 signs of an AI bubble to watch for - Fidelity",
+    "seen_at": "2026-02-15T04:58:47.900732+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiowFBVV95cUxNRmdEcWZpUGVweVozQXZMMHcyczYwMFNhMGpWSGRadlV0WTlUeWVGQ0RKMDRlWHpHMTZOaERZSkxTQ0w4QWhDNXg3aDY0dXIzRG9vLTB3bHUtS2dLdFNfQVo1UjRVTVhWcnJsZXhvcXdaeHF5ZU1VdkZfM3JkVzU0ajVrdEJDa2V4M2VBelNaMGhRZHVVLXhaWTRpVUY5ZUFhZnZB?oc=5": {
+    "title": "What dividend safety score for Eaton Vance Municipal Income Trust stock - Earnings Overview Summary & Safe Capital Preservation Plans - mfd.ru",
+    "seen_at": "2026-02-15T04:58:47.958245+00:00"
+  },
+  "//news.google.com/rss/articles/CBMi1wFBVV95cUxOTkhjWGNlUlFnX2lPNzItSVpMaG9iV290OGJZd29qaE13NmN2UW5ZX1hkc2tPdzdkZElCdjhqZmxnaWFSTzdvYUF2NVQ4Z3RfRGF6Y3FpcWpyckEwXy1MOHZMNHdzUzFEZklJQWZNMWJJMlNQcWtaMFhLcGY2UmpWdXM2eWN4d3hHS2Rfc3R1RURGLWlTQjlnWTlET3lZVUxfcVBqMlpTOS1ER3U0TVVPeUgzUUJHQjVXZTFnc1BoTzNHQzNidTA1Q04tWExnd0RRclVOZjRDYw?oc=5": {
+    "title": "Quarterly Earnings Review: Dec 2025 Results Reveal Mixed Trends Across Market Caps - Markets Mojo",
+    "seen_at": "2026-02-15T04:58:47.999300+00:00"
+  },
+  "//news.google.com/rss/articles/CBMickFVX3lxTE5HeVY0X3hXNU1wcGJhTC1hRDU2cm1FeEFaaDNoU3k4RE5CV25QZnZpdEpSQnEwbXZKRUVRZjQyXzNRN0hkUTh6dWY3OWtuYUxPcWQ1alJnMnJnLTBuS0JqVUYxRXFQZTE4c3Z1U2I1QzVqdw?oc=5": {
+    "title": "Will ReposiTrak Inc. announce a stock split - 2025 Earnings Surprises & Risk Adjusted Swing Trade Ideas - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.043863+00:00"
+  },
+  "//news.google.com/rss/articles/CBMigAFBVV95cUxQd2ZUekZlVHNhOEhmQ3k1T2wtcUJfRlV6SXYxNTZfaTlvZWNlVVpCMVRpbVlGZnItUUdUd2xQM0xXVW1Kc05FMEtrZmlUTnBFeTlaa3ZIVVhiLTRXUzFSM2gwekdxQ1Azc1ZOb08yZXRjOGhQUHRJYU5uOVdnbUZlOQ?oc=5": {
+    "title": "Will CIVI stock benefit from upcoming earnings reports - 2025 Short Interest & Entry and Exit Point Strategies - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.093356+00:00"
+  },
+  "//news.google.com/rss/articles/CBMilAFBVV95cUxQNzNjMkh3dUoxVGt3Y2R4QkV4R2w2LWZwclFwc09hSHNHT2RMZDZTSWNqZXItcWlTSjN3amNPU0RnV1ZqdXVEUVJOWFo4QlZJM1paV2d5MmxkY1hLTmJEcjFVR0I3bTE5NGxyT2Nqb3FjVmd3dkNUdURiQzEydG15U0c1YmJNVFg4Q19GSnJRUUlfRXpB?oc=5": {
+    "title": "Is ExlService Holdings Inc. stock a safe buy before earnings - July 2025 PostEarnings & AI Enhanced Trading Alerts - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.144614+00:00"
+  },
+  "//news.google.com/rss/articles/CBMickFVX3lxTFBwM0F0VVFfQTRka0NRcklKVUFuZThMdmlXZk10ZVdxVW1rN09HdE5WWU1IX29TMHdJTkNVM3hEU19rYTRkU2owMWNhdWdhSFNvdm45ZDktYkdiOGNzdFhIdkx5R3RTSnlXSk02UmhvdU5NUQ?oc=5": {
+    "title": "Is CLAR stock a top pick in earnings season - July 2025 Opening Moves & AI Forecast for Swing Trade Picks - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.194929+00:00"
+  },
+  "//news.google.com/rss/articles/CBMidEFVX3lxTE9GZHU4M2pZMWhpem4xb3k3U054R1hHMXc0cE50LS1sUnNMQ2V1TlRyWjd4TW12YS1FUHNodEt1djhvWFZSUXpiVU1wZlluV0hIWGs1SS1taVlTOHJxYWxtbmZNc0ZxSjZwMWxqVVJ4SGpZSVky?oc=5": {
+    "title": "What are AROC’s earnings expectations - Portfolio Return Summary & High Accuracy Investment Entry Signals - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.244879+00:00"
+  },
+  "//news.google.com/rss/articles/CBMijAFBVV95cUxObm5IV0dEZHZXaXZYdUduUm1ONnU4SFNJeGpKbC15ZmpoVGhNb2JyUW1Wd2I0UTlnejAyWVlrZS1hdGtzZ2JaUzA0ZFVFTWQtTFUwRnA0ZGZ5R0N5cjJUak5BcnZyTFRZa3YwZnMyd0dhV0JoSHZBNE5LTFV3U2xRMzRVUkJCZUM2anF5RA?oc=5": {
+    "title": "Will MNSB stock benefit from upcoming earnings reports - Market Rally & Low Risk Entry Point Tips - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.291790+00:00"
+  },
+  "//news.google.com/rss/articles/CBMiiwFBVV95cUxQRWlpWDh3MmxkUk56cktqTC1EWjBWS0NERGVyczBnWVlXMFRRQ1BmaVNPOFZCTG1MUG1xYThQaUhqZXJjd0JHZU5rMEtxS3A5aFNBYmFsOEh3ZGJoVENfUGJJQ1lrXzVLa1NwUHFMa0hFT1JYSENNaV9CdTRmZGNCXzNKZTNiajBVajhN?oc=5": {
+    "title": "Can Barings BDC Inc. stock surprise markets with earnings - Earnings Trend Report & Reliable Price Breakout Alerts - mfd.ru",
+    "seen_at": "2026-02-15T04:58:48.345993+00:00"
+  },
+  "//cnbc.com/2026/02/14/lunar-new-year-luxury-china.html": {
+    "title": "Lunar New Year gives luxury brands a chance to win back big spenders in China",
+    "seen_at": "2026-02-15T04:58:48.382052+00:00"
+  },
+  "//cnbc.com/2026/02/13/ai-credit-markets.html": {
+    "title": "AI disruption could spark a ‘shock to the system’ in credit markets, UBS analyst says",
+    "seen_at": "2026-02-15T04:58:48.421103+00:00"
+  },
+  "//cnbc.com/2026/02/13/shipping-auotmation-logistics-labor.html": {
+    "title": "How packaging and logistics companies are automating their warehouses",
+    "seen_at": "2026-02-15T04:58:48.453971+00:00"
+  },
+  "//cnbc.com/2026/02/12/rivian-automotive-rivn-earnings-q4-2025.html": {
+    "title": "Rivian tops fourth-quarter expectations, targets significant production increase",
+    "seen_at": "2026-02-15T04:58:48.490588+00:00"
+  },
+  "//cnbc.com/2026/02/12/spirit-airlines-sells-planes-flight-attendants.html": {
+    "title": "Spirit Airlines sells more planes, calls back 500 flight attendants from furlough ahead of spring break",
+    "seen_at": "2026-02-15T04:58:48.536382+00:00"
+  },
+  "//cnbc.com/2026/02/12/january-homes-sales.html": {
+    "title": "Realtors report a 'new housing crisis' as January home sales tank more than 8%",
+    "seen_at": "2026-02-15T04:58:48.573365+00:00"
+  },
+  "//cnbc.com/2026/02/12/american-airlines-ceo-pressure-flight-attendants-picket.html": {
+    "title": "American Airlines flight attendants picket as CEO tries to calm frustrated employees",
+    "seen_at": "2026-02-15T04:58:48.613781+00:00"
+  },
+  "//cnbc.com/2026/02/12/restaurant-brands-international-qsr-q4-2025-earnings.html": {
+    "title": "Restaurant Brands shares fall despite earnings beat, strong international growth",
+    "seen_at": "2026-02-15T04:58:48.652147+00:00"
+  },
+  "//cnbc.com/2026/02/11/mcdonalds-mcd-q4-2025-earnings.html": {
+    "title": "McDonald’s earnings beat estimates as chain’s value push pays off",
+    "seen_at": "2026-02-15T04:58:48.685475+00:00"
+  },
+  "//cnbc.com/2026/02/11/autos-chinese-car.html": {
+    "title": "Why the largest U.S. auto dealer isn't interested in Chinese cars — for now",
+    "seen_at": "2026-02-15T04:58:48.723194+00:00"
+  },
+  "//seekingalpha.com/news/4552175-trump-reverses-landmark-endangerment-finding-in-major-blow-to-climate-regulations?feed_item_type=news": {
+    "title": "Trump reverses landmark 'endangerment finding' in major blow to climate regulations",
+    "seen_at": "2026-02-15T04:58:48.761753+00:00"
+  },
+  "//seekingalpha.com/news/4552207-key-deals-this-week-schroders-qxo-valaris-and-more?feed_item_type=news": {
+    "title": "Key deals this week: Schroders, QXO, Valaris, and more",
+    "seen_at": "2026-02-15T04:58:48.788978+00:00"
+  },
+  "//seekingalpha.com/news/4552042-is-kraft-heinzs-announcement-to-stay-together-a-love-letter-to-investors?feed_item_type=news": {
+    "title": "Is Kraft Heinz's announcement to stay together a love letter to investors?",
+    "seen_at": "2026-02-15T04:58:48.827394+00:00"
+  },
+  "//seekingalpha.com/news/4552208-alibaba-other-tech-giants-summoned-china?feed_item_type=news": {
+    "title": "Alibaba, Baidu, and other tech giants summoned in China over competition",
+    "seen_at": "2026-02-15T04:58:48.863177+00:00"
+  },
+  "//seekingalpha.com/news/4551795-earnings-scoreboard-54-of-81-companies-post-earnings-growth-in-earnings-latest-week?feed_item_type=news": {
+    "title": "Earnings scoreboard: 54 of 81 companies post earnings growth in latest week",
+    "seen_at": "2026-02-15T04:58:48.901917+00:00"
+  },
+  "//seekingalpha.com/news/4552206-volkswagen-face-dieselgate-trial-paris?feed_item_type=news": {
+    "title": "Volkswagen ordered to face “dieselgate” trial in Paris: report",
+    "seen_at": "2026-02-15T04:58:48.934592+00:00"
+  },
+  "//seekingalpha.com/news/4552179-whats-next-for-meta-amid-its-massive-ai-spending-projection?feed_item_type=news": {
+    "title": "What's next for Meta amid its massive AI spending projection?",
+    "seen_at": "2026-02-15T04:58:48.966765+00:00"
+  },
+  "//seekingalpha.com/article/4870452-noah-holdings-deep-value-with-structural-transformation": {
+    "title": "Noah Holdings: Deep Value With Structural Transformation",
+    "seen_at": "2026-02-15T04:58:48.996815+00:00"
+  },
+  "//seekingalpha.com/article/4870451-fpf-dividend-can-be-sustained-but-not-a-buy-yet": {
+    "title": "FPF: Dividend Can Be Sustained But Not A Buy Yet",
+    "seen_at": "2026-02-15T04:58:49.023677+00:00"
+  },
+  "//seekingalpha.com/article/4870450-the-1-minute-market-report-february-15-2026": {
+    "title": "The 1-Minute Market Report, February 15, 2026",
+    "seen_at": "2026-02-15T04:58:49.047111+00:00"
+  },
+  "//seekingalpha.com/article/4870449-dtd-why-rotation-trade-favors-dividend-payers-in-2026": {
+    "title": "DTD: Why Rotation Trade Favors Dividend Payers In 2026",
+    "seen_at": "2026-02-15T04:58:49.075039+00:00"
+  },
+  "//seekingalpha.com/article/4870447-globalstar-commercial-execution-is-heating-up-with-new-contracts": {
+    "title": "Globalstar: Commercial Execution Is Heating Up With New Contracts",
+    "seen_at": "2026-02-15T04:58:49.109330+00:00"
+  },
+  "//seekingalpha.com/article/4870445-walmart-to-lead-group-of-11-companies-announcing-annual-dividend-increases-in-second-half-of-february": {
+    "title": "Walmart To Lead Group Of 11 Companies Announcing Annual Dividend Increases In Second Half Of February",
+    "seen_at": "2026-02-15T04:58:49.160720+00:00"
+  },
+  "//seekingalpha.com/article/4870443-5-closed-end-fund-buys-in-the-month-of-january-2026": {
+    "title": "5 Closed-End Fund Buys In The Month Of January 2026",
+    "seen_at": "2026-02-15T04:58:49.187759+00:00"
+  },
+  "//seekingalpha.com/article/4870442-exawizards-inc-2026-q3-results-earnings-call-presentation": {
+    "title": "ExaWizards Inc. 2026 Q3 - Results - Earnings Call Presentation",
+    "seen_at": "2026-02-15T04:58:49.220082+00:00"
+  },
+  "//seekingalpha.com/article/4870441-pan-pacific-international-holdings-corporation-2026-q2-results-earnings-call-presentation": {
+    "title": "Pan Pacific International Holdings Corporation 2026 Q2 - Results - Earnings Call Presentation",
+    "seen_at": "2026-02-15T04:58:49.264229+00:00"
+  },
+  "//seekingalpha.com/article/4870435-howmet-aerospace-i-was-wrong-but-the-stock-remains-expensive-rating-upgrade": {
+    "title": "Howmet Aerospace: I Was Wrong, But The Stock Remains Expensive",
+    "seen_at": "2026-02-15T04:58:49.298198+00:00"
+  },
+  "//projectzero.google/2026/02/windows-administrator-protection.html": {
+    "title": "Bypassing Administrator Protection by Abusing UI Access",
+    "seen_at": "2026-02-15T04:58:49.328247+00:00"
+  },
+  "//projectzero.google/2026/01/sound-barrier-2.html": {
+    "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
+    "seen_at": "2026-02-15T04:58:49.359122+00:00"
+  },
+  "//projectzero.google/2026/26/windows-administrator-protection.html": {
+    "title": "Bypassing Windows Administrator Protection",
+    "seen_at": "2026-02-15T04:58:49.382736+00:00"
+  },
+  "//projectzero.google/2026/01/pixel-0-click-part-3.html": {
+    "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
+    "seen_at": "2026-02-15T04:58:49.422645+00:00"
+  },
+  "//projectzero.google/2026/01/pixel-0-click-part-2.html": {
+    "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+    "seen_at": "2026-02-15T04:58:49.467305+00:00"
+  },
+  "//projectzero.google/2026/01/pixel-0-click-part-1.html": {
+    "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
+    "seen_at": "2026-02-15T04:58:49.500377+00:00"
+  },
+  "//projectzero.google/2025/12/welcome.html": {
+    "title": "Welcome to the new Project Zero Blog",
+    "seen_at": "2026-02-15T04:58:49.522906+00:00"
+  },
+  "//projectzero.google/2025/12/thinking-outside-the-box.html": {
+    "title": "Thinking Outside The Box [dusted off draft from 2017]",
+    "seen_at": "2026-02-15T04:58:49.551670+00:00"
+  },
+  "//projectzero.google/2025/12/windows-exploitation-techniques.html": {
+    "title": "Windows Exploitation Techniques: Winning Race Conditions with Path Lookups",
+    "seen_at": "2026-02-15T04:58:49.590764+00:00"
+  },
+  "//projectzero.google/2025/12/android-itw-dng.html": {
+    "title": "A look at an Android ITW DNG exploit",
+    "seen_at": "2026-02-15T04:58:49.614379+00:00"
   }
 }
