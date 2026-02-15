@@ -160,12 +160,17 @@ def run_weekly(dry_run: bool = False, verbose: bool = False) -> None:
     else:
         logger.info("No briefing generated (no API key or failure)")
 
-    # 3. Determine week range for PR title/branch
+    # 3. Determine week range
     now = datetime.now(timezone.utc)
     dates = sorted(set(a.published.strftime("%Y-%m-%d") for a in articles))
     week_start = dates[0]
     week_end = dates[-1] if len(dates) > 1 else week_start
     week_label = f"{week_start}_{week_end}"
+
+    # 4. Write briefing file (this is the new content for the PR branch)
+    briefing_path = PROJECT_ROOT / "digests" / f"briefing-{week_label}.md"
+    briefing_path.write_text(briefing or "(No briefing generated)", encoding="utf-8")
+    logger.info("Briefing file written to %s", briefing_path)
 
     if dry_run:
         logger.info("Dry run mode - skipping PR creation")
@@ -175,29 +180,17 @@ def run_weekly(dry_run: bool = False, verbose: bool = False) -> None:
         print(briefing or "(no briefing)")
         return
 
-    # 4. Collect all digest files for this week
-    digest_dir = PROJECT_ROOT / "digests"
-    digest_files = sorted(digest_dir.glob("*.md"))
-    weekly_digests = [f for f in digest_files if f.name != ".gitkeep"]
-
-    if not weekly_digests:
-        logger.warning("No digest files found")
-        return
-
     # 5. Create PR
-    seen_db_path = PROJECT_ROOT / "data" / "seen_articles.json"
     pr_url = create_pr(
-        digest_paths=weekly_digests,
-        seen_db_path=seen_db_path,
-        weekly_buffer_path=WEEKLY_BUFFER,
+        briefing_path=briefing_path,
         week_label=week_label,
         article_count=len(articles),
         repo_root=PROJECT_ROOT,
-        briefing=briefing,
+        briefing=briefing or "",
     )
 
     if pr_url:
-        # 6. Clear weekly buffer (will be committed in next daily run)
+        # 6. Clear weekly buffer (committed in PR branch, main keeps it until merged)
         _save_weekly_buffer([])
         logger.info("Weekly buffer cleared")
         logger.info("Weekly digest PR created: %s", pr_url)
