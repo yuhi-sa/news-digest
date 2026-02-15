@@ -2,7 +2,7 @@ name: Daily Collect
 
 on:
   schedule:
-    - cron: '17 22 * * 0-4'  # 07:17 JST (Mon-Fri)
+    - cron: '17 22 * * *'  # 07:17 JST (every day)
   workflow_dispatch: {}
 
 permissions:

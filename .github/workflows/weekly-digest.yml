@@ -2,7 +2,7 @@ name: Weekly Digest PR
 
 on:
   schedule:
-    - cron: '0 23 * * 4'  # 08:00 JST every Friday
+    - cron: '30 22 * * 0'  # 07:30 JST every Monday
   workflow_dispatch: {}
 
 permissions:
