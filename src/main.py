@@ -14,7 +14,7 @@ from .feeds import load_config
 from .formatter import format_digest
 from .parser import Article, fetch_articles
 from .pr_creator import create_pr
-from .summarizer import get_summarizer
+from .summarizer import generate_briefing, get_summarizer
 
 logger = logging.getLogger(__name__)
 
@@ -83,10 +83,21 @@ def run(dry_run: bool = False, verbose: bool = False) -> None:
     # Save dedup DB
     dedup.save()
 
+    # 6b. Generate briefing for PR body
+    briefing = generate_briefing(summarized, api_key)
+    if briefing:
+        logger.info("Briefing generated (%d chars)", len(briefing))
+    else:
+        logger.info("No briefing generated (no API key or failure)")
+
     if dry_run:
         logger.info("Dry run mode - skipping PR creation")
         print(f"\n{'='*60}")
-        print(f"DIGEST PREVIEW ({date_str})")
+        print(f"BRIEFING ({date_str})")
+        print(f"{'='*60}\n")
+        print(briefing or "(no briefing)")
+        print(f"\n{'='*60}")
+        print(f"DIGEST ({date_str})")
         print(f"{'='*60}\n")
         print(digest_content)
         return
@@ -100,7 +111,7 @@ def run(dry_run: bool = False, verbose: bool = False) -> None:
         article_count=len(summarized),
         feed_stats=feed_stats,
         repo_root=PROJECT_ROOT,
-        digest_content=digest_content,
+        briefing=briefing,
     )
 
     if pr_url:
