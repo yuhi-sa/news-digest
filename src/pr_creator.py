@@ -76,6 +76,7 @@ def create_pr(
                 "--title", f"Daily Digest: {date_str}",
                 "--body", pr_body,
                 "--base", "main",
+                "--reviewer", "yuhi-sa",
             ],
             cwd=cwd,
         )
