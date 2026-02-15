@@ -2,15 +2,62 @@
 
 from __future__ import annotations
 
+import html
 import json
 import logging
+import re
 import urllib.request
 from abc import ABC, abstractmethod
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import replace
 
 from .parser import Article
 
 logger = logging.getLogger(__name__)
+
+_MAX_BODY_CHARS = 3000
+
+
+def _fetch_page_text(url: str, timeout: int = 15) -> str:
+    """Fetch a URL and return plain text extracted from HTML.
+
+    Returns empty string on any failure.
+    """
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "NewsDigestBot/1.0"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            raw = resp.read().decode("utf-8", errors="replace")
+    except Exception:
+        logger.debug("Failed to fetch %s", url)
+        return ""
+
+    # Remove script/style blocks, then strip all tags
+    text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", raw, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:_MAX_BODY_CHARS]
+
+
+def _fetch_pages_parallel(
+    urls: list[str], max_workers: int = 6,
+) -> dict[str, str]:
+    """Fetch multiple URLs in parallel. Returns {url: text}."""
+    results: dict[str, str] = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_url = {
+            executor.submit(_fetch_page_text, url): url for url in urls
+        }
+        for future in as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                results[url] = future.result()
+            except Exception:
+                results[url] = ""
+    return results
 
 _PROMPT_TEMPLATE = (
     "以下のニュース記事のタイトルと概要を読んで、日本語で1〜2文の簡潔な要約を書いてください。"
@@ -145,21 +192,93 @@ class GeminiSummarizer(Summarizer):
             results.extend(self._summarize_batch(batch))
         return results
 
-    def generate_briefing(self, articles: list[Article]) -> str | None:
-        """Generate a curated daily briefing for data/security engineers and JP/US stock investors."""
+    # ------------------------------------------------------------------
+    # Two-stage briefing
+    # ------------------------------------------------------------------
+
+    def _select_articles(self, articles: list[Article]) -> list[int]:
+        """Stage 1: Ask Gemini to pick the most important article indices."""
         article_list = "\n".join(
-            f"- [{a.category}] {a.title}: {a.summary} (link: {a.link})"
-            for a in articles
+            f"{i}. [{a.category}] {a.title}: {a.summary}"
+            for i, a in enumerate(articles)
         )
+        prompt = (
+            "あなたはデータエンジニア・セキュリティエンジニア兼日本株・米国株の個人投資家向けの"
+            "シニアニュースアナリストです。\n"
+            "以下の記事一覧から、読者にとって本当に重要な記事を**10〜15件**選んでください。\n\n"
+            "## 選定基準\n"
+            "- 技術的に重要（AI/ML、データ基盤、セキュリティの新動向・脆弱性）\n"
+            "- 投資判断に直結（マクロ指標、決算、セクター動向）\n"
+            "- 些末なニュース、宣伝的な記事、既知の繰り返しは除外\n"
+            "- 技術情報を優先、投資情報はサブ\n\n"
+            "## 出力形式\n"
+            "選んだ記事の番号をJSON配列で返してください。それ以外のテキストは不要です。\n"
+            "例: [0, 3, 7, 12, 15]\n\n"
+            f"## 記事一覧（{len(articles)}件）\n\n"
+            f"{article_list}"
+        )
+        logger.info("Stage 1: selecting important articles from %d candidates", len(articles))
+        response = self._call_gemini(prompt)
+        if not response:
+            return []
+
+        # Extract JSON array from response
+        try:
+            match = re.search(r"\[[\d\s,]+\]", response)
+            if match:
+                indices = json.loads(match.group())
+                valid = [i for i in indices if 0 <= i < len(articles)]
+                logger.info("Stage 1: selected %d articles", len(valid))
+                return valid
+        except (json.JSONDecodeError, ValueError):
+            pass
+        logger.warning("Stage 1: failed to parse selection response")
+        return []
+
+    def generate_briefing(self, articles: list[Article]) -> str | None:
+        """Generate a curated daily briefing using two-stage approach.
+
+        Stage 1: Select important articles from RSS summaries.
+        Stage 2: Fetch full text of selected articles, then generate deep briefing.
+        """
+        # Stage 1: Select
+        selected_indices = self._select_articles(articles)
+        if not selected_indices:
+            logger.warning("Stage 1 returned no articles, falling back to summary-only briefing")
+            selected = articles[:15]
+        else:
+            selected = [articles[i] for i in selected_indices]
+
+        # Fetch full text of selected articles
+        urls = [a.link for a in selected if a.link]
+        logger.info("Stage 2: fetching full text for %d selected articles", len(urls))
+        page_texts = _fetch_pages_parallel(urls)
+        fetched = sum(1 for t in page_texts.values() if t)
+        logger.info("Stage 2: successfully fetched %d/%d pages", fetched, len(urls))
+
+        # Build enriched article list
+        enriched_parts: list[str] = []
+        for a in selected:
+            body = page_texts.get(a.link, "")
+            entry = (
+                f"### [{a.category}] {a.title}\n"
+                f"- URL: {a.link}\n"
+                f"- RSS概要: {a.summary}\n"
+            )
+            if body:
+                entry += f"- 記事本文（抜粋）: {body}\n"
+            enriched_parts.append(entry)
+        enriched_text = "\n".join(enriched_parts)
+
+        # Stage 2: Generate briefing with full context
         prompt = (
             "あなたは、データエンジニア・セキュリティエンジニア兼日本株・米国株の個人投資家向けの"
             "シニアニュースアナリストです。\n"
-            "以下の本日のニュース記事一覧を分析し、日本語で**デイリーブリーフィング**を作成してください。\n\n"
+            "以下の厳選されたニュース記事（本文付き）を分析し、日本語で**デイリーブリーフィング**を作成してください。\n\n"
             "## 最重要方針\n\n"
-            "1. **厳選**: 記事一覧の全てを載せるのではなく、読者にとって本当に価値のある情報だけを選ぶ。"
-            "ノイズ・重複・些末な話題は捨てる。全体で10〜15トピック程度に絞る。\n"
-            "2. **解説**: 「何が起きたか」だけでなく「それが何を意味するのか」「読者は何をすべきか」を必ず書く。\n"
-            "3. **ソースリンク**: 各トピックの末尾に関連する元記事のリンクを貼る。\n"
+            "1. **記事本文を読んだ上で深い解説を書く**: RSS概要だけでなく本文の内容を踏まえて分析する。\n"
+            "2. **「それが何を意味するのか」を必ず書く**: 事実の羅列ではなく、読者への影響・示唆・次のアクションを解説する。\n"
+            "3. **ソースリンク**: 各トピックの末尾に 📎 [記事タイトル](URL) を付ける。\n"
             "4. **技術情報がメイン、投資情報はサブ**という優先度で構成する。\n\n"
             "## フォーマット（Markdown・絵文字活用）\n\n"
             "### `## 🔥 本日のハイライト`\n"
@@ -168,45 +287,32 @@ class GeminiSummarizer(Summarizer):
             "- **→ So What?**: なぜ読者に関係あるか、何を意味するか（2〜3文で深掘り）\n"
             "- 📎 [記事タイトル](URL)\n\n"
             "### `## 🛠️ エンジニアリング・テクノロジー`\n"
-            "**最も重要なセクション。** エンジニアとして知っておくべき情報を厳選して深掘り:\n"
-            "- 各項目は「事実 → それが意味すること → 実務への影響」の3段構成で書く\n"
-            "- AI/ML、新ツール・OSS、注目論文、インフラ・クラウドなどの中から重要なものだけ\n"
-            "- 各項目の末尾に 📎 [記事タイトル](URL) を付ける\n\n"
+            "**最も重要なセクション。** 記事本文の内容を踏まえてエンジニアとして知るべき情報を深掘り:\n"
+            "- 各項目は「事実 → それが意味すること → 実務への影響」の3段構成\n"
+            "- 📎 [記事タイトル](URL)\n\n"
             "### `## 📊 データエンジニアリング`\n"
-            "データエンジニアが実務で使える情報のみ:\n"
-            "- dbt, Airflow, Spark, Snowflake, Databricks, BigQuery等の重要アップデート\n"
-            "- データ品質・オブザーバビリティ・ガバナンスの実践的な話題\n"
-            "- 各項目の末尾に 📎 [記事タイトル](URL) を付ける\n"
-            "- 該当記事がない場合はセクション省略\n\n"
+            "データエンジニアが実務で使える情報のみ。該当なしならセクション省略:\n"
+            "- 📎 [記事タイトル](URL)\n\n"
             "### `## 🔒 セキュリティ`\n"
-            "セキュリティエンジニアがアクションを取るべき情報:\n"
-            "- 重大な脆弱性・CVE → 影響範囲と対応の緊急度を明記\n"
-            "- 攻撃手法のトレンド → 防御側として具体的に何をすべきか\n"
-            "- 各項目の末尾に 📎 [記事タイトル](URL) を付ける\n"
-            "- 該当記事がない場合はセクション省略\n\n"
+            "セキュリティエンジニアがアクションを取るべき情報。該当なしならセクション省略:\n"
+            "- 重大な脆弱性は影響範囲と緊急度を明記\n"
+            "- 📎 [記事タイトル](URL)\n\n"
             "### `## 📈 投資・マーケット`\n"
-            "日米株の個人投資家向け。**アクショナブルな情報**を厳選:\n"
-            "- 📌 **注目セクター・銘柄**: ニュースから導かれる投資機会とその根拠\n"
-            "- マクロ動向（FRB/日銀、金利、為替）→ ポジションへの影響\n"
-            "- 具体的な数字（金利、指数、為替、PER等）を必ず含める\n"
-            "- 各項目の末尾に 📎 [記事タイトル](URL) を付ける\n\n"
+            "日米株の個人投資家向け。アクショナブルな情報を厳選:\n"
+            "- 具体的な数字（金利、指数、為替、PER等）を含める\n"
+            "- 📎 [記事タイトル](URL)\n\n"
             "### `## 🔮 明日以降の注目ポイント`\n"
-            "直近に控えるイベント・予測を2〜3点:\n"
-            "- 経済指標発表、企業決算、カンファレンス等\n"
-            "- 本日の流れから今後起こりそうなこと\n\n"
+            "直近に控えるイベント・予測を2〜3点\n\n"
             "## ルール\n"
-            "- **取捨選択が最重要**: 記事一覧は大量にあるが、読者の時間を節約するため本当に重要なものだけ選ぶ\n"
-            "- 些末なニュース、宣伝的な記事、既知の情報の繰り返しは除外する\n"
             "- 表面的な要約ではなく「**それが何を意味するのか**」を必ず解説する\n"
             "- 複数記事を横断的に結びつけ、大きなトレンドやテーマを抽出する\n"
-            "- 各項目に必ず元記事のリンクを 📎 Markdownリンク形式で付ける\n"
             "- 煽りや感情的な表現は避け、事実と分析に基づく\n"
             "- 該当トピックがないセクションは省略する\n"
             "- **技術セクション（🛠️📊🔒）を先に、投資セクション（📈）は後に**配置する\n\n"
-            f"## 本日の記事一覧（{len(articles)}件）\n\n"
-            f"{article_list}"
+            f"## 厳選記事（{len(selected)}件・本文付き）\n\n"
+            f"{enriched_text}"
         )
-        logger.info("Generating daily investor/engineer briefing")
+        logger.info("Stage 2: generating briefing with enriched content")
         return self._call_gemini(prompt)
 
 
