@@ -18,6 +18,10 @@ categories:
         url: "https://feeds.arstechnica.com/arstechnica/index/"
       - name: "MIT Technology Review"
         url: "https://www.technologyreview.com/feed/"
+      - name: "Google Developers Blog"
+        url: "https://developers.googleblog.com/feeds/posts/default"
+      - name: "Google AI Blog"
+        url: "https://blog.research.google/feeds/posts/default"
 
   - name: "Languages & Frameworks"
     label_ja: "言語・フレームワーク"
