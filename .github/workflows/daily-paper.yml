@@ -37,3 +37,10 @@ jobs:
           SUMMARIZER_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python -m src.main paper --verbose
+
+      - name: Commit seen papers database
+        run: |
+          git add data/seen_papers.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update seen papers database"
+          git push

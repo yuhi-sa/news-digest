@@ -125,7 +125,7 @@ class TestSearchPapers:
 
 
 class TestSelectPaper:
-    def test_selects_highest_cited_unseen(self):
+    def test_selects_from_unseen(self):
         papers = [
             Paper("p1", "Paper 1", "abs", ["A"], 2020, 5000, "", None, "ai", "AI"),
             Paper("p2", "Paper 2", "abs", ["B"], 2019, 3000, "", None, "ai", "AI"),
@@ -134,7 +134,7 @@ class TestSelectPaper:
         seen = {"p1"}
         result = select_paper(papers, seen)
         assert result is not None
-        assert result.paper_id == "p2"
+        assert result.paper_id in {"p2", "p3"}
 
     def test_returns_none_when_all_seen(self):
         papers = [
@@ -145,11 +145,23 @@ class TestSelectPaper:
         result = select_paper(papers, seen)
         assert result is None
 
-    def test_returns_first_when_none_seen(self):
+    def test_selects_from_pool_when_none_seen(self):
+        papers = [
+            Paper(f"p{i}", f"Paper {i}", "abs", ["A"], 2020, 5000 - i, "", None, "ai", "AI")
+            for i in range(20)
+        ]
+        result = select_paper(papers, set())
+        assert result is not None
+        # Should select from top-10 by default
+        assert result.paper_id in {f"p{i}" for i in range(10)}
+
+    def test_top_k_limits_pool(self):
         papers = [
             Paper("p1", "Paper 1", "abs", ["A"], 2020, 5000, "", None, "ai", "AI"),
             Paper("p2", "Paper 2", "abs", ["B"], 2019, 3000, "", None, "ai", "AI"),
+            Paper("p3", "Paper 3", "abs", ["C"], 2018, 1000, "", None, "ai", "AI"),
         ]
-        result = select_paper(papers, set())
+        # top_k=1 forces selecting the highest-cited unseen
+        result = select_paper(papers, set(), top_k=1)
         assert result is not None
         assert result.paper_id == "p1"

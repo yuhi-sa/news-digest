@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import random
 import time
 import urllib.error
 import urllib.parse
@@ -179,13 +180,21 @@ def fetch_papers_for_category(category: str) -> list[Paper]:
     return all_papers
 
 
-def select_paper(papers: list[Paper], seen_ids: set[str]) -> Paper | None:
-    """Select the highest-cited unseen paper.
+def select_paper(papers: list[Paper], seen_ids: set[str], top_k: int = 10) -> Paper | None:
+    """Select a random unseen paper from the top-k candidates by citation count.
 
+    Papers are already sorted by citation count descending.
+    Picks randomly from the top-k unseen papers to add variety.
     Returns None if all papers have been seen.
     """
-    for paper in papers:
-        if paper.paper_id not in seen_ids:
-            return paper
-    logger.warning("All candidate papers have been seen")
-    return None
+    candidates = [p for p in papers if p.paper_id not in seen_ids]
+    if not candidates:
+        logger.warning("All candidate papers have been seen")
+        return None
+    pool = candidates[:top_k]
+    selected = random.choice(pool)
+    logger.info(
+        "Selected from top-%d unseen (pool size: %d, total unseen: %d)",
+        top_k, len(pool), len(candidates),
+    )
+    return selected
