@@ -18,19 +18,19 @@ ARXIV_API = "http://export.arxiv.org/api/query"
 PAPER_CATEGORIES: dict[str, dict] = {
     "distributed_systems": {
         "name_ja": "大規模分散処理",
-        "query": "cat:cs.DC AND (distributed OR consensus OR replication OR fault tolerance)",
+        "query": "cat:cs.DC",
     },
     "security": {
         "name_ja": "セキュリティ",
-        "query": "cat:cs.CR AND (vulnerability OR privacy OR cryptography OR authentication)",
+        "query": "cat:cs.CR",
     },
     "ai": {
         "name_ja": "AI",
-        "query": "(cat:cs.AI OR cat:cs.LG) AND (transformer OR language model OR reinforcement learning OR diffusion)",
+        "query": "cat:cs.AI OR cat:cs.LG",
     },
     "cloud": {
         "name_ja": "クラウド",
-        "query": "(cat:cs.NI OR cat:cs.SE) AND (cloud OR microservice OR container OR serverless OR orchestration)",
+        "query": "cat:cs.NI OR cat:cs.SE",
     },
 }
 
@@ -135,11 +135,12 @@ def _parse_arxiv_response(xml_text: str) -> list[Paper]:
     return papers
 
 
-def search_arxiv(query: str, max_results: int = 20, max_retries: int = 3) -> list[Paper]:
+def search_arxiv(query: str, max_results: int = 20, max_retries: int = 5) -> list[Paper]:
     """Search arXiv for papers matching the query.
 
     Returns papers sorted by submission date (newest first).
-    Retries with backoff on failure.
+    Retries with exponential backoff on failure. arXiv recommends
+    waiting at least 3 seconds between requests.
     """
     params = urllib.parse.urlencode({
         "search_query": query,
@@ -155,6 +156,9 @@ def search_arxiv(query: str, max_results: int = 20, max_retries: int = 3) -> lis
         headers={"User-Agent": "NewsDigestBot/1.0"},
     )
 
+    # Initial wait to respect arXiv rate limits (3s minimum between requests)
+    time.sleep(3)
+
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -162,7 +166,7 @@ def search_arxiv(query: str, max_results: int = 20, max_retries: int = 3) -> lis
             break
         except Exception as e:
             if attempt < max_retries - 1:
-                wait = 5 * (attempt + 1)
+                wait = 15 * (attempt + 1)
                 logger.info("arXiv API failed, retrying in %ds (attempt %d/%d): %s", wait, attempt + 1, max_retries, e)
                 time.sleep(wait)
                 continue
