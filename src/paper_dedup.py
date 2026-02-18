@@ -40,8 +40,8 @@ class PaperDeduplicator:
         with open(self.db_path, "w", encoding="utf-8") as f:
             json.dump(self._seen, f, indent=2, ensure_ascii=False)
 
-    def prune(self, window_days: int = 90) -> None:
-        """Remove entries older than the window (default 90 days for 4-category rotation)."""
+    def prune(self, window_days: int = 30) -> None:
+        """Remove entries older than the window (default 30 days)."""
         now = datetime.now(timezone.utc)
         to_remove = []
         for key, entry in self._seen.items():

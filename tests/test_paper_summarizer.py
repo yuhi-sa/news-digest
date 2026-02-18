@@ -1,6 +1,6 @@
 """Tests for paper_summarizer module."""
 
-from unittest.mock import call, patch
+from unittest.mock import patch
 
 from src.paper_fetcher import Paper
 from src.paper_summarizer import summarize_paper
@@ -8,16 +8,18 @@ from src.paper_summarizer import summarize_paper
 
 def _make_paper(**kwargs) -> Paper:
     defaults = {
-        "paper_id": "abc123",
+        "paper_id": "2401.12345v1",
         "title": "Attention Is All You Need",
         "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks.",
         "authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar"],
-        "year": 2017,
-        "citation_count": 100000,
-        "url": "https://www.semanticscholar.org/paper/abc123",
-        "pdf_url": "https://example.com/paper.pdf",
+        "year": 2024,
+        "citation_count": 0,
+        "url": "http://arxiv.org/abs/2401.12345v1",
+        "pdf_url": "http://arxiv.org/pdf/2401.12345v1",
         "category": "ai",
         "category_ja": "AI",
+        "published": "2024-01-15T00:00:00Z",
+        "categories": ["cs.AI", "cs.LG"],
     }
     defaults.update(kwargs)
     return Paper(**defaults)
@@ -42,7 +44,7 @@ class TestSummarizePaper:
         stage1_prompt = mock.call_args_list[0][0][0]
         assert "Attention Is All You Need" in stage1_prompt
         assert "Ashish Vaswani" in stage1_prompt
-        assert "2017" in stage1_prompt
+        assert "2024-01-15" in stage1_prompt
         assert "前提知識" in stage1_prompt
 
     def test_stage2_prompt_contains_stage1_and_mermaid(self):
@@ -59,7 +61,7 @@ class TestSummarizePaper:
         with patch("src.paper_summarizer.call_gemini", return_value=None):
             result = summarize_paper(paper, "test-api-key")
 
-        assert "📖 背景と動機" in result
+        assert "この研究が解こうとしている問題" in result
         assert "dominant sequence transduction" in result
 
     def test_returns_stage1_only_when_stage2_fails(self):
@@ -74,9 +76,8 @@ class TestSummarizePaper:
         result = summarize_paper(paper, None)
 
         assert "🎓 前提知識" in result
-        assert "📖 背景と動機" in result
+        assert "この研究が解こうとしている問題" in result
         assert "💡 主要な貢献" in result
-        assert "100,000" in result or "100000" in result
 
     def test_truncates_long_author_list(self):
         paper = _make_paper(authors=[f"Author {i}" for i in range(10)])

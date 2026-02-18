@@ -19,10 +19,9 @@ def format_paper_pr_body(paper: Paper, summary: str, date_label: str) -> str:
         "| 項目 | 詳細 |",
         "|------|------|",
         f"| **著者** | {authors_str} |",
-        f"| **発表年** | {paper.year or '不明'} |",
-        f"| **被引用数** | {paper.citation_count:,} |",
+        f"| **発表日** | {paper.published or '不明'} |",
         f"| **分野** | {paper.category_ja} |",
-        f"| **Semantic Scholar** | [リンク]({paper.url}) |",
+        f"| **arXiv** | [リンク]({paper.url}) |",
     ]
 
     if paper.pdf_url:

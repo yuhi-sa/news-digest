@@ -216,7 +216,7 @@ def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
 
     # 3. Select paper (dedup check)
     dedup = PaperDeduplicator()
-    dedup.prune(window_days=90)
+    dedup.prune(window_days=30)
     seen_ids = dedup.get_seen_ids()
 
     paper = select_paper(papers, seen_ids)
@@ -224,7 +224,7 @@ def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
         logger.error("All candidate papers have been seen, no paper to feature")
         sys.exit(1)
 
-    logger.info("Selected paper: %s (citations: %d)", paper.title, paper.citation_count)
+    logger.info("Selected paper: %s (published: %s)", paper.title, paper.published)
 
     # 4. Summarize
     api_key = os.environ.get("SUMMARIZER_API_KEY")

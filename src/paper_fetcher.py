@@ -1,61 +1,49 @@
-"""Semantic Scholar API client for fetching classic CS papers."""
+"""arXiv API client for fetching latest CS papers."""
 
 from __future__ import annotations
 
-import json
 import logging
 import random
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 
 logger = logging.getLogger(__name__)
 
-SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/search"
+ARXIV_API = "http://export.arxiv.org/api/query"
 
 PAPER_CATEGORIES: dict[str, dict] = {
     "distributed_systems": {
         "name_ja": "大規模分散処理",
-        "queries": [
-            "MapReduce Raft Paxos distributed consensus",
-            "Spanner Dynamo distributed database",
-            "GFS Spark resilient distributed computing",
-        ],
+        "query": "cat:cs.DC AND (distributed OR consensus OR replication OR fault tolerance)",
     },
     "security": {
         "name_ja": "セキュリティ",
-        "queries": [
-            "TLS zero-knowledge proof cryptography",
-            "differential privacy secure computation",
-            "Byzantine fault tolerance RSA",
-        ],
+        "query": "cat:cs.CR AND (vulnerability OR privacy OR cryptography OR authentication)",
     },
     "ai": {
         "name_ja": "AI",
-        "queries": [
-            "Transformer attention BERT pre-training",
-            "GPT large language model",
-            "reinforcement learning generative adversarial network",
-        ],
+        "query": "(cat:cs.AI OR cat:cs.LG) AND (transformer OR language model OR reinforcement learning OR diffusion)",
     },
     "cloud": {
         "name_ja": "クラウド",
-        "queries": [
-            "serverless microservices cloud architecture",
-            "container orchestration Kubernetes auto-scaling",
-            "service mesh distributed tracing DevOps",
-        ],
+        "query": "(cat:cs.NI OR cat:cs.SE) AND (cloud OR microservice OR container OR serverless OR orchestration)",
     },
 }
 
 CATEGORY_ORDER = ["distributed_systems", "security", "ai", "cloud"]
 
+# arXiv Atom XML namespace
+_ATOM_NS = "http://www.w3.org/2005/Atom"
+_ARXIV_NS = "http://arxiv.org/schemas/atom"
+
 
 @dataclass
 class Paper:
-    """A research paper from Semantic Scholar."""
+    """A research paper from arXiv."""
 
     paper_id: str
     title: str
@@ -67,30 +55,100 @@ class Paper:
     pdf_url: str | None
     category: str
     category_ja: str
+    published: str = ""
+    categories: list[str] | None = None
 
 
 def get_todays_category(date) -> str:
     """Determine today's paper category based on day of year.
 
-    Rotates through 4 categories: distributed_systems → security → ai → cloud.
+    Rotates through 4 categories: distributed_systems -> security -> ai -> cloud.
     """
     day_of_year = date.timetuple().tm_yday
     index = day_of_year % 4
     return CATEGORY_ORDER[index]
 
 
-def search_papers(query: str, min_citations: int = 200, max_retries: int = 3) -> list[Paper]:
-    """Search Semantic Scholar for papers matching the query.
+def _parse_arxiv_response(xml_text: str) -> list[Paper]:
+    """Parse arXiv Atom XML response into Paper objects."""
+    root = ET.fromstring(xml_text)
+    papers: list[Paper] = []
 
-    Returns papers with at least min_citations citations.
-    Retries with exponential backoff on 429 rate limit errors.
+    for entry in root.findall(f"{{{_ATOM_NS}}}entry"):
+        # paper_id from <id> tag (e.g. http://arxiv.org/abs/2401.12345v1)
+        id_text = entry.findtext(f"{{{_ATOM_NS}}}id", "")
+        paper_id = id_text.rsplit("/", 1)[-1] if id_text else ""
+
+        title = entry.findtext(f"{{{_ATOM_NS}}}title", "").strip()
+        # Normalize whitespace in title
+        title = " ".join(title.split())
+
+        abstract = entry.findtext(f"{{{_ATOM_NS}}}summary", "").strip()
+        abstract = " ".join(abstract.split())
+
+        authors = [
+            name.text.strip()
+            for author in entry.findall(f"{{{_ATOM_NS}}}author")
+            if (name := author.find(f"{{{_ATOM_NS}}}name")) is not None and name.text
+        ]
+
+        published = entry.findtext(f"{{{_ATOM_NS}}}published", "")
+        year = int(published[:4]) if published and len(published) >= 4 else None
+
+        # Categories
+        categories = [
+            cat.get("term", "")
+            for cat in entry.findall(f"{{{_ATOM_NS}}}category")
+            if cat.get("term")
+        ]
+
+        # Links
+        url = ""
+        pdf_url = None
+        for link in entry.findall(f"{{{_ATOM_NS}}}link"):
+            href = link.get("href", "")
+            link_type = link.get("type", "")
+            rel = link.get("rel", "")
+            if link_type == "application/pdf" or (rel == "related" and href.endswith(".pdf")):
+                pdf_url = href
+            elif rel == "alternate" or (not rel and "abs" in href):
+                url = href
+
+        if not url and id_text:
+            url = id_text
+
+        papers.append(Paper(
+            paper_id=paper_id,
+            title=title,
+            abstract=abstract,
+            authors=authors,
+            year=year,
+            citation_count=0,
+            url=url,
+            pdf_url=pdf_url,
+            category="",
+            category_ja="",
+            published=published,
+            categories=categories,
+        ))
+
+    return papers
+
+
+def search_arxiv(query: str, max_results: int = 20, max_retries: int = 3) -> list[Paper]:
+    """Search arXiv for papers matching the query.
+
+    Returns papers sorted by submission date (newest first).
+    Retries with backoff on failure.
     """
     params = urllib.parse.urlencode({
-        "query": query,
-        "limit": 20,
-        "fields": "paperId,title,abstract,authors,year,citationCount,url,openAccessPdf",
+        "search_query": query,
+        "start": 0,
+        "max_results": max_results,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
     })
-    url = f"{SEMANTIC_SCHOLAR_API}?{params}"
+    url = f"{ARXIV_API}?{params}"
 
     req = urllib.request.Request(
         url,
@@ -100,90 +158,61 @@ def search_papers(query: str, min_citations: int = 200, max_retries: int = 3) ->
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
+                xml_text = resp.read().decode("utf-8")
             break
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < max_retries - 1:
-                wait = 10 * (attempt + 1)
-                logger.info("Rate limited, retrying in %ds (attempt %d/%d)", wait, attempt + 1, max_retries)
+        except Exception as e:
+            if attempt < max_retries - 1:
+                wait = 5 * (attempt + 1)
+                logger.info("arXiv API failed, retrying in %ds (attempt %d/%d): %s", wait, attempt + 1, max_retries, e)
                 time.sleep(wait)
                 continue
-            logger.warning("Semantic Scholar API failed for query: %s (%s)", query, e)
-            return []
-        except Exception:
-            logger.warning("Semantic Scholar API failed for query: %s", query)
+            logger.warning("arXiv API failed for query: %s (%s)", query, e)
             return []
 
-    papers: list[Paper] = []
-    for item in data.get("data", []):
-        citation_count = item.get("citationCount") or 0
-        if citation_count < min_citations:
-            continue
-
-        abstract = item.get("abstract") or ""
-        authors = [a.get("name", "") for a in (item.get("authors") or [])]
-        pdf_info = item.get("openAccessPdf") or {}
-        pdf_url = pdf_info.get("url")
-
-        papers.append(Paper(
-            paper_id=item["paperId"],
-            title=item.get("title", ""),
-            abstract=abstract,
-            authors=authors,
-            year=item.get("year"),
-            citation_count=citation_count,
-            url=item.get("url", f"https://www.semanticscholar.org/paper/{item['paperId']}"),
-            pdf_url=pdf_url,
-            category="",
-            category_ja="",
-        ))
-
+    papers = _parse_arxiv_response(xml_text)
+    logger.info("arXiv returned %d papers for query: %s", len(papers), query[:60])
     return papers
 
 
 def fetch_papers_for_category(category: str) -> list[Paper]:
     """Fetch candidate papers for a given category.
 
-    Runs all queries for the category, deduplicates by paperId,
-    and sorts by citation count descending.
+    Sends a single query per category and sorts by published date (newest first).
     """
     cat_info = PAPER_CATEGORIES[category]
     category_ja = cat_info["name_ja"]
-    seen_ids: set[str] = set()
-    all_papers: list[Paper] = []
+    query = cat_info["query"]
 
-    for i, query in enumerate(cat_info["queries"]):
-        if i > 0:
-            time.sleep(10)  # Rate limit: 10s between requests
+    logger.info("Searching arXiv: %s", query[:80])
+    results = search_arxiv(query)
 
-        logger.info("Searching: %s", query)
-        results = search_papers(query)
+    papers: list[Paper] = []
+    for paper in results:
+        papers.append(Paper(
+            paper_id=paper.paper_id,
+            title=paper.title,
+            abstract=paper.abstract,
+            authors=paper.authors,
+            year=paper.year,
+            citation_count=paper.citation_count,
+            url=paper.url,
+            pdf_url=paper.pdf_url,
+            category=category,
+            category_ja=category_ja,
+            published=paper.published,
+            categories=paper.categories,
+        ))
 
-        for paper in results:
-            if paper.paper_id not in seen_ids:
-                seen_ids.add(paper.paper_id)
-                all_papers.append(Paper(
-                    paper_id=paper.paper_id,
-                    title=paper.title,
-                    abstract=paper.abstract,
-                    authors=paper.authors,
-                    year=paper.year,
-                    citation_count=paper.citation_count,
-                    url=paper.url,
-                    pdf_url=paper.pdf_url,
-                    category=category,
-                    category_ja=category_ja,
-                ))
-
-    all_papers.sort(key=lambda p: p.citation_count, reverse=True)
-    logger.info("Found %d unique papers for category %s", len(all_papers), category)
-    return all_papers
+    # Sort by published date descending (newest first)
+    papers.sort(key=lambda p: p.published, reverse=True)
+    logger.info("Found %d papers for category %s", len(papers), category)
+    return papers
 
 
 def select_paper(papers: list[Paper], seen_ids: set[str], top_k: int = 10) -> Paper | None:
-    """Select a random unseen paper from the top-k candidates by citation count.
+    """Select a random unseen paper from the top-k candidates by recency.
 
-    Papers are already sorted by citation count descending.
+    Papers are already sorted by published date descending (newest first).
     Picks randomly from the top-k unseen papers to add variety.
     Returns None if all papers have been seen.
     """
