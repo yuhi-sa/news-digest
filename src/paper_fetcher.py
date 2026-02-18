@@ -104,7 +104,7 @@ def search_papers(query: str, min_citations: int = 200, max_retries: int = 3) ->
             break
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < max_retries - 1:
-                wait = 3 * (attempt + 1)
+                wait = 10 * (attempt + 1)
                 logger.info("Rate limited, retrying in %ds (attempt %d/%d)", wait, attempt + 1, max_retries)
                 time.sleep(wait)
                 continue
@@ -154,7 +154,7 @@ def fetch_papers_for_category(category: str) -> list[Paper]:
 
     for i, query in enumerate(cat_info["queries"]):
         if i > 0:
-            time.sleep(3)  # Rate limit: 3s between requests
+            time.sleep(10)  # Rate limit: 10s between requests
 
         logger.info("Searching: %s", query)
         results = search_papers(query)
