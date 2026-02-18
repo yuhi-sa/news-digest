@@ -1,7 +1,7 @@
 # Daily News Digest - Feed Configuration
 
 settings:
-  max_articles_per_feed: 10
+  max_articles_per_feed: 8
   dedup_window_days: 7
 
 categories:
@@ -34,8 +34,6 @@ categories:
         url: "https://go.dev/blog/feed.atom"
       - name: "Python Insider"
         url: "https://blog.python.org/feeds/posts/default"
-      - name: "Google News Spark/PySpark"
-        url: "https://news.google.com/rss/search?q=when:7d+Apache+Spark+OR+PySpark&ceid=US:en&hl=en-US&gl=US"
 
   - name: "Infrastructure"
     label_ja: "インフラ"
@@ -45,13 +43,13 @@ categories:
       - name: "CNCF Blog"
         url: "https://www.cncf.io/blog/feed/"
       - name: "Google News Kafka"
-        url: "https://news.google.com/rss/search?q=when:7d+Apache+Kafka+OR+Confluent+Kafka&ceid=US:en&hl=en-US&gl=US"
+        url: "https://news.google.com/rss/search?q=when:7d+%22Apache+Kafka%22+OR+%22Confluent+Kafka%22+-football+-sports&ceid=US:en&hl=en-US&gl=US"
       - name: "Planet MySQL"
         url: "https://planet.mysql.com/rss20.xml"
       - name: "Redis Blog"
         url: "https://redis.io/blog/feed/"
       - name: "Google News Cassandra"
-        url: "https://news.google.com/rss/search?q=when:7d+Apache+Cassandra+database&ceid=US:en&hl=en-US&gl=US"
+        url: "https://news.google.com/rss/search?q=when:7d+%22Apache+Cassandra%22+NoSQL+OR+database&ceid=US:en&hl=en-US&gl=US"
 
   - name: "Data Engineering"
     label_ja: "データエンジニアリング"
@@ -112,5 +110,3 @@ categories:
         url: "https://feeds.marketwatch.com/marketwatch/topstories/"
       - name: "CNBC Markets"
         url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147"
-      - name: "Google News Stock Analysis"
-        url: "https://news.google.com/rss/search?q=when:24h+stock+market+analysis+earnings&ceid=US:en&hl=en-US&gl=US"

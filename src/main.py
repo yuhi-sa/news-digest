@@ -110,10 +110,9 @@ def run_collect(verbose: bool = False) -> None:
         dedup.save()
         return
 
-    # 4. Summarize in Japanese
-    api_key = os.environ.get("SUMMARIZER_API_KEY")
-    summarizer = get_summarizer(api_key)
-    summarized = summarizer.summarize(new_articles)
+    # 4. Keep RSS descriptions as-is (no API calls during collect).
+    #    API budget is reserved for the briefing stage where it matters most.
+    summarized = new_articles
 
     # 5. Save daily digest file
     now = datetime.now(timezone.utc)
