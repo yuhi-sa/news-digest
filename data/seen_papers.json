@@ -10,5 +10,17 @@
   "2602.15614v1": {
     "title": "Onto-DP: Constructing Neighborhoods for Differential Privacy on Ontological Databases",
     "seen_at": "2026-02-18T22:43:48.895486+00:00"
+  },
+  "2602.16037": {
+    "title": "Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection",
+    "seen_at": "2026-02-19T09:30:30.256404+00:00"
+  },
+  "2602.16246": {
+    "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
+    "seen_at": "2026-02-19T09:42:10.016925+00:00"
+  },
+  "2602.16012": {
+    "title": "Towards Efficient Constraint Handling in Neural Solvers for Routing Problems",
+    "seen_at": "2026-02-19T09:44:16.010895+00:00"
   }
 }

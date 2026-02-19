@@ -14,7 +14,7 @@ from .dedup import Deduplicator
 from .feeds import load_config
 from .formatter import format_digest
 from .paper_dedup import PaperDeduplicator
-from .paper_fetcher import fetch_papers_for_category, get_todays_category, select_paper
+from .paper_fetcher import enrich_paper, fetch_papers_for_category, get_todays_category, select_paper
 from .paper_formatter import format_paper_pr_body
 from .paper_summarizer import summarize_paper
 from .parser import Article, fetch_all_articles, fetch_articles
@@ -211,8 +211,8 @@ def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
     # 2. Fetch candidate papers
     papers = fetch_papers_for_category(category)
     if not papers:
-        logger.error("No papers found for category %s", category)
-        sys.exit(1)
+        logger.warning("No papers found for category %s, skipping", category)
+        return
 
     # 3. Select paper (dedup check)
     dedup = PaperDeduplicator()
@@ -221,8 +221,11 @@ def run_paper(dry_run: bool = False, verbose: bool = False) -> None:
 
     paper = select_paper(papers, seen_ids)
     if paper is None:
-        logger.error("All candidate papers have been seen, no paper to feature")
-        sys.exit(1)
+        logger.warning("All candidate papers have been seen, skipping")
+        return
+
+    # 4. Enrich with full abstract from API (RSS abstracts may be truncated)
+    paper = enrich_paper(paper)
 
     logger.info("Selected paper: %s (published: %s)", paper.title, paper.published)
 
